@@ -499,6 +499,7 @@
 				5015895E1C72388000A8ABA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5015895F1C72388000A8ABA7 /* Build configuration list for PBXNativeTarget "BexAppTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +508,7 @@
 				501589611C72388000A8ABA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		501589621C72388000A8ABA7 /* Build configuration list for PBXNativeTarget "BexAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +517,7 @@
 				501589641C72388000A8ABA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
