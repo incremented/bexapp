@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MapViewController.h
 //  BexApp
 //
 //  Created by Timotheus Jochum on 15/02/16.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MapViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 
 @end
-

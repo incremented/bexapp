@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		501589341C72388000A8ABA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 501589331C72388000A8ABA7 /* main.m */; };
 		501589371C72388000A8ABA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 501589361C72388000A8ABA7 /* AppDelegate.m */; };
-		5015893A1C72388000A8ABA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 501589391C72388000A8ABA7 /* ViewController.m */; };
+		5015893A1C72388000A8ABA7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 501589391C72388000A8ABA7 /* MainViewController.m */; };
 		5015893D1C72388000A8ABA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5015893B1C72388000A8ABA7 /* Main.storyboard */; };
 		5015893F1C72388000A8ABA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5015893E1C72388000A8ABA7 /* Assets.xcassets */; };
 		501589421C72388000A8ABA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501589401C72388000A8ABA7 /* LaunchScreen.storyboard */; };
 		5015894D1C72388000A8ABA7 /* BexAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5015894C1C72388000A8ABA7 /* BexAppTests.m */; };
 		501589581C72388000A8ABA7 /* BexAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 501589571C72388000A8ABA7 /* BexAppUITests.m */; };
+		50A129F41C7253E90068B6B8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A129F31C7253E90068B6B8 /* SWRevealViewController.m */; };
+		50A129FC1C7257BA0068B6B8 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A129FB1C7257BA0068B6B8 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,8 @@
 		501589331C72388000A8ABA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		501589351C72388000A8ABA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		501589361C72388000A8ABA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		501589381C72388000A8ABA7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		501589391C72388000A8ABA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		501589381C72388000A8ABA7 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		501589391C72388000A8ABA7 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		5015893C1C72388000A8ABA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5015893E1C72388000A8ABA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		501589411C72388000A8ABA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,10 @@
 		501589531C72388000A8ABA7 /* BexAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BexAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		501589571C72388000A8ABA7 /* BexAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BexAppUITests.m; sourceTree = "<group>"; };
 		501589591C72388000A8ABA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A129F21C7253E90068B6B8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		50A129F31C7253E90068B6B8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		50A129FA1C7257BA0068B6B8 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		50A129FB1C7257BA0068B6B8 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,13 @@
 		501589311C72388000A8ABA7 /* BexApp */ = {
 			isa = PBXGroup;
 			children = (
+				50A129F51C7254360068B6B8 /* SWRevealViewController */,
 				501589351C72388000A8ABA7 /* AppDelegate.h */,
 				501589361C72388000A8ABA7 /* AppDelegate.m */,
-				501589381C72388000A8ABA7 /* ViewController.h */,
-				501589391C72388000A8ABA7 /* ViewController.m */,
+				50A129FA1C7257BA0068B6B8 /* MapViewController.h */,
+				50A129FB1C7257BA0068B6B8 /* MapViewController.m */,
+				501589381C72388000A8ABA7 /* MainViewController.h */,
+				501589391C72388000A8ABA7 /* MainViewController.m */,
 				5015893B1C72388000A8ABA7 /* Main.storyboard */,
 				5015893E1C72388000A8ABA7 /* Assets.xcassets */,
 				501589401C72388000A8ABA7 /* LaunchScreen.storyboard */,
@@ -138,6 +147,15 @@
 				501589591C72388000A8ABA7 /* Info.plist */,
 			);
 			path = BexAppUITests;
+			sourceTree = "<group>";
+		};
+		50A129F51C7254360068B6B8 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				50A129F21C7253E90068B6B8 /* SWRevealViewController.h */,
+				50A129F31C7253E90068B6B8 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5015893A1C72388000A8ABA7 /* ViewController.m in Sources */,
+				5015893A1C72388000A8ABA7 /* MainViewController.m in Sources */,
 				501589371C72388000A8ABA7 /* AppDelegate.m in Sources */,
+				50A129FC1C7257BA0068B6B8 /* MapViewController.m in Sources */,
 				501589341C72388000A8ABA7 /* main.m in Sources */,
+				50A129F41C7253E90068B6B8 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
