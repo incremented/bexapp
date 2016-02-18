@@ -18,15 +18,54 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self setupRevealViewController];
+    
+    [self setupMapView];
+}
+
+// Adds the PanGesture and TapGesture Recognizer to self.view
+- (void)setupRevealViewController {
+    
     SWRevealViewController *revealViewController = self.revealViewController;
     if ( revealViewController )
     {
         [self.sidebarButton setTarget: self.revealViewController];
         [self.sidebarButton setAction: @selector( revealToggle: )];
         [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
-        NSLog(@"Hallo Timo");
+        [self.view addGestureRecognizer:self.revealViewController.tapGestureRecognizer];
     }
 }
+
+- (void)setupMapView {
+    
+    self.locationManager = [[CLLocationManager alloc] init];
+    self.locationManager.delegate = self;
+    // Check for iOS 8
+    if ([self.locationManager respondsToSelector:@selector(requestAlwaysAuthorization)]) {
+            [self.locationManager requestWhenInUseAuthorization];
+    }
+    
+    self.mapView.showsUserLocation = YES;
+    
+}
+
+- (void)mapViewWillStartLocatingUser:(MKMapView *)mapView {
+    
+    // Check authorization status (with class method)
+    CLAuthorizationStatus status = [CLLocationManager authorizationStatus];
+    
+    // User has never been asked to decide on location authorization
+    if (status == kCLAuthorizationStatusNotDetermined) {
+        NSLog(@"Requesting when in use auth");
+        [self.locationManager requestWhenInUseAuthorization];
+    }
+    // User has denied location use (either for this app or for all apps
+    else if (status == kCLAuthorizationStatusDenied) {
+        NSLog(@"Location services denied");
+        // Alert the user and send them to the settings to turn on location
+    }
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -42,7 +81,4 @@
     // Pass the selected object to the new view controller.
 }
 */
-
-- (IBAction)sidebarButtonPressed:(id)sender {
-}
 @end
