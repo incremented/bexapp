@@ -6,14 +6,14 @@
 //  Copyright © 2016 Timotheus Jochum. All rights reserved.
 //
 
-#import "MapViewController.h"
+#import "KarteViewController.h"
 #import "SWRevealViewController.h"
 
-@interface MapViewController ()
+@interface KarteViewController ()
 
 @end
 
-@implementation MapViewController
+@implementation KarteViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

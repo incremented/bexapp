@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		501589341C72388000A8ABA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 501589331C72388000A8ABA7 /* main.m */; };
 		501589371C72388000A8ABA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 501589361C72388000A8ABA7 /* AppDelegate.m */; };
-		5015893A1C72388000A8ABA7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 501589391C72388000A8ABA7 /* MainViewController.m */; };
+		5015893A1C72388000A8ABA7 /* StartseiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 501589391C72388000A8ABA7 /* StartseiteViewController.m */; };
 		5015893D1C72388000A8ABA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5015893B1C72388000A8ABA7 /* Main.storyboard */; };
 		5015893F1C72388000A8ABA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5015893E1C72388000A8ABA7 /* Assets.xcassets */; };
 		501589421C72388000A8ABA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501589401C72388000A8ABA7 /* LaunchScreen.storyboard */; };
@@ -18,9 +18,12 @@
 		501D22511C764FA900658849 /* SidebarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 501D22501C764FA900658849 /* SidebarTableViewController.m */; };
 		501D22561C765F4C00658849 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501D22551C765F4C00658849 /* MapKit.framework */; };
 		501D22581C76622700658849 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501D22571C76622700658849 /* CoreLocation.framework */; };
-		507C81201C78F91A00C2B5CC /* ContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507C811F1C78F91A00C2B5CC /* ContactTableViewController.m */; };
+		507C81201C78F91A00C2B5CC /* KontaktTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507C811F1C78F91A00C2B5CC /* KontaktTableViewController.m */; };
+		507C81261C7928B800C2B5CC /* KanzleiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507C81251C7928B800C2B5CC /* KanzleiViewController.m */; };
+		507C81281C792A4100C2B5CC /* Colors in Resources */ = {isa = PBXBuildFile; fileRef = 507C81271C792A4100C2B5CC /* Colors */; };
+		507C812B1C792C4900C2B5CC /* TaetigkeitsbereichViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507C812A1C792C4900C2B5CC /* TaetigkeitsbereichViewController.m */; };
 		50A129F41C7253E90068B6B8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A129F31C7253E90068B6B8 /* SWRevealViewController.m */; };
-		50A129FC1C7257BA0068B6B8 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A129FB1C7257BA0068B6B8 /* MapViewController.m */; };
+		50A129FC1C7257BA0068B6B8 /* KarteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A129FB1C7257BA0068B6B8 /* KarteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +48,8 @@
 		501589331C72388000A8ABA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		501589351C72388000A8ABA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		501589361C72388000A8ABA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		501589381C72388000A8ABA7 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		501589391C72388000A8ABA7 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		501589381C72388000A8ABA7 /* StartseiteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartseiteViewController.h; sourceTree = "<group>"; };
+		501589391C72388000A8ABA7 /* StartseiteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartseiteViewController.m; sourceTree = "<group>"; };
 		5015893C1C72388000A8ABA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5015893E1C72388000A8ABA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		501589411C72388000A8ABA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,12 +64,17 @@
 		501D22501C764FA900658849 /* SidebarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SidebarTableViewController.m; path = ../SidebarTableViewController.m; sourceTree = "<group>"; };
 		501D22551C765F4C00658849 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		501D22571C76622700658849 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		507C811E1C78F91A00C2B5CC /* ContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactTableViewController.h; path = ../ContactTableViewController.h; sourceTree = "<group>"; };
-		507C811F1C78F91A00C2B5CC /* ContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactTableViewController.m; path = ../ContactTableViewController.m; sourceTree = "<group>"; };
+		507C811E1C78F91A00C2B5CC /* KontaktTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KontaktTableViewController.h; path = ../KontaktTableViewController.h; sourceTree = "<group>"; };
+		507C811F1C78F91A00C2B5CC /* KontaktTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KontaktTableViewController.m; path = ../KontaktTableViewController.m; sourceTree = "<group>"; };
+		507C81241C7928B800C2B5CC /* KanzleiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KanzleiViewController.h; path = ../KanzleiViewController.h; sourceTree = "<group>"; };
+		507C81251C7928B800C2B5CC /* KanzleiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KanzleiViewController.m; path = ../KanzleiViewController.m; sourceTree = "<group>"; };
+		507C81271C792A4100C2B5CC /* Colors */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Colors; sourceTree = "<group>"; };
+		507C81291C792C4900C2B5CC /* TaetigkeitsbereichViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaetigkeitsbereichViewController.h; sourceTree = "<group>"; };
+		507C812A1C792C4900C2B5CC /* TaetigkeitsbereichViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaetigkeitsbereichViewController.m; sourceTree = "<group>"; };
 		50A129F21C7253E90068B6B8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		50A129F31C7253E90068B6B8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		50A129FA1C7257BA0068B6B8 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
-		50A129FB1C7257BA0068B6B8 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		50A129FA1C7257BA0068B6B8 /* KarteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KarteViewController.h; sourceTree = "<group>"; };
+		50A129FB1C7257BA0068B6B8 /* KarteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KarteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,21 +129,15 @@
 		501589311C72388000A8ABA7 /* BexApp */ = {
 			isa = PBXGroup;
 			children = (
-				50A129F51C7254360068B6B8 /* SWRevealViewController */,
 				501589351C72388000A8ABA7 /* AppDelegate.h */,
 				501589361C72388000A8ABA7 /* AppDelegate.m */,
-				501D224F1C764FA900658849 /* SidebarTableViewController.h */,
-				501D22501C764FA900658849 /* SidebarTableViewController.m */,
-				501589381C72388000A8ABA7 /* MainViewController.h */,
-				501589391C72388000A8ABA7 /* MainViewController.m */,
-				507C811E1C78F91A00C2B5CC /* ContactTableViewController.h */,
-				507C811F1C78F91A00C2B5CC /* ContactTableViewController.m */,
-				50A129FA1C7257BA0068B6B8 /* MapViewController.h */,
-				50A129FB1C7257BA0068B6B8 /* MapViewController.m */,
+				507C812D1C792C6A00C2B5CC /* Views */,
+				507C812E1C792D8600C2B5CC /* SideBar */,
 				5015893B1C72388000A8ABA7 /* Main.storyboard */,
 				5015893E1C72388000A8ABA7 /* Assets.xcassets */,
 				501589401C72388000A8ABA7 /* LaunchScreen.storyboard */,
 				501589431C72388000A8ABA7 /* Info.plist */,
+				50A129F51C7254360068B6B8 /* SWRevealViewController */,
 				501589321C72388000A8ABA7 /* Supporting Files */,
 			);
 			path = BexApp;
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				501589331C72388000A8ABA7 /* main.m */,
+				507C81271C792A4100C2B5CC /* Colors */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -165,6 +168,32 @@
 				501589591C72388000A8ABA7 /* Info.plist */,
 			);
 			path = BexAppUITests;
+			sourceTree = "<group>";
+		};
+		507C812D1C792C6A00C2B5CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				501589381C72388000A8ABA7 /* StartseiteViewController.h */,
+				501589391C72388000A8ABA7 /* StartseiteViewController.m */,
+				507C81241C7928B800C2B5CC /* KanzleiViewController.h */,
+				507C81251C7928B800C2B5CC /* KanzleiViewController.m */,
+				507C81291C792C4900C2B5CC /* TaetigkeitsbereichViewController.h */,
+				507C812A1C792C4900C2B5CC /* TaetigkeitsbereichViewController.m */,
+				507C811E1C78F91A00C2B5CC /* KontaktTableViewController.h */,
+				507C811F1C78F91A00C2B5CC /* KontaktTableViewController.m */,
+				50A129FA1C7257BA0068B6B8 /* KarteViewController.h */,
+				50A129FB1C7257BA0068B6B8 /* KarteViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		507C812E1C792D8600C2B5CC /* SideBar */ = {
+			isa = PBXGroup;
+			children = (
+				501D224F1C764FA900658849 /* SidebarTableViewController.h */,
+				501D22501C764FA900658849 /* SidebarTableViewController.m */,
+			);
+			name = SideBar;
 			sourceTree = "<group>";
 		};
 		50A129F51C7254360068B6B8 /* SWRevealViewController */ = {
@@ -282,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507C81281C792A4100C2B5CC /* Colors in Resources */,
 				501589421C72388000A8ABA7 /* LaunchScreen.storyboard in Resources */,
 				5015893F1C72388000A8ABA7 /* Assets.xcassets in Resources */,
 				5015893D1C72388000A8ABA7 /* Main.storyboard in Resources */,
@@ -309,13 +339,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5015893A1C72388000A8ABA7 /* MainViewController.m in Sources */,
-				507C81201C78F91A00C2B5CC /* ContactTableViewController.m in Sources */,
+				5015893A1C72388000A8ABA7 /* StartseiteViewController.m in Sources */,
+				507C81201C78F91A00C2B5CC /* KontaktTableViewController.m in Sources */,
 				501589371C72388000A8ABA7 /* AppDelegate.m in Sources */,
-				50A129FC1C7257BA0068B6B8 /* MapViewController.m in Sources */,
+				50A129FC1C7257BA0068B6B8 /* KarteViewController.m in Sources */,
 				501589341C72388000A8ABA7 /* main.m in Sources */,
 				501D22511C764FA900658849 /* SidebarTableViewController.m in Sources */,
+				507C812B1C792C4900C2B5CC /* TaetigkeitsbereichViewController.m in Sources */,
 				50A129F41C7253E90068B6B8 /* SWRevealViewController.m in Sources */,
+				507C81261C7928B800C2B5CC /* KanzleiViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

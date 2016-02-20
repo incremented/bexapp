@@ -21,7 +21,8 @@
 }
 
 - (void)initialiseMenu {
-    _menuItems = @[@"tableHeader", @"tableWelcome", @"tableContact", @"tableMap"];
+    _menuItems = @[@"tableHeader", @"tableStartseite", @"tableKanzlei", @"tableTaetigkeitsbereich",
+                   @"tableKontakt", @"tableKarte"];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -6,14 +6,14 @@
 //  Copyright © 2016 Timotheus Jochum. All rights reserved.
 //
 
-#import "ContactTableViewController.h"
+#import "KontaktTableViewController.h"
 #import "SWRevealViewController.h"
 
-@interface ContactTableViewController ()
+@interface KontaktTableViewController ()
 
 @end
 
-@implementation ContactTableViewController
+@implementation KontaktTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

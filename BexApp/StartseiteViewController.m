@@ -6,14 +6,14 @@
 //  Copyright © 2016 Timotheus Jochum. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "StartseiteViewController.h"
 #import "SWRevealViewController.h"
 
-@interface MainViewController ()
+@interface StartseiteViewController ()
 
 @end
 
-@implementation MainViewController
+@implementation StartseiteViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
