@@ -16,9 +16,9 @@
 		5015894D1C72388000A8ABA7 /* BexAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5015894C1C72388000A8ABA7 /* BexAppTests.m */; };
 		501589581C72388000A8ABA7 /* BexAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 501589571C72388000A8ABA7 /* BexAppUITests.m */; };
 		501D22511C764FA900658849 /* SidebarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 501D22501C764FA900658849 /* SidebarTableViewController.m */; };
-		501D22541C765AED00658849 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 501D22531C765AED00658849 /* ContactViewController.m */; };
 		501D22561C765F4C00658849 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501D22551C765F4C00658849 /* MapKit.framework */; };
 		501D22581C76622700658849 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501D22571C76622700658849 /* CoreLocation.framework */; };
+		507C81201C78F91A00C2B5CC /* ContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507C811F1C78F91A00C2B5CC /* ContactTableViewController.m */; };
 		50A129F41C7253E90068B6B8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A129F31C7253E90068B6B8 /* SWRevealViewController.m */; };
 		50A129FC1C7257BA0068B6B8 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A129FB1C7257BA0068B6B8 /* MapViewController.m */; };
 /* End PBXBuildFile section */
@@ -59,10 +59,10 @@
 		501589591C72388000A8ABA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		501D224F1C764FA900658849 /* SidebarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SidebarTableViewController.h; path = ../SidebarTableViewController.h; sourceTree = "<group>"; };
 		501D22501C764FA900658849 /* SidebarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SidebarTableViewController.m; path = ../SidebarTableViewController.m; sourceTree = "<group>"; };
-		501D22521C765AED00658849 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
-		501D22531C765AED00658849 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
 		501D22551C765F4C00658849 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		501D22571C76622700658849 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		507C811E1C78F91A00C2B5CC /* ContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactTableViewController.h; path = ../ContactTableViewController.h; sourceTree = "<group>"; };
+		507C811F1C78F91A00C2B5CC /* ContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactTableViewController.m; path = ../ContactTableViewController.m; sourceTree = "<group>"; };
 		50A129F21C7253E90068B6B8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		50A129F31C7253E90068B6B8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		50A129FA1C7257BA0068B6B8 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
@@ -128,8 +128,8 @@
 				501D22501C764FA900658849 /* SidebarTableViewController.m */,
 				501589381C72388000A8ABA7 /* MainViewController.h */,
 				501589391C72388000A8ABA7 /* MainViewController.m */,
-				501D22521C765AED00658849 /* ContactViewController.h */,
-				501D22531C765AED00658849 /* ContactViewController.m */,
+				507C811E1C78F91A00C2B5CC /* ContactTableViewController.h */,
+				507C811F1C78F91A00C2B5CC /* ContactTableViewController.m */,
 				50A129FA1C7257BA0068B6B8 /* MapViewController.h */,
 				50A129FB1C7257BA0068B6B8 /* MapViewController.m */,
 				5015893B1C72388000A8ABA7 /* Main.storyboard */,
@@ -309,8 +309,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				501D22541C765AED00658849 /* ContactViewController.m in Sources */,
 				5015893A1C72388000A8ABA7 /* MainViewController.m in Sources */,
+				507C81201C78F91A00C2B5CC /* ContactTableViewController.m in Sources */,
 				501589371C72388000A8ABA7 /* AppDelegate.m in Sources */,
 				50A129FC1C7257BA0068B6B8 /* MapViewController.m in Sources */,
 				501589341C72388000A8ABA7 /* main.m in Sources */,
