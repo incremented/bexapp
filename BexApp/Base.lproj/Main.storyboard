@@ -26,7 +26,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="559" y="339"/>
+            <point key="canvasLocation" x="-169" y="787"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="KPQ-Dv-bsy">
@@ -93,7 +93,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Karte" id="Upw-NE-bWg">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="kv1-tu-Naw">
-                            <color key="tintColor" red="0.95686274510000002" green="0.88311804969999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" red="0.99215686274509807" green="0.59215686274509804" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -149,7 +149,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Festnetz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Wc-JT-q60">
                                             <rect key="frame" x="16" y="8" width="111" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                            <color key="textColor" red="0.41568627450980389" green="0.80000000000000004" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="textColor" red="0.45098039215686275" green="0.81176470588235294" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0241 / 559 10 559" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p9F-1X-PgP">
@@ -167,15 +167,15 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="59.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mobil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLq-ob-fyF">
-                                            <rect key="frame" x="16" y="8" width="111" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                            <color key="textColor" red="0.41568627450980389" green="0.80000000000000004" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0177 / 29 8 19 66" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YO6-q7-cdB">
                                             <rect key="frame" x="16" y="30" width="575" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mobil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLq-ob-fyF">
+                                            <rect key="frame" x="16" y="8" width="111" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.45098039215686275" green="0.81176470588235294" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -200,7 +200,7 @@
                                                 <constraint firstAttribute="width" constant="111" id="lth-0x-KQ9"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                            <color key="textColor" red="0.41568627450980389" green="0.80000000000000004" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="textColor" red="0.45098039215686275" green="0.81176470588235294" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -229,7 +229,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FKk-pL-L0U">
                                             <rect key="frame" x="16" y="8" width="111" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                            <color key="textColor" red="0.41568627450980389" green="0.80000000000000004" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="textColor" red="0.45098039215686275" green="0.81176470588235294" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -245,7 +245,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Anschrift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8P-QN-lyT">
                                             <rect key="frame" x="16" y="8" width="111" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                            <color key="textColor" red="0.41568627450980389" green="0.80000000000000004" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="textColor" red="0.45098039215686275" green="0.81176470588235294" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Anwaltskanzlei Bex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94o-Qd-8LG">
@@ -275,7 +275,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Kontakt" id="da9-8M-IO6">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="LYJ-Wp-YXW">
-                            <color key="tintColor" red="0.95686274510000002" green="0.88311804970719898" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" red="0.99215686274509807" green="0.59215686274509804" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -333,7 +333,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Tätigkeitsbereich" id="EKJ-vs-iK9">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="SgH-hU-YZQ">
-                            <color key="tintColor" red="0.95686274510000002" green="0.88311804969999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" red="0.99215686274509807" green="0.59215686274509804" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -359,7 +359,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Kanzlei" id="7ZC-W0-baD">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="ZTk-it-ifz">
-                            <color key="tintColor" red="0.95686274510000002" green="0.88311804969999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" red="0.99215686274509807" green="0.59215686274509804" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -385,7 +385,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Startseite" id="IVd-15-OEG">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="XSu-47-u2M">
-                            <color key="tintColor" red="0.95686274510000002" green="0.88311804969999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" red="0.99215686274509807" green="0.59215686274509804" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -423,7 +423,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Startseite" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKI-c2-ZPp">
                                             <rect key="frame" x="8" y="0.0" width="584" height="43.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                            <color key="textColor" red="0.41568627450980389" green="0.80000000000000004" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="textColor" red="0.45098039215686275" green="0.81176470588235294" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -442,7 +442,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kanzlei" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CR5-Wv-abq">
                                             <rect key="frame" x="8" y="0.0" width="584" height="43.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                            <color key="textColor" red="0.41568627450980389" green="0.80000000000000004" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="textColor" red="0.45098039215686275" green="0.81176470588235294" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -461,7 +461,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tätigkeitsbereich" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uut-lN-abg">
                                             <rect key="frame" x="8" y="0.0" width="584" height="43.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                            <color key="textColor" red="0.41568627450000001" green="0.80000000000000004" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="textColor" red="0.45098039215686275" green="0.81176470588235294" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -480,7 +480,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kontakt" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rsu-wA-Hy7">
                                             <rect key="frame" x="8" y="0.0" width="584" height="43.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                            <color key="textColor" red="0.41568627450980389" green="0.80000000000000004" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="textColor" red="0.45098039215686275" green="0.81176470588235294" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -499,7 +499,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Karte" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SdM-JV-PV3">
                                             <rect key="frame" x="8" y="0.0" width="584" height="43.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                            <color key="textColor" red="0.41568627450980389" green="0.80000000000000004" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="textColor" red="0.45098039215686275" green="0.81176470588235294" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -518,13 +518,13 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UFW-Sg-Ubo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1530" y="-487"/>
+            <point key="canvasLocation" x="802" y="-39"/>
         </scene>
     </scenes>
     <resources>
         <image name="menu" width="28" height="20"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="WaG-lf-QPt"/>
+        <segue reference="8zA-Pq-bkG"/>
     </inferredMetricsTieBreakers>
 </document>
