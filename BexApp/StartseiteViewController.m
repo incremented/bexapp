@@ -19,6 +19,16 @@
     [super viewDidLoad];
     
     [self setupRevealViewController];
+    
+    [self.scrollView setContentSize:CGSizeMake(self.view.bounds.size.width, 1200)];
+    [self.scrollView  setTranslatesAutoresizingMaskIntoConstraints:NO];
+    [self.contentView setTranslatesAutoresizingMaskIntoConstraints:NO];
+    
+    [self setupTextView];
+}
+
+- (void)setupTextView {
+    
 }
 
 // Adds the PanGesture and TapGesture Recognizer to self.view
