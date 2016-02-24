@@ -21,6 +21,13 @@
     [self setupRevealViewController];
     
     [self setupMapView];
+    
+    // Add a user tracking button to the toolbar
+//    MKUserTrackingBarButtonItem *trackingItem = [[MKUserTrackingBarButtonItem alloc] initWithMapView:self.mapView];
+    
+    MKCoordinateRegion region = [self setLocation];
+    
+    [self setAnnotation:region];
 }
 
 // Adds the PanGesture and TapGesture Recognizer to self.view
@@ -41,16 +48,45 @@
     self.locationManager = [[CLLocationManager alloc] init];
     self.locationManager.delegate = self;
     // Check for iOS 8
-    if ([self.locationManager respondsToSelector:@selector(requestAlwaysAuthorization)]) {
+    [self.locationManager requestWhenInUseAuthorization];
+    if ([self.locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
             [self.locationManager requestWhenInUseAuthorization];
     }
     
     self.mapView.showsUserLocation = YES;
     
 }
+////////////////////////////
+
+//Set Location
+-(MKCoordinateRegion)setLocation {
+    MKCoordinateRegion newRegion;
+    newRegion.center.latitude = 50.7731779;
+    newRegion.center.longitude = 6.106701199999975;
+    newRegion.span.latitudeDelta = 0.00725;
+    newRegion.span.longitudeDelta = 0.00725;
+    
+    [self.mapView setRegion:newRegion animated:YES];
+    
+    return newRegion;
+}
+
+//Set Pin
+-(void)setAnnotation:(MKCoordinateRegion)region {
+    
+    CLLocationCoordinate2D coord = CLLocationCoordinate2DMake(region.center.latitude, region.center.longitude);
+    MKPointAnnotation *annotation = [[MKPointAnnotation alloc] init];
+    [annotation setCoordinate:coord];
+    [annotation setTitle:@"Anwaltskanzlei Bex"];
+    [annotation setSubtitle:@"Viktoriastraße 28"];
+    [self.mapView addAnnotation:annotation];
+}
+
 
 - (void)mapViewWillStartLocatingUser:(MKMapView *)mapView {
     
+    
+ 
     // Check authorization status (with class method)
     CLAuthorizationStatus status = [CLLocationManager authorizationStatus];
     
@@ -64,14 +100,10 @@
         NSLog(@"Location services denied");
         // Alert the user and send them to the settings to turn on location
     }
+  
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
+//-(void)setLocationManager:(CLLocationManager *)locationManager
 /*
 #pragma mark - Navigation
 
@@ -81,4 +113,12 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+#pragma mark Memory Warning
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
 @end

@@ -2,8 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSLocationWhenInUsageDescription</key>
-	<string>We are going to use Your Location to to show You the Distance to Your Destination.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Die Bex App möchte während der Benutzung der App auf Ihren Standort zugreifen</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Die Bex App möchte dauerhaft auf Ihren Standort zugreifen</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>de_DE</string>
 	<key>CFBundleExecutable</key>

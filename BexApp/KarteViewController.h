@@ -15,5 +15,7 @@
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 @property (strong) CLLocationManager *locationManager;
 @property (weak, nonatomic) IBOutlet UIToolbar *toolbar;
+@property (weak, nonatomic) IBOutlet UIButton *searchButton;
+
 
 @end
