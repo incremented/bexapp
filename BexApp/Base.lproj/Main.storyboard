@@ -396,15 +396,27 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="uKv-fO-tWC">
                                                 <rect key="frame" x="8" y="1142" width="200" height="50"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo320" translatesAutoresizingMaskIntoConstraints="NO" id="Izh-BH-ZHa">
-                                                <rect key="frame" x="145" y="8" width="320" height="42"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo300" translatesAutoresizingMaskIntoConstraints="NO" id="Izh-BH-ZHa">
+                                                <rect key="frame" x="155" y="8" width="300" height="39"/>
                                             </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kanzleiRaum" translatesAutoresizingMaskIntoConstraints="NO" id="ax1-X7-6s4">
+                                                <rect key="frame" x="180" y="55" width="240" height="150"/>
+                                            </imageView>
+                                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="buy-Ek-NEx">
+                                                <rect key="frame" x="265" y="178" width="71" height="37"/>
+                                            </pageControl>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1200" id="Ma1-3O-DXn"/>
+                                            <constraint firstItem="buy-Ek-NEx" firstAttribute="top" secondItem="ax1-X7-6s4" secondAttribute="bottom" constant="-27" id="Zt7-t3-vqg"/>
                                             <constraint firstAttribute="bottom" secondItem="uKv-fO-tWC" secondAttribute="bottom" constant="8" id="oge-S8-X4t"/>
+                                            <constraint firstItem="ax1-X7-6s4" firstAttribute="centerX" secondItem="qCo-dC-dgj" secondAttribute="centerX" id="qZN-gJ-ZqM"/>
+                                            <constraint firstAttribute="bottom" secondItem="ax1-X7-6s4" secondAttribute="bottom" constant="995" id="rWt-uB-JjX"/>
                                             <constraint firstItem="uKv-fO-tWC" firstAttribute="leading" secondItem="qCo-dC-dgj" secondAttribute="leading" constant="8" id="smq-Y3-PQv"/>
+                                            <constraint firstItem="buy-Ek-NEx" firstAttribute="centerX" secondItem="qCo-dC-dgj" secondAttribute="centerX" id="tfC-5N-bAT"/>
+                                            <constraint firstItem="ax1-X7-6s4" firstAttribute="top" secondItem="Izh-BH-ZHa" secondAttribute="bottom" constant="8" id="vdt-9D-4W7"/>
                                             <constraint firstItem="Izh-BH-ZHa" firstAttribute="top" secondItem="qCo-dC-dgj" secondAttribute="top" constant="8" id="xpY-Xy-sta"/>
                                             <constraint firstItem="Izh-BH-ZHa" firstAttribute="centerX" secondItem="qCo-dC-dgj" secondAttribute="centerX" constant="5" id="ycB-h8-1VP"/>
                                         </constraints>
@@ -414,7 +426,7 @@
                                     <constraint firstAttribute="trailing" secondItem="qCo-dC-dgj" secondAttribute="trailing" id="Txt-Je-WU4"/>
                                     <constraint firstItem="qCo-dC-dgj" firstAttribute="top" secondItem="mns-FH-g3u" secondAttribute="top" id="liW-Ll-Oib"/>
                                     <constraint firstItem="qCo-dC-dgj" firstAttribute="leading" secondItem="mns-FH-g3u" secondAttribute="leading" id="na3-9X-EVZ"/>
-                                    <constraint firstAttribute="bottom" secondItem="qCo-dC-dgj" secondAttribute="bottom" constant="-664" id="xap-h4-n0R"/>
+                                    <constraint firstAttribute="bottom" secondItem="qCo-dC-dgj" secondAttribute="bottom" id="xap-h4-n0R"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -436,6 +448,8 @@
                     <size key="freeformSize" width="600" height="600"/>
                     <connections>
                         <outlet property="contentView" destination="qCo-dC-dgj" id="dJQ-OS-NGz"/>
+                        <outlet property="imageView" destination="ax1-X7-6s4" id="gJR-aE-g0e"/>
+                        <outlet property="pageControl" destination="buy-Ek-NEx" id="udX-wC-gcA"/>
                         <outlet property="scrollView" destination="mns-FH-g3u" id="NU7-zm-LQG"/>
                         <outlet property="sidebarButton" destination="XSu-47-u2M" id="oQf-NY-bmf"/>
                     </connections>
@@ -579,8 +593,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="kanzleiRaum" width="240" height="150"/>
         <image name="logo" width="200" height="50"/>
-        <image name="logo320" width="320" height="42"/>
+        <image name="logo300" width="300" height="39"/>
         <image name="menu" width="28" height="20"/>
     </resources>
     <inferredMetricsTieBreakers>
