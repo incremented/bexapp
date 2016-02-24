@@ -9,6 +9,12 @@
 #import "KarteViewController.h"
 #import "SWRevealViewController.h"
 
+#define UIColorFromRGB(rgbValue) \
+[UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0x00FF00) >>  8))/255.0 \
+blue:((float)((rgbValue & 0x0000FF) >>  0))/255.0 \
+alpha:1.0]
+
 @interface KarteViewController ()
 
 @end
@@ -55,6 +61,15 @@
     
     self.mapView.showsUserLocation = YES;
     
+    MKUserTrackingBarButtonItem *buttonItem = [[MKUserTrackingBarButtonItem alloc] initWithMapView:self.mapView];
+    
+    [buttonItem.customView setTintColor:UIColorFromRGB(0xFD9712)];
+    [self.mapView setTintColor:UIColorFromRGB(0x73CFF7)];
+    UIBarButtonItem *flexibleItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
+    [self.toolbar setItems:[NSArray arrayWithObjects:flexibleItem, buttonItem, nil] animated:YES];
+    
+//    self.navigationItem.rightBarButtonItem = buttonItem;
+    
 }
 ////////////////////////////
 
@@ -76,10 +91,12 @@
     
     CLLocationCoordinate2D coord = CLLocationCoordinate2DMake(region.center.latitude, region.center.longitude);
     MKPointAnnotation *annotation = [[MKPointAnnotation alloc] init];
+    
     [annotation setCoordinate:coord];
     [annotation setTitle:@"Anwaltskanzlei Bex"];
     [annotation setSubtitle:@"Viktoriastraße 28"];
     [self.mapView addAnnotation:annotation];
+    [self.mapView selectAnnotation:annotation animated:YES];
 }
 
 
