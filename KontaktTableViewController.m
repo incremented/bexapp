@@ -20,13 +20,15 @@
     
     [self setupRevealViewController];
     
-    [self initialiseMenu];
+    [self initialiseTableView];
     
 }
 
-- (void)initialiseMenu {
+- (void)initialiseTableView {
     _menuItems = @[@"tableHeader", @"tableFestnetz", @"tableMobil", @"tableFax", @"tableEmail",
                   @"tableAnschrift"];
+    
+    self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
 }
 
 // Adds the PanGesture and TapGesture Recognizer to self.view

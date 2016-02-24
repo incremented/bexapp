@@ -8,9 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface StartseiteViewController : UIViewController
+@interface StartseiteViewController : UIViewController<UIGestureRecognizerDelegate>
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (strong, nonatomic) IBOutlet UIView *contentView;
+
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+
+@property (strong, nonatomic) IBOutlet UIPageControl *pageControl;
+@property NSInteger imageViewPageIndex;
+@property NSArray *images;
+- (IBAction)notrufButtonPressed:(id)sender;
 @end
 
