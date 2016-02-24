@@ -18,5 +18,6 @@
 @property (strong, nonatomic) IBOutlet UIPageControl *pageControl;
 @property NSInteger imageViewPageIndex;
 @property NSArray *images;
+- (IBAction)notrufButtonPressed:(id)sender;
 @end
 

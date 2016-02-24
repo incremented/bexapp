@@ -89,6 +89,29 @@
     
 }
 
+- (IBAction)notrufButtonPressed:(id)sender{
+    NSString *number = [NSString stringWithFormat:@"08003301000"];
+    NSURL* callUrl=[NSURL URLWithString:[NSString   stringWithFormat:@"telprompt:%@",number]];
+    
+    //check  Call Function available only in iphone
+    if([[UIApplication sharedApplication] canOpenURL:callUrl])
+    {
+        [[UIApplication sharedApplication] openURL:callUrl];
+    }
+    else
+    {
+        UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Anruf nicht möglich"
+                                                                       message:@"Auf diesem Gerät werden leider keine Anrufe unterstützt."
+                                                                preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                              handler:^(UIAlertAction * action) {}];
+        
+        [alert addAction:defaultAction];
+        [self presentViewController:alert animated:YES completion:nil];
+    }
+}
+
 // Adds the PanGesture and TapGesture Recognizer to self.view
 - (void)setupRevealViewController {
     
