@@ -22,6 +22,7 @@
 		507C81261C7928B800C2B5CC /* KanzleiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507C81251C7928B800C2B5CC /* KanzleiViewController.m */; };
 		507C81281C792A4100C2B5CC /* Colors in Resources */ = {isa = PBXBuildFile; fileRef = 507C81271C792A4100C2B5CC /* Colors */; };
 		507C812B1C792C4900C2B5CC /* TaetigkeitsbereichViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507C812A1C792C4900C2B5CC /* TaetigkeitsbereichViewController.m */; };
+		5089E5F01C7D07B5002C30C0 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5089E5EF1C7D07B5002C30C0 /* CustomCell.m */; };
 		50A129F41C7253E90068B6B8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A129F31C7253E90068B6B8 /* SWRevealViewController.m */; };
 		50A129FC1C7257BA0068B6B8 /* KarteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A129FB1C7257BA0068B6B8 /* KarteViewController.m */; };
 /* End PBXBuildFile section */
@@ -71,6 +72,8 @@
 		507C81271C792A4100C2B5CC /* Colors */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Colors; sourceTree = "<group>"; };
 		507C81291C792C4900C2B5CC /* TaetigkeitsbereichViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaetigkeitsbereichViewController.h; sourceTree = "<group>"; };
 		507C812A1C792C4900C2B5CC /* TaetigkeitsbereichViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaetigkeitsbereichViewController.m; sourceTree = "<group>"; };
+		5089E5EE1C7D07B5002C30C0 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		5089E5EF1C7D07B5002C30C0 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		50A129F21C7253E90068B6B8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		50A129F31C7253E90068B6B8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		50A129FA1C7257BA0068B6B8 /* KarteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KarteViewController.h; sourceTree = "<group>"; };
@@ -192,6 +195,8 @@
 			children = (
 				501D224F1C764FA900658849 /* SidebarTableViewController.h */,
 				501D22501C764FA900658849 /* SidebarTableViewController.m */,
+				5089E5EE1C7D07B5002C30C0 /* CustomCell.h */,
+				5089E5EF1C7D07B5002C30C0 /* CustomCell.m */,
 			);
 			name = SideBar;
 			sourceTree = "<group>";
@@ -343,6 +348,7 @@
 				507C81201C78F91A00C2B5CC /* KontaktTableViewController.m in Sources */,
 				501589371C72388000A8ABA7 /* AppDelegate.m in Sources */,
 				50A129FC1C7257BA0068B6B8 /* KarteViewController.m in Sources */,
+				5089E5F01C7D07B5002C30C0 /* CustomCell.m in Sources */,
 				501589341C72388000A8ABA7 /* main.m in Sources */,
 				501D22511C764FA900658849 /* SidebarTableViewController.m in Sources */,
 				507C812B1C792C4900C2B5CC /* TaetigkeitsbereichViewController.m in Sources */,
