@@ -15,6 +15,7 @@
 @property (strong, nonatomic) UITableViewCell *currentSelectedCell;
 
 @property (strong, nonatomic) UITableViewCell *startSeiteCell;
+@property (strong, nonatomic) UITableViewCell *rechtsanwaltBexCell;
 @property (strong, nonatomic) UITableViewCell *kanzleiCell;
 @property (strong, nonatomic) UITableViewCell *taetigkeitsBereichCell;
 @property (strong, nonatomic) UITableViewCell *contactCell;

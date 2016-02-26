@@ -37,7 +37,7 @@ static UIColor *blue;
 
 - (void)initialiseTableView {
     
-    _menuItems = @[@"tableStartseite", @"tableKanzlei", @"tableTaetigkeitsbereich",
+    _menuItems = @[@"tableStartseite", @"tableKanzlei", @"tableRechtsanwaltBex", @"tableTaetigkeitsbereich",
                    @"tableKontakt", @"tableKarte"];
     
     self.tableView.scrollEnabled = NO;
@@ -74,14 +74,18 @@ static UIColor *blue;
             [self setTextColor:blue forCell:_kanzleiCell];
             break;
         case 2:
+            [self setBackgroundColor:white forCell:_rechtsanwaltBexCell];
+            [self setTextColor:blue forCell:_rechtsanwaltBexCell];
+            break;
+        case 3:
             [self setBackgroundColor:white forCell:_taetigkeitsBereichCell];
             [self setTextColor:blue forCell:_taetigkeitsBereichCell];
             break;
-        case 3:
+        case 4:
             [self setBackgroundColor:white forCell:_contactCell];
             [self setTextColor:blue forCell:_contactCell];
             break;
-        case 4:
+        case 5:
             [self setBackgroundColor:white forCell:_karteCell];
             [self setTextColor:blue forCell:_karteCell];
             break;
@@ -101,14 +105,18 @@ static UIColor *blue;
             [self setTextColor:white forCell:_kanzleiCell];
             break;
         case 2:
+            [self setBackgroundColor:orange forCell:_rechtsanwaltBexCell];
+            [self setTextColor:white forCell:_rechtsanwaltBexCell];
+            break;
+        case 3:
             [self setBackgroundColor:orange forCell:_taetigkeitsBereichCell];
             [self setTextColor:white forCell:_taetigkeitsBereichCell];
             break;
-        case 3:
+        case 4:
             [self setBackgroundColor:orange forCell:_contactCell];
             [self setTextColor:white forCell:_contactCell];
             break;
-        case 4:
+        case 5:
             [self setBackgroundColor:orange forCell:_karteCell];
             [self setTextColor:white forCell:_karteCell];
             break;
@@ -138,12 +146,15 @@ static UIColor *blue;
             _kanzleiCell = cell;
             break;
         case 2:
-            _taetigkeitsBereichCell = cell;
+            _rechtsanwaltBexCell = cell;
             break;
         case 3:
-            _contactCell = cell;
+            _taetigkeitsBereichCell = cell;
             break;
         case 4:
+            _contactCell = cell;
+            break;
+        case 5:
             _karteCell = cell;
             break;
         default:
