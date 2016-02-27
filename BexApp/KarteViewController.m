@@ -20,16 +20,24 @@ alpha:1.0]
     // Presents the pin of Bex_Location
     MKPointAnnotation *pinAnnotation;
 
+    UIColor *orange;
+    UIColor *white;
+    UIColor *blue;
 }
 
 @end
 
 @implementation KarteViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     [self setupRevealViewController];
+
+    orange = UIColorFromRGB(0xFD9712);
+    white = UIColorFromRGB(0xFFFFFF);
+    blue = UIColorFromRGB(0x73CFF7);
     
     [self setupMapView];
     
@@ -62,20 +70,8 @@ alpha:1.0]
     
     self.mapView.delegate = self;
     
-    // Segment Names
-    NSArray *itemArray = [NSArray arrayWithObjects: @"Standard", @"Hybrid", @"Satelite", nil];
-    
-    // Create SegmentControl from Names
-    UISegmentedControl *segmentControl = [[UISegmentedControl alloc] initWithItems:itemArray];
-    
-    // Set Default Selected Segment
-    segmentControl.selectedSegmentIndex = 0;
-    
-    // Add Delegate und setMapType as Target Function
-    [segmentControl addTarget:self action:@selector(setMapType:) forControlEvents:UIControlEventValueChanged];
-    
-    // Create UIBarButton item with View from our Segment Control
-    UIBarButtonItem *segmentedControlButtonItem = [[UIBarButtonItem alloc] initWithCustomView:(UIView *)segmentControl];
+    // Create segmentedControlBarButtonItem
+    UIBarButtonItem *segmentedControlButtonItem = [self createSegmentedControlBarButtonItem];
     
     // Tracking button for currentLocation
     MKUserTrackingBarButtonItem *buttonItem = [[MKUserTrackingBarButtonItem alloc] initWithMapView:self.mapView];
@@ -84,10 +80,10 @@ alpha:1.0]
     self.mapView.showsUserLocation = YES;
     
     // Set button color
-    [buttonItem.customView setTintColor:UIColorFromRGB(0xFD9712)];
+    [buttonItem.customView setTintColor:orange];
     
     // Set currentLocation point color (and all other items of mapView)
-    [self.mapView setTintColor:UIColorFromRGB(0x73CFF7)];
+    [self.mapView setTintColor:blue];
     
     // Creates flexibleItem to put button on right side of navigationNar
     UIBarButtonItem *flexibleItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
@@ -124,6 +120,31 @@ alpha:1.0]
     [self.mapView selectAnnotation:annotation animated:YES];
     return annotation;
 }
+
+// Returns the SegmentedControlBarButtonItem
+- (UIBarButtonItem *) createSegmentedControlBarButtonItem{
+    
+    // Segment Names
+    NSArray *itemArray = [NSArray arrayWithObjects: @"Standard", @"Hybrid", @"Satelite", nil];
+    
+    // Create SegmentControl from Names
+    UISegmentedControl *segmentControl = [[UISegmentedControl alloc] initWithItems:itemArray];
+
+    // Set Color to orange
+    segmentControl.tintColor = orange;
+    
+    // Set Default Selected Segment
+    segmentControl.selectedSegmentIndex = 0;
+    
+    // Add Delegate und setMapType as Target Function
+    [segmentControl addTarget:self action:@selector(setMapType:) forControlEvents:UIControlEventValueChanged];
+    
+    // Create UIBarButton item with View from our Segment Control
+    UIBarButtonItem *segmentedControlButtonItem = [[UIBarButtonItem alloc] initWithCustomView:(UIView *)segmentControl];
+    
+    return segmentedControlButtonItem;
+}
+
 
 // Create MKDirectionResponse with route from currentLocation to Bex_Location
 -(void)direction {
@@ -231,6 +252,7 @@ alpha:1.0]
     }
   
 }
+
 #pragma delegates
 
 // Set AnnotationView
@@ -248,7 +270,7 @@ alpha:1.0]
             // If an existing pin view was not available, create one.
             pinView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"CustomPinAnnotationView"];
             // Bex_Orange for pin
-            pinView.pinTintColor = UIColorFromRGB(0xFD9712);
+            pinView.pinTintColor = orange;
             pinView.animatesDrop = YES;
             // Shows info button in AnnotationView
             pinView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
@@ -274,7 +296,7 @@ alpha:1.0]
         MKPolyline *route = overlay;
         MKPolylineRenderer *routeRenderer = [[MKPolylineRenderer alloc] initWithPolyline:route];
         // Set route color Bex_Blue
-        routeRenderer.strokeColor = UIColorFromRGB(0x73CFF7);
+        routeRenderer.strokeColor = blue;
         return routeRenderer;
     }
     else return nil;
