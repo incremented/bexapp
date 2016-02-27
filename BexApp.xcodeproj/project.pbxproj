@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		501117F91C80E11E00E2B28D /* RechtsanwaltBexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 501117F81C80E11E00E2B28D /* RechtsanwaltBexViewController.m */; };
+		501117FB1C80FBA800E2B28D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501117FA1C80FBA800E2B28D /* MessageUI.framework */; };
 		501589341C72388000A8ABA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 501589331C72388000A8ABA7 /* main.m */; };
 		501589371C72388000A8ABA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 501589361C72388000A8ABA7 /* AppDelegate.m */; };
 		5015893A1C72388000A8ABA7 /* StartseiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 501589391C72388000A8ABA7 /* StartseiteViewController.m */; };
@@ -45,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		501117F71C80E11E00E2B28D /* RechtsanwaltBexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RechtsanwaltBexViewController.h; sourceTree = "<group>"; };
+		501117F81C80E11E00E2B28D /* RechtsanwaltBexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RechtsanwaltBexViewController.m; sourceTree = "<group>"; };
+		501117FA1C80FBA800E2B28D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		5015892F1C72388000A8ABA7 /* BexApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BexApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		501589331C72388000A8ABA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		501589351C72388000A8ABA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				501117FB1C80FBA800E2B28D /* MessageUI.framework in Frameworks */,
 				501D22581C76622700658849 /* CoreLocation.framework in Frameworks */,
 				501D22561C765F4C00658849 /* MapKit.framework in Frameworks */,
 			);
@@ -110,6 +116,7 @@
 		501589261C72388000A8ABA7 = {
 			isa = PBXGroup;
 			children = (
+				501117FA1C80FBA800E2B28D /* MessageUI.framework */,
 				501D22571C76622700658849 /* CoreLocation.framework */,
 				501D22551C765F4C00658849 /* MapKit.framework */,
 				501589311C72388000A8ABA7 /* BexApp */,
@@ -186,6 +193,8 @@
 				507C811F1C78F91A00C2B5CC /* KontaktTableViewController.m */,
 				50A129FA1C7257BA0068B6B8 /* KarteViewController.h */,
 				50A129FB1C7257BA0068B6B8 /* KarteViewController.m */,
+				501117F71C80E11E00E2B28D /* RechtsanwaltBexViewController.h */,
+				501117F81C80E11E00E2B28D /* RechtsanwaltBexViewController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -349,6 +358,7 @@
 				501589371C72388000A8ABA7 /* AppDelegate.m in Sources */,
 				50A129FC1C7257BA0068B6B8 /* KarteViewController.m in Sources */,
 				5089E5F01C7D07B5002C30C0 /* CustomCell.m in Sources */,
+				501117F91C80E11E00E2B28D /* RechtsanwaltBexViewController.m in Sources */,
 				501589341C72388000A8ABA7 /* main.m in Sources */,
 				501D22511C764FA900658849 /* SidebarTableViewController.m in Sources */,
 				507C812B1C792C4900C2B5CC /* TaetigkeitsbereichViewController.m in Sources */,
