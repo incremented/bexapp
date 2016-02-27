@@ -22,8 +22,4 @@
 - (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay;
 
 -(MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation;
-
-//Segemented Control
-- (IBAction)setMapType:(UISegmentedControl *)sender;
-
 @end
