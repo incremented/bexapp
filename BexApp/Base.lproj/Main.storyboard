@@ -72,11 +72,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="rnV-rI-BR9">
-                                <rect key="frame" x="0.0" y="64" width="600" height="497"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="rnV-rI-BR9">
+                                <rect key="frame" x="0.0" y="64" width="600" height="492"/>
                             </mapView>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jqt-3c-iJh">
-                                <rect key="frame" x="133" y="585" width="230" height="29"/>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xCY-o4-Fg2">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items/>
+                            </toolbar>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jqt-3c-iJh">
+                                <rect key="frame" x="194" y="520" width="212" height="29"/>
                                 <segments>
                                     <segment title="Standard"/>
                                     <segment title="Satellite"/>
@@ -90,10 +94,22 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="rnV-rI-BR9" firstAttribute="top" secondItem="WNc-e3-mTa" secondAttribute="bottom" id="29I-Vd-wsm"/>
-                            <constraint firstAttribute="trailing" secondItem="rnV-rI-BR9" secondAttribute="trailing" id="JpT-7s-gVM"/>
-                            <constraint firstItem="rnV-rI-BR9" firstAttribute="leading" secondItem="neI-Qh-B7b" secondAttribute="leading" id="xvs-Bo-o5U"/>
+                            <constraint firstItem="jqt-3c-iJh" firstAttribute="centerX" secondItem="rnV-rI-BR9" secondAttribute="centerX" id="1k6-tv-WQl"/>
+                            <constraint firstItem="jqt-3c-iJh" firstAttribute="bottom" secondItem="rnV-rI-BR9" secondAttribute="bottom" constant="-8" id="DQc-AN-vaw"/>
+                            <constraint firstItem="xCY-o4-Fg2" firstAttribute="top" secondItem="rnV-rI-BR9" secondAttribute="bottom" id="Fr6-bd-xY2"/>
+                            <constraint firstItem="xCY-o4-Fg2" firstAttribute="leading" secondItem="neI-Qh-B7b" secondAttribute="leadingMargin" constant="-20" id="HEv-Hc-Itd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xCY-o4-Fg2" secondAttribute="trailing" constant="-20" id="Nbv-o9-N1e"/>
+                            <constraint firstItem="xCY-o4-Fg2" firstAttribute="bottom" secondItem="jqt-3c-iJh" secondAttribute="bottom" id="Td3-2g-dBj"/>
+                            <constraint firstItem="rnV-rI-BR9" firstAttribute="top" secondItem="WNc-e3-mTa" secondAttribute="bottom" id="Wqg-6h-fNE"/>
+                            <constraint firstItem="rnV-rI-BR9" firstAttribute="leading" secondItem="neI-Qh-B7b" secondAttribute="leadingMargin" constant="-20" id="aVE-7z-9Q4"/>
+                            <constraint firstItem="xCY-o4-Fg2" firstAttribute="bottom" secondItem="neI-Qh-B7b" secondAttribute="bottomMargin" id="qdt-sm-rC3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rnV-rI-BR9" secondAttribute="trailing" constant="-20" id="rBW-c3-4dX"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Td3-2g-dBj"/>
+                            </mask>
+                        </variation>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Karte" id="Upw-NE-bWg">
@@ -105,11 +121,12 @@
                     <connections>
                         <outlet property="mapView" destination="rnV-rI-BR9" id="sei-Au-gPk"/>
                         <outlet property="sidebarButton" destination="kv1-tu-Naw" id="kfn-xj-S0M"/>
+                        <outlet property="toolbar" destination="xCY-o4-Fg2" id="2Nl-7L-c4q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U6c-4t-SDd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3597" y="-3145"/>
+            <point key="canvasLocation" x="3574" y="-3799"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="iAS-dh-rj8">
@@ -455,8 +472,8 @@
                                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="buy-Ek-NEx">
                                                 <rect key="frame" x="265" y="178" width="71" height="37"/>
                                             </pageControl>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tj3-q9-1h2">
-                                                <rect key="frame" x="155" y="457" width="300" height="50"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tj3-q9-1h2">
+                                                <rect key="frame" x="155" y="457" width="300" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="300" id="xz1-Bk-RoX"/>
                                                 </constraints>
