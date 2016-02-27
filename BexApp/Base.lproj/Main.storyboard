@@ -79,37 +79,17 @@
                                 <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                                 <items/>
                             </toolbar>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jqt-3c-iJh">
-                                <rect key="frame" x="194" y="520" width="212" height="29"/>
-                                <segments>
-                                    <segment title="Standard"/>
-                                    <segment title="Satellite"/>
-                                    <segment title="Hybrid"/>
-                                </segments>
-                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <connections>
-                                    <action selector="setMapType:" destination="iSY-kr-l5k" eventType="valueChanged" id="wgo-Np-80f"/>
-                                </connections>
-                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="jqt-3c-iJh" firstAttribute="centerX" secondItem="rnV-rI-BR9" secondAttribute="centerX" id="1k6-tv-WQl"/>
-                            <constraint firstItem="jqt-3c-iJh" firstAttribute="bottom" secondItem="rnV-rI-BR9" secondAttribute="bottom" constant="-8" id="DQc-AN-vaw"/>
                             <constraint firstItem="xCY-o4-Fg2" firstAttribute="top" secondItem="rnV-rI-BR9" secondAttribute="bottom" id="Fr6-bd-xY2"/>
                             <constraint firstItem="xCY-o4-Fg2" firstAttribute="leading" secondItem="neI-Qh-B7b" secondAttribute="leadingMargin" constant="-20" id="HEv-Hc-Itd"/>
                             <constraint firstAttribute="trailingMargin" secondItem="xCY-o4-Fg2" secondAttribute="trailing" constant="-20" id="Nbv-o9-N1e"/>
-                            <constraint firstItem="xCY-o4-Fg2" firstAttribute="bottom" secondItem="jqt-3c-iJh" secondAttribute="bottom" id="Td3-2g-dBj"/>
                             <constraint firstItem="rnV-rI-BR9" firstAttribute="top" secondItem="WNc-e3-mTa" secondAttribute="bottom" id="Wqg-6h-fNE"/>
                             <constraint firstItem="rnV-rI-BR9" firstAttribute="leading" secondItem="neI-Qh-B7b" secondAttribute="leadingMargin" constant="-20" id="aVE-7z-9Q4"/>
                             <constraint firstItem="xCY-o4-Fg2" firstAttribute="bottom" secondItem="neI-Qh-B7b" secondAttribute="bottomMargin" id="qdt-sm-rC3"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rnV-rI-BR9" secondAttribute="trailing" constant="-20" id="rBW-c3-4dX"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="Td3-2g-dBj"/>
-                            </mask>
-                        </variation>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Karte" id="Upw-NE-bWg">
