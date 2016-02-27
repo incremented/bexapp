@@ -15,7 +15,15 @@
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 @property (strong) CLLocationManager *locationManager;
 @property (weak, nonatomic) IBOutlet UIToolbar *toolbar;
-@property (weak, nonatomic) IBOutlet UIButton *searchButton;
 
+//Delegate Overrides
+- (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control ;
+
+- (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay;
+
+-(MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation;
+
+//Segemented Control
+- (IBAction)setMapType:(UISegmentedControl *)sender;
 
 @end
