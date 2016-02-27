@@ -8,6 +8,7 @@
 
 #import "KontaktTableViewController.h"
 #import "SWRevealViewController.h"
+#import "SidebarTableViewController.h"
 
 @interface KontaktTableViewController ()
 
@@ -21,7 +22,6 @@
     [self setupRevealViewController];
     
     [self initialiseTableView];
-    
 }
 
 - (void)initialiseTableView {
@@ -44,10 +44,92 @@
     }
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)tableView:(UITableView *)tableView
+  didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    switch (indexPath.row) {
+        case 1:
+            [self callFestnetz];
+            break;
+        case 2:
+            [self callMobile];
+            break;
+        case 3:
+            break;
+        case 4:
+            [self openEmail];
+            break;
+        case 5:
+            [self openMaps];
+            break;
+        default:
+            break;
+    }
 }
+
+- (void) callFestnetz{
+    
+    NSString *number = [NSString stringWithFormat:@"024155910559"];
+    [self makeCall:number];
+}
+
+- (void) callMobile{
+    
+    NSString *number = [NSString stringWithFormat:@"01772981966"];
+    [self makeCall:number];
+}
+
+- (void) openEmail{
+    
+    if ([MFMailComposeViewController canSendMail]) {
+        MFMailComposeViewController *composeViewController = [[MFMailComposeViewController alloc] initWithNibName:nil bundle:nil];
+        [composeViewController setMailComposeDelegate:self];
+        [composeViewController setToRecipients:@[@"bex@rechtsanwalt-bex.de"]];
+        [self presentViewController:composeViewController animated:YES completion:nil];
+    }
+}
+
+- (void) openMaps{
+
+//    self.delegate = (SidebarTableViewController *) self.parentViewController;
+    NSObject<KontaktTableViewControllerDelegate> *strongDelegate = self.delegate;
+    
+    // Our delegate method is optional, so we should
+    // check that the delegate implements it
+    if ([strongDelegate respondsToSelector:@selector(kontaktTableViewControllerCalledMaps:)]) {
+        [strongDelegate kontaktTableViewControllerCalledMaps:self];
+    }
+}
+
+- (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error
+{
+    //Add an alert in case of failure
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void) makeCall:(NSString *) number{
+//    NSString *number = [NSString stringWithFormat:@"08003301000"];
+    NSURL* callUrl=[NSURL URLWithString:[NSString   stringWithFormat:@"telprompt:%@",number]];
+    
+    //check  Call Function available only in iphone
+    if([[UIApplication sharedApplication] canOpenURL:callUrl])
+    {
+        [[UIApplication sharedApplication] openURL:callUrl];
+    }
+    else
+    {
+        UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Anruf nicht möglich"
+                                                                       message:@"Auf diesem Gerät werden leider keine Anrufe unterstützt."
+                                                                preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                              handler:^(UIAlertAction * action) {}];
+        
+        [alert addAction:defaultAction];
+        [self presentViewController:alert animated:YES completion:nil];
+    }
+}
+
 
 #pragma mark - Table view data source
 
@@ -62,6 +144,8 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString *CellIdentifier = [_menuItems objectAtIndex:indexPath.row];
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
     return cell;
 }
@@ -127,5 +211,11 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
 
 @end

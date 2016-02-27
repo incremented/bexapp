@@ -7,8 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
 
-@interface KontaktTableViewController : UITableViewController
+@protocol KontaktTableViewControllerDelegate;
+
+@interface KontaktTableViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate, MFMailComposeViewControllerDelegate>
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 @property (strong, nonatomic) NSArray *menuItems;
+
+@property (nonatomic, weak) NSObject<KontaktTableViewControllerDelegate>* delegate;
+
+@end
+
+@protocol KontaktTableViewControllerDelegate
+
+- (void)kontaktTableViewControllerCalledMaps:(KontaktTableViewController *) viewController;
+
 @end

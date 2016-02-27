@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KontaktTableViewController.h"
 
-@interface SidebarTableViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>
+@interface SidebarTableViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource, KontaktTableViewControllerDelegate>
 
 @property (strong, nonatomic) NSArray *menuItems;
 @property NSInteger currentSelectedCellIndex;

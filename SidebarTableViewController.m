@@ -8,6 +8,8 @@
 
 #import "SidebarTableViewController.h"
 #import "CustomCell.h"
+#import "SWRevealViewController.h"
+#import "KontaktTableViewController.h"
 
 @interface SidebarTableViewController ()
 
@@ -47,6 +49,28 @@ static UIColor *blue;
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)kontaktTableViewControllerCalledMaps:(KontaktTableViewController *) viewController{
+    
+    [self setBackgroundColor:white forCell:_contactCell];
+    [self setTextColor:blue forCell:_contactCell];
+    
+    [self setBackgroundColor:orange forCell:_karteCell];
+    [self setTextColor:white forCell:_karteCell];
+    _currentSelectedCellIndex = 5;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue
+                 sender:(id)sender{
+    
+    UITableViewCell *senderCell = (UITableViewCell *) sender;
+    
+    if ([senderCell.reuseIdentifier isEqualToString:@"tableKontakt"]){
+        
+        KontaktTableViewController *controller = (KontaktTableViewController *) segue.destinationViewController.childViewControllers[0];
+        controller.delegate = self;
+    }
 }
 
 #pragma mark - Table view data source
