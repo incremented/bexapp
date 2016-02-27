@@ -80,6 +80,9 @@ alpha:1.0]
     // Tracking button for currentLocation
     MKUserTrackingBarButtonItem *buttonItem = [[MKUserTrackingBarButtonItem alloc] initWithMapView:self.mapView];
     
+    //Auskommentieren, wenn updateLocation an!!!
+    self.mapView.showsUserLocation = YES;
+    
     // Set button color
     [buttonItem.customView setTintColor:UIColorFromRGB(0xFD9712)];
     
@@ -277,6 +280,7 @@ alpha:1.0]
     else return nil;
 }
 
+/*
 // Focus userLocation when showUserLocation = YES !! Zoomt immer wieder zum User - TODO: Wenn route gestartet wird !!
 - (void)mapView:(MKMapView *)aMapView didUpdateUserLocation:(MKUserLocation *)aUserLocation {
     MKCoordinateRegion region;
@@ -290,6 +294,7 @@ alpha:1.0]
     region.center = location;
     [aMapView setRegion:region animated:YES];
 }
+*/
 
 #pragma mark Memory Warning
 
