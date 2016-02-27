@@ -62,6 +62,21 @@ alpha:1.0]
     
     self.mapView.delegate = self;
     
+    // Segment Names
+    NSArray *itemArray = [NSArray arrayWithObjects: @"Standard", @"Hybrid", @"Satelite", nil];
+    
+    // Create SegmentControl from Names
+    UISegmentedControl *segmentControl = [[UISegmentedControl alloc] initWithItems:itemArray];
+    
+    // Set Default Selected Segment
+    segmentControl.selectedSegmentIndex = 0;
+    
+    // Add Delegate und setMapType as Target Function
+    [segmentControl addTarget:self action:@selector(setMapType:) forControlEvents:UIControlEventValueChanged];
+    
+    // Create UIBarButton item with View from our Segment Control
+    UIBarButtonItem *segmentedControlButtonItem = [[UIBarButtonItem alloc] initWithCustomView:(UIView *)segmentControl];
+    
     // Tracking button for currentLocation
     MKUserTrackingBarButtonItem *buttonItem = [[MKUserTrackingBarButtonItem alloc] initWithMapView:self.mapView];
     
@@ -78,7 +93,7 @@ alpha:1.0]
     UIBarButtonItem *flexibleItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
     
     // Put the button in navigationBar Array
-    [self.toolbar setItems:[NSArray arrayWithObjects:flexibleItem, buttonItem, nil] animated:YES];
+    [self.toolbar setItems:[NSArray arrayWithObjects:segmentedControlButtonItem, flexibleItem, buttonItem,  nil] animated:YES];
 }
 
 //Set Bex_Location
@@ -189,10 +204,10 @@ alpha:1.0]
             self.mapView.mapType = MKMapTypeStandard;
             break;
         case 1:
-            self.mapView.mapType = MKMapTypeSatellite;
+            self.mapView.mapType = MKMapTypeHybrid;
             break;
         case 2:
-            self.mapView.mapType = MKMapTypeHybrid;
+            self.mapView.mapType = MKMapTypeSatellite;
             break;
         default:
             break;
