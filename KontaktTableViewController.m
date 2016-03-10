@@ -25,8 +25,7 @@
 }
 
 - (void)initialiseTableView {
-    _menuItems = @[@"tableHeader", @"tableFestnetz", @"tableMobil", @"tableFax", @"tableEmail",
-                  @"tableAnschrift"];
+    _menuItems = @[@"tableHeader", @"tableFestnetz", @"tableMobil", @"tableFax", @"tableEmail", @"tableInternet", @"tableAnschrift"];
     
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
 }
@@ -60,6 +59,9 @@
             [self openEmail];
             break;
         case 5:
+            [self openWebPage];
+            break;
+        case 6:
             [self openMaps];
             break;
         default:
@@ -87,6 +89,11 @@
         [composeViewController setToRecipients:@[@"bex@rechtsanwalt-bex.de"]];
         [self presentViewController:composeViewController animated:YES completion:nil];
     }
+}
+
+- (void) openWebPage{
+    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.rechtsanwalt-bex.de"]];
 }
 
 - (void) openMaps{
@@ -158,7 +165,7 @@
     static NSString *cellIdentifier;
     if (indexPath.row == 0)
         cellIdentifier = @"tableHeader";
-    else if (indexPath.row == 5)
+    else if (indexPath.row == 6)
         cellIdentifier = @"tableAnschrift";
     else
         cellIdentifier = @"tableFestnetz";

@@ -1121,14 +1121,30 @@ const int FrontViewPositionNone = 0xff;
 }
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch
 {
-    if ([touch.view isKindOfClass:[UIImageView class]])
-    {
-        return NO;
-    }
-    else
+    if (gestureRecognizer == _tapGestureRecognizer)
     {
         return YES;
     }
+    else if (gestureRecognizer == _panGestureRecognizer)
+    {
+        
+        if ([touch.view isKindOfClass:[UIImageView class]])
+        {
+            return NO;
+        }
+        else if([touch locationInView:_frontViewController.view].x < 70)
+        {
+            return YES;
+        }else
+        {
+            return NO;
+        }
+        
+        return NO;
+    }
+    
+    
+    return NO;
 }
 
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer
