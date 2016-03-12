@@ -10,16 +10,30 @@
 #import "SWRevealViewController.h"
 #import "SidebarTableViewController.h"
 
+#define UIColorFromRGB(rgbValue) \
+[UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0x00FF00) >>  8))/255.0 \
+blue:((float)((rgbValue & 0x0000FF) >>  0))/255.0 \
+alpha:1.0]
+
 @interface KontaktTableViewController ()
 
 @end
 
 @implementation KontaktTableViewController
 
+static UIColor *orange;
+static UIColor *white;
+static UIColor *blue;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     [self setupRevealViewController];
+    
+    orange = UIColorFromRGB(0xFD9712);
+    white  = [UIColor whiteColor];
+    blue = UIColorFromRGB(0x73CFF7);
     
     [self initialiseTableView];
 }
@@ -154,6 +168,7 @@
     
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
+//    [self setSelectedBackgroundColor:orange forCell:cell];
     return cell;
 }
 
@@ -219,6 +234,15 @@
 }
 */
 
+- (UITableViewCell *)setSelectedBackgroundColor:(UIColor *) color forCell:(UITableViewCell *) cell {
+    
+    UIView *bgView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, cell.frame.size.width, cell.frame.size.height)];
+    bgView.backgroundColor = color;
+    
+    cell.selectedBackgroundView = bgView;
+    
+    return cell;
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
