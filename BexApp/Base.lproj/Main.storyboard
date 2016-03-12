@@ -137,7 +137,7 @@
                                 <rect key="frame" x="0.0" y="92" width="320" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XIE-LH-6OY" id="2e5-63-NdD">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="portrait100" translatesAutoresizingMaskIntoConstraints="NO" id="8WH-4b-mdL">
@@ -153,7 +153,7 @@
                                 <rect key="frame" x="0.0" y="192" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="P2G-75-d5Y" id="Ghk-Bx-JJE">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Festnetz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Wc-JT-q60">
@@ -175,7 +175,7 @@
                                 <rect key="frame" x="0.0" y="252" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ucU-cT-Cm4" id="NAM-fn-3gE">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mobil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLq-ob-fyF">
@@ -197,7 +197,7 @@
                                 <rect key="frame" x="0.0" y="312" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="H2E-7o-390" id="doE-px-7SZ">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fax" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tGE-Dc-snU">
@@ -219,7 +219,7 @@
                                 <rect key="frame" x="0.0" y="372" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mJx-3T-cwJ" id="mpY-VW-cpp">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FKk-pL-L0U">
@@ -241,7 +241,7 @@
                                 <rect key="frame" x="0.0" y="432" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QKm-1f-2jx" id="w1j-hd-cQJ">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Internet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIq-bi-Viu">
@@ -263,7 +263,7 @@
                                 <rect key="frame" x="0.0" y="492" width="320" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="F1A-B2-y5R" id="FlG-Lx-sdf">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="119.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Anwaltskanzlei Bex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94o-Qd-8LG">
@@ -546,7 +546,99 @@ Aber Ihre Hochschulprüfung wurde doch als nicht bestanden gewertet. Dann brauch
                     <view key="view" contentMode="scaleToFill" id="sNC-Qn-Qhd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rGc-Cc-sKE">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GXa-qW-eXI" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="805"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rechtsanwalt Harald Bex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R0E-bl-AyN">
+                                                <rect key="frame" x="0.0" y="8" width="241" height="24"/>
+                                                <color key="backgroundColor" red="0.99215686274509807" green="0.59215686274509804" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="portrait100" translatesAutoresizingMaskIntoConstraints="NO" id="bY8-nd-n7t">
+                                                <rect key="frame" x="8" y="40" width="100" height="100"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zQ6-kK-ouP" userLabel="Main Text 1">
+                                                <rect key="frame" x="0.0" y="148" width="312" height="234"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <string key="text">Rechtsanwalt Harald Bex aus Aachen ist als Strafverteidiger tätig und auf die Verteidigung in Straf- und Ordnungswidrigkeitenverfahren spezialisiert.
+
+Darüber hinaus ist Rechtsanwalt Bex insbesondere im Bereich des Arbeitsrechts, des Familienrechts und Prüfungsrechts tätig. 
+
+Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in diesem Bereich vom Betreuungsgericht auf Antrag bestellt.</string>
+                                                <color key="textColor" red="0.41176470588235292" green="0.41176470588235292" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weitere Qualifikationen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ly-Zn-iVS">
+                                                <rect key="frame" x="0.0" y="389" width="193" height="24"/>
+                                                <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XJv-on-2ne">
+                                                <rect key="frame" x="0.0" y="422" width="312" height="367"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <mutableString key="text">• Syndikusanwalt im öffentlichen Dienst bei der Fachhochschule Aachen bis Ende 2000
+
+• Referat Recht und Sachverständigenwesen beim Westdeutschen Handwerkskammertag
+
+• Mitglied im Aachener Anwaltverein
+
+• Mitglied im Deutschen Anwaltverein
+
+• Mitglied der Arbeitsgemeinschaft Strafrecht des Deutschen Anwaltvereins
+
+• Mitglied in der Strafverteidigervereinigung NRW e.V.
+
+• Mitglied des Landespräventionsrates Nordrhein-Westfalen seit November 2007
+
+• Ehrenamtilches Mitglied des Beirates der Forensik bei der LVR-Landesklinik Langenfeld</mutableString>
+                                                <color key="textColor" red="0.41176470588235292" green="0.41176470588235292" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="4Ly-Zn-iVS" firstAttribute="top" secondItem="zQ6-kK-ouP" secondAttribute="bottom" constant="8" id="1q8-gF-DgW"/>
+                                            <constraint firstAttribute="trailing" secondItem="zQ6-kK-ouP" secondAttribute="trailing" constant="8" id="3mn-xN-Qbi"/>
+                                            <constraint firstItem="bY8-nd-n7t" firstAttribute="top" secondItem="R0E-bl-AyN" secondAttribute="bottom" constant="8" id="7pE-WQ-g4q"/>
+                                            <constraint firstItem="zQ6-kK-ouP" firstAttribute="top" secondItem="bY8-nd-n7t" secondAttribute="bottom" constant="8" id="AQX-Er-adf"/>
+                                            <constraint firstItem="XJv-on-2ne" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" id="FhP-g0-rvA"/>
+                                            <constraint firstItem="R0E-bl-AyN" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" id="HHD-C7-SdC"/>
+                                            <constraint firstItem="XJv-on-2ne" firstAttribute="top" secondItem="4Ly-Zn-iVS" secondAttribute="bottom" constant="8" id="P4L-t1-uEp"/>
+                                            <constraint firstItem="bY8-nd-n7t" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" constant="8" id="VWm-fV-w4N"/>
+                                            <constraint firstItem="R0E-bl-AyN" firstAttribute="top" secondItem="GXa-qW-eXI" secondAttribute="top" constant="8" id="ZP8-cG-j6C"/>
+                                            <constraint firstItem="4Ly-Zn-iVS" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" id="hMk-sa-0yC"/>
+                                            <constraint firstAttribute="height" constant="805" id="jMa-X7-aAl"/>
+                                            <constraint firstAttribute="trailing" secondItem="XJv-on-2ne" secondAttribute="trailing" constant="8" id="nKv-aR-58X"/>
+                                            <constraint firstItem="zQ6-kK-ouP" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" id="zTM-hQ-fOA"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="GXa-qW-eXI" firstAttribute="leading" secondItem="rGc-Cc-sKE" secondAttribute="leading" id="C3l-dc-siE"/>
+                                    <constraint firstItem="GXa-qW-eXI" firstAttribute="top" secondItem="rGc-Cc-sKE" secondAttribute="top" id="Ma6-7n-zhI"/>
+                                    <constraint firstAttribute="bottom" secondItem="GXa-qW-eXI" secondAttribute="bottom" id="l3t-EF-ThF"/>
+                                    <constraint firstAttribute="trailing" secondItem="GXa-qW-eXI" secondAttribute="trailing" id="mXG-uu-n7L"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="w83-RB-yrg" firstAttribute="top" secondItem="rGc-Cc-sKE" secondAttribute="bottom" id="GZ4-AJ-fr9"/>
+                            <constraint firstAttribute="trailing" secondItem="rGc-Cc-sKE" secondAttribute="trailing" id="cnU-c4-9Sb"/>
+                            <constraint firstItem="rGc-Cc-sKE" firstAttribute="leading" secondItem="sNC-Qn-Qhd" secondAttribute="leading" id="fjB-rx-WXH"/>
+                            <constraint firstItem="rGc-Cc-sKE" firstAttribute="top" secondItem="sNC-Qn-Qhd" secondAttribute="top" id="ltK-ao-hTg"/>
+                            <constraint firstItem="GXa-qW-eXI" firstAttribute="width" secondItem="sNC-Qn-Qhd" secondAttribute="width" id="lyX-i1-kVt"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Rechtsanwalt Bex" id="h09-fv-haO">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="Cgw-OX-1pR">
@@ -559,12 +651,12 @@ Aber Ihre Hochschulprüfung wurde doch als nicht bestanden gewertet. Dann brauch
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nle-VA-CYC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1928" y="-401.3866666666666"/>
+            <point key="canvasLocation" x="2396" y="-481"/>
         </scene>
         <!--Startseite View Controller-->
         <scene sceneID="Oav-cm-1kA">
             <objects>
-                <viewController title="Startseite View Controller" automaticallyAdjustsScrollViewInsets="NO" id="cbn-3B-6EL" customClass="StartseiteViewController" sceneMemberID="viewController">
+                <viewController title="Startseite View Controller" automaticallyAdjustsScrollViewInsets="NO" id="cbn-3B-6EL" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kRf-H9-ZKs"/>
                         <viewControllerLayoutGuide type="bottom" id="kmQ-tM-ZfR"/>
@@ -654,7 +746,7 @@ Aber Ihre Hochschulprüfung wurde doch als nicht bestanden gewertet. Dann brauch
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ASq-uy-STm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2738" y="346"/>
+            <point key="canvasLocation" x="1946" y="1074"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="EIi-89-H9q">
@@ -685,7 +777,7 @@ Aber Ihre Hochschulprüfung wurde doch als nicht bestanden gewertet. Dann brauch
                                 <rect key="frame" x="0.0" y="92" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6z4-qy-VeJ" id="sSa-R3-0Mz">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -693,7 +785,7 @@ Aber Ihre Hochschulprüfung wurde doch als nicht bestanden gewertet. Dann brauch
                                 <rect key="frame" x="0.0" y="136" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eqr-kL-8cu" id="PzJ-8I-0aC">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Startseite" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKI-c2-ZPp">
@@ -712,7 +804,7 @@ Aber Ihre Hochschulprüfung wurde doch als nicht bestanden gewertet. Dann brauch
                                 <rect key="frame" x="0.0" y="180" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YHE-P1-Fz2" id="msO-eY-EHi">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kanzlei" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CR5-Wv-abq">
@@ -731,7 +823,7 @@ Aber Ihre Hochschulprüfung wurde doch als nicht bestanden gewertet. Dann brauch
                                 <rect key="frame" x="0.0" y="224" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fYG-Xt-Xj3" id="I9S-xe-AOS">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rechtsanwalt Bex" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OEQ-cM-BIV">
@@ -750,7 +842,7 @@ Aber Ihre Hochschulprüfung wurde doch als nicht bestanden gewertet. Dann brauch
                                 <rect key="frame" x="0.0" y="268" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vFz-Qe-EPY" id="5Sl-dE-2rT">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tätigkeitsbereich" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uut-lN-abg">
@@ -769,7 +861,7 @@ Aber Ihre Hochschulprüfung wurde doch als nicht bestanden gewertet. Dann brauch
                                 <rect key="frame" x="0.0" y="312" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cvr-hS-q3F" id="Ote-Nk-5r7">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kontakt" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rsu-wA-Hy7">
@@ -788,7 +880,7 @@ Aber Ihre Hochschulprüfung wurde doch als nicht bestanden gewertet. Dann brauch
                                 <rect key="frame" x="0.0" y="356" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qXD-Bs-OVE" id="hHF-gu-tLT">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Karte" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SdM-JV-PV3">
@@ -819,7 +911,7 @@ Aber Ihre Hochschulprüfung wurde doch als nicht bestanden gewertet. Dann brauch
         <!--Startseite View Controller-->
         <scene sceneID="7Rx-uQ-WgR">
             <objects>
-                <viewController title="Startseite View Controller" id="G9h-fW-oHe" customClass="TaetigkeitsbereichViewController" sceneMemberID="viewController">
+                <viewController title="Startseite View Controller" id="G9h-fW-oHe" customClass="StartseiteViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jNh-tx-Ha8"/>
                         <viewControllerLayoutGuide type="bottom" id="fEe-Gc-K2Y"/>
@@ -835,20 +927,20 @@ Aber Ihre Hochschulprüfung wurde doch als nicht bestanden gewertet. Dann brauch
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1324"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo320" translatesAutoresizingMaskIntoConstraints="NO" id="eW1-pA-Rd1">
-                                                <rect key="frame" x="0.0" y="8" width="320" height="42"/>
+                                                <rect key="frame" x="8" y="8" width="304" height="42"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AnwaltskanzleiBEX" translatesAutoresizingMaskIntoConstraints="NO" id="ZJK-V8-bSu">
-                                                <rect key="frame" x="8" y="80" width="304" height="150"/>
+                                                <rect key="frame" x="8" y="60" width="304" height="150"/>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Herzlich Willkommen in der App der Rechtsanwaltskanzlei BEX von Harald Bex in Aachen." translatesAutoresizingMaskIntoConstraints="NO" id="4Eo-az-UXs">
-                                                <rect key="frame" x="8" y="239" width="304" height="67.5"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Herzlich Willkommen in der App der Rechtsanwaltskanzlei BEX von Harald Bex in Aachen." translatesAutoresizingMaskIntoConstraints="NO" id="4Eo-az-UXs" userLabel="Headline">
+                                                <rect key="frame" x="8" y="219" width="304" height="68"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="textColor" red="0.41176470588235292" green="0.41176470588235292" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="249" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Osn-Ct-Q21">
-                                                <rect key="frame" x="8" y="298" width="304" height="166.5"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="249" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Osn-Ct-Q21" userLabel="Main Text">
+                                                <rect key="frame" x="8" y="279" width="304" height="166"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">Ich freue mich darüber, dass Sie sich dazu entschieden haben meine App herunterzuladen.
 
@@ -858,27 +950,30 @@ Als Strafverteidiger bin ich in jeder Verfahrenslage rund um die Uhr für Sie er
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjB-pB-LQF">
-                                                <rect key="frame" x="0.0" y="472" width="374" height="42"/>
+                                                <rect key="frame" x="0.0" y="452" width="374" height="42"/>
                                                 <state key="normal" title="Button" image="Notrufbutton-1"/>
+                                                <connections>
+                                                    <action selector="notrufButtonPressed:" destination="G9h-fW-oHe" eventType="touchUpInside" id="oLe-PN-ap2"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="eW1-pA-Rd1" secondAttribute="trailing" id="BMa-Kn-xq5"/>
+                                            <constraint firstAttribute="trailing" secondItem="eW1-pA-Rd1" secondAttribute="trailing" constant="8" id="BMa-Kn-xq5"/>
                                             <constraint firstItem="4Eo-az-UXs" firstAttribute="top" secondItem="ZJK-V8-bSu" secondAttribute="bottom" constant="9" id="CSH-y9-rAv"/>
-                                            <constraint firstItem="zjB-pB-LQF" firstAttribute="top" secondItem="Osn-Ct-Q21" secondAttribute="bottom" constant="8" id="Hpv-4H-8LP"/>
-                                            <constraint firstItem="Osn-Ct-Q21" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" constant="8" id="I4M-as-ZyO"/>
-                                            <constraint firstAttribute="trailing" secondItem="ZJK-V8-bSu" secondAttribute="trailing" constant="8" id="Idt-WO-FXn"/>
-                                            <constraint firstItem="ZJK-V8-bSu" firstAttribute="top" secondItem="eW1-pA-Rd1" secondAttribute="bottom" constant="30" id="Mch-fM-MUI"/>
+                                            <constraint firstItem="4Eo-az-UXs" firstAttribute="leading" secondItem="ZJK-V8-bSu" secondAttribute="leading" id="FVu-J3-F0g"/>
+                                            <constraint firstItem="zjB-pB-LQF" firstAttribute="top" secondItem="Osn-Ct-Q21" secondAttribute="bottom" constant="7" id="Hpv-4H-8LP"/>
+                                            <constraint firstItem="ZJK-V8-bSu" firstAttribute="trailing" secondItem="eW1-pA-Rd1" secondAttribute="trailing" id="KYB-8H-tpO"/>
+                                            <constraint firstItem="Osn-Ct-Q21" firstAttribute="leading" secondItem="4Eo-az-UXs" secondAttribute="leading" id="KwR-vY-bZw"/>
+                                            <constraint firstItem="ZJK-V8-bSu" firstAttribute="top" secondItem="eW1-pA-Rd1" secondAttribute="bottom" constant="10" id="Mch-fM-MUI"/>
                                             <constraint firstItem="zjB-pB-LQF" firstAttribute="centerX" secondItem="FLP-DI-Asp" secondAttribute="centerX" constant="27" id="NV7-f0-p49"/>
                                             <constraint firstAttribute="height" constant="1324" id="OGb-CZ-FjY"/>
-                                            <constraint firstItem="eW1-pA-Rd1" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" id="PS3-A3-dYy"/>
-                                            <constraint firstAttribute="trailing" secondItem="4Eo-az-UXs" secondAttribute="trailing" constant="8" id="ToV-mJ-hUg"/>
-                                            <constraint firstItem="ZJK-V8-bSu" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" constant="8" id="b2e-nK-JeF"/>
+                                            <constraint firstItem="eW1-pA-Rd1" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" constant="8" id="PS3-A3-dYy"/>
+                                            <constraint firstItem="ZJK-V8-bSu" firstAttribute="leading" secondItem="eW1-pA-Rd1" secondAttribute="leading" id="Skl-yc-TM9"/>
+                                            <constraint firstItem="Osn-Ct-Q21" firstAttribute="trailing" secondItem="4Eo-az-UXs" secondAttribute="trailing" id="UbN-Bj-JBO"/>
+                                            <constraint firstItem="4Eo-az-UXs" firstAttribute="trailing" secondItem="ZJK-V8-bSu" secondAttribute="trailing" id="bly-sj-dmi"/>
                                             <constraint firstItem="Osn-Ct-Q21" firstAttribute="top" secondItem="4Eo-az-UXs" secondAttribute="bottom" constant="-8" id="iXB-oE-eMy"/>
                                             <constraint firstItem="eW1-pA-Rd1" firstAttribute="top" secondItem="FLP-DI-Asp" secondAttribute="top" constant="8" id="lc2-bH-lgu"/>
-                                            <constraint firstAttribute="trailing" secondItem="Osn-Ct-Q21" secondAttribute="trailing" constant="8" id="sgj-YQ-H9s"/>
-                                            <constraint firstItem="4Eo-az-UXs" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" constant="8" id="x3o-sd-16C"/>
                                         </constraints>
                                     </view>
                                 </subviews>

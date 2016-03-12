@@ -20,14 +20,14 @@
     
     [self setupRevealViewController];
     
-    [self setupImageView];
+//    [self setupImageView];
+
+//    [self setupPageController];
     
-    [self setupPageController];
-    
-    [self setupTextView];
+//    [self setupTextView];
 }
 
-- (void)setupImageView {
+/*- (void)setupImageView {
     
     _images = @[@"kanzleiRaum", @"kanzleiRaum2", @"kanzleiRaum",
       @"kanzleiRaum2", @"kanzleiRaum"];
@@ -51,12 +51,15 @@
     [_imageView addGestureRecognizer:swipeLeft];
     [_imageView addGestureRecognizer:swipeRight];
 }
-
+*/
+/*
 - (void) setupPageController {
     
     _pageControl.userInteractionEnabled = NO;
-}
+]
+*/
 
+/*
 - (void) handleSwipeGestureRight:(UIPanGestureRecognizer *) recognizer{
     
     _imageViewPageIndex--;
@@ -70,7 +73,9 @@
     _pageControl.currentPage = _imageViewPageIndex;
     [_pageControl updateCurrentPageDisplay];
 }
+ */
 
+/*
 - (void) handleSwipeGestureLeft:(UIPanGestureRecognizer *) recognizer{
     
     _imageViewPageIndex++;
@@ -84,13 +89,10 @@
     _pageControl.currentPage = _imageViewPageIndex;
     [_pageControl updateCurrentPageDisplay];
 }
-
-- (void)setupTextView {
-    
-}
+*/
 
 - (IBAction)notrufButtonPressed:(id)sender{
-    NSString *number = [NSString stringWithFormat:@"08003301000"];
+    NSString *number = [NSString stringWithFormat:@"01772981966"];
     NSURL* callUrl=[NSURL URLWithString:[NSString   stringWithFormat:@"telprompt:%@",number]];
     
     //check  Call Function available only in Device
