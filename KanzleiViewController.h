@@ -8,7 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KanzleiViewController : UIViewController
+@interface KanzleiViewController : UIViewController <UIGestureRecognizerDelegate>
+
+
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) IBOutlet UIPageControl *pageControl;
+@property (strong, nonatomic) NSArray *images;
+
+@property NSInteger imageViewPageIndex;
 
 @end

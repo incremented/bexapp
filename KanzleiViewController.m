@@ -18,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupRevealViewController];
+    
+    [self setupImageView];
+    
+    [self setupPageController];
+    
+//    self.automaticallyAdjustsScrollViewInsets = NO;
+//    self.navigationController.navigationBar.translucent = NO;
 }
 
 // Adds the PanGesture and TapGesture Recognizer to self.view
@@ -33,6 +40,67 @@
     }
 }
 
+- (void)setupImageView {
+ 
+ _images = @[@"kanzleiRaum", @"kanzleiRaum2", @"kanzleiRaum",
+ @"kanzleiRaum2", @"kanzleiRaum"];
+ 
+ _imageView.userInteractionEnabled = YES;
+ _imageViewPageIndex = 0;
+ UIImage *image = [UIImage imageNamed:[_images objectAtIndex:_imageViewPageIndex]];
+ [_imageView setImage:image];
+ 
+ UISwipeGestureRecognizer *swipeLeft = [[UISwipeGestureRecognizer alloc]
+ initWithTarget:self action:@selector(handleSwipeGestureLeft:)];
+ UISwipeGestureRecognizer *swipeRight = [[UISwipeGestureRecognizer alloc]
+ initWithTarget:self action:@selector(handleSwipeGestureRight:)];
+ 
+ [swipeLeft setDirection:UISwipeGestureRecognizerDirectionLeft];
+ [swipeRight setDirection:UISwipeGestureRecognizerDirectionRight];
+ 
+ swipeLeft.delegate = self;
+ swipeRight.delegate = self;
+ 
+ [_imageView addGestureRecognizer:swipeLeft];
+ [_imageView addGestureRecognizer:swipeRight];
+ }
+
+ 
+ - (void) setupPageController {
+ 
+ _pageControl.userInteractionEnabled = NO;
+ }
+
+ - (void) handleSwipeGestureRight:(UIPanGestureRecognizer *) recognizer{
+ 
+ _imageViewPageIndex--;
+ if (_imageViewPageIndex < 0) {
+ _imageViewPageIndex = _images.count - 1;
+ }
+ 
+ UIImage *image = [UIImage imageNamed:[_images objectAtIndex:_imageViewPageIndex]];
+ [_imageView setImage:image];
+ 
+ _pageControl.currentPage = _imageViewPageIndex;
+ [_pageControl updateCurrentPageDisplay];
+ }
+ 
+
+
+ - (void) handleSwipeGestureLeft:(UIPanGestureRecognizer *) recognizer{
+ 
+ _imageViewPageIndex++;
+ if (_imageViewPageIndex >= _images.count) {
+ _imageViewPageIndex = 0;
+ }
+ 
+ UIImage *image = [UIImage imageNamed:[_images objectAtIndex:_imageViewPageIndex]];
+ [_imageView setImage:image];
+ 
+ _pageControl.currentPage = _imageViewPageIndex;
+ [_pageControl updateCurrentPageDisplay];
+ }
+ 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
