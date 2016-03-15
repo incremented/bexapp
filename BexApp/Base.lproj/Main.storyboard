@@ -141,12 +141,19 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="portrait100" translatesAutoresizingMaskIntoConstraints="NO" id="8WH-4b-mdL">
-                                            <rect key="frame" x="16" y="5" width="90" height="90"/>
-                                        </imageView>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="hv2-Gg-CzA">
                                             <rect key="frame" x="108" y="13" width="207" height="74"/>
                                         </imageView>
+                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zbi-Ck-FUP">
+                                            <rect key="frame" x="8" y="3" width="94" height="94"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="portrait100" translatesAutoresizingMaskIntoConstraints="NO" id="8WH-4b-mdL">
+                                                    <rect key="frame" x="2" y="2" width="90" height="90"/>
+                                                    <color key="backgroundColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        </view>
                                     </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
