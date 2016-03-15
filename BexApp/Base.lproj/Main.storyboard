@@ -915,10 +915,13 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FLP-DI-Asp" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo320" translatesAutoresizingMaskIntoConstraints="NO" id="eW1-pA-Rd1">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="logo320" translatesAutoresizingMaskIntoConstraints="NO" id="eW1-pA-Rd1">
                                                 <rect key="frame" x="0.0" y="8" width="320" height="42"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="eW1-pA-Rd1" secondAttribute="height" multiplier="160:21" id="Ark-6S-23m"/>
+                                                </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AnwaltskanzleiBEX" translatesAutoresizingMaskIntoConstraints="NO" id="ZJK-V8-bSu">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="AnwaltskanzleiBEX" translatesAutoresizingMaskIntoConstraints="NO" id="ZJK-V8-bSu">
                                                 <rect key="frame" x="0.0" y="60" width="320" height="158"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="ZJK-V8-bSu" secondAttribute="height" multiplier="152:75" id="Vik-lZ-rNM"/>
@@ -931,7 +934,7 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="249" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Osn-Ct-Q21" userLabel="Main Text">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Osn-Ct-Q21" userLabel="Main Text">
                                                 <rect key="frame" x="8" y="284" width="304" height="166.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">Ich freue mich darüber, dass Sie sich dazu entschieden haben meine App herunterzuladen.
@@ -941,22 +944,25 @@ Als Strafverteidiger bin ich in jeder Verfahrenslage rund um die Uhr für Sie er
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Notrufbutton-1" translatesAutoresizingMaskIntoConstraints="NO" id="5Fd-tE-yxC">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Notrufbutton-1" translatesAutoresizingMaskIntoConstraints="NO" id="5Fd-tE-yxC">
                                                 <rect key="frame" x="8" y="459" width="304" height="42"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="5Fd-tE-yxC" secondAttribute="height" multiplier="152:21" id="TKb-EW-SaZ"/>
+                                                </constraints>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="ZJK-V8-bSu" secondAttribute="trailing" id="0Nt-fx-vkS"/>
-                                            <constraint firstItem="5Fd-tE-yxC" firstAttribute="trailing" secondItem="Osn-Ct-Q21" secondAttribute="trailing" id="0hH-d1-grs"/>
+                                            <constraint firstAttribute="trailing" secondItem="5Fd-tE-yxC" secondAttribute="trailing" constant="8" id="63g-hz-Gnu"/>
                                             <constraint firstItem="ZJK-V8-bSu" firstAttribute="top" secondItem="eW1-pA-Rd1" secondAttribute="bottom" constant="10" id="AN1-6r-RyI"/>
                                             <constraint firstItem="ZJK-V8-bSu" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" id="AZB-tu-6FT"/>
                                             <constraint firstItem="Osn-Ct-Q21" firstAttribute="top" secondItem="4Eo-az-UXs" secondAttribute="bottom" constant="-9" id="BNi-XL-z7U"/>
                                             <constraint firstItem="Osn-Ct-Q21" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" constant="8" id="Dhd-nb-uyn"/>
                                             <constraint firstItem="4Eo-az-UXs" firstAttribute="top" secondItem="ZJK-V8-bSu" secondAttribute="bottom" constant="8" id="JdT-Bp-spm"/>
-                                            <constraint firstItem="5Fd-tE-yxC" firstAttribute="leading" secondItem="Osn-Ct-Q21" secondAttribute="leading" id="Ky5-Fl-QK3"/>
                                             <constraint firstAttribute="height" constant="600" id="OGb-CZ-FjY"/>
                                             <constraint firstItem="5Fd-tE-yxC" firstAttribute="top" secondItem="Osn-Ct-Q21" secondAttribute="bottom" constant="8" id="U3C-0f-5WW"/>
+                                            <constraint firstItem="5Fd-tE-yxC" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" constant="8" id="Yy4-Eg-kCJ"/>
                                             <constraint firstAttribute="trailing" secondItem="eW1-pA-Rd1" secondAttribute="trailing" id="ft7-uh-gPg"/>
                                             <constraint firstItem="4Eo-az-UXs" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" constant="8" id="gsB-f1-4xd"/>
                                             <constraint firstAttribute="trailing" secondItem="4Eo-az-UXs" secondAttribute="trailing" constant="8" id="pxR-CU-12i"/>
