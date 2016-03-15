@@ -11,6 +11,6 @@
 @interface StartseiteViewController : UIViewController<UIGestureRecognizerDelegate>
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 
-- (IBAction)notrufButtonPressed:(id)sender;
+@property (strong, nonatomic) IBOutlet UIImageView *notrufButton;
 @end
 
