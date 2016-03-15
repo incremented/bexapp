@@ -20,11 +20,27 @@
     
     [self setupRevealViewController];
     
+    [self setupNotrufButton];
+    
+    
 //    [self setupImageView];
 
 //    [self setupPageController];
     
 //    [self setupTextView];
+}
+
+
+- (void)setupNotrufButton {
+    
+    UITapGestureRecognizer *tapRecognizer =
+    [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(notrufButtonPressed:)];
+    
+    tapRecognizer.delegate = self;
+    
+    _notrufButton.userInteractionEnabled = YES;
+    
+    [_notrufButton addGestureRecognizer:tapRecognizer];
 }
 
 /*- (void)setupImageView {

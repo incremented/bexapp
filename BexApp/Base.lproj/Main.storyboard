@@ -569,11 +569,11 @@ Aber Ihre Hochschulprüfung wurde doch als nicht bestanden gewertet. Dann brauch
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="749" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Isw-St-VPU" userLabel="Main Text">
                                                 <rect key="frame" x="0.0" y="381" width="320" height="484"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <mutableString key="text">Der Erwerb des Kanzleieigentums Ende 2009 war eine bewusste Entscheidung, nachdem die Anwaltskanzlei Bex seit 1999 zunächst fünf Jahre in Stolberg und anschließend weitere 5 Jahre in Aachen ihren Kanzleisitz hatte. Die Anwaltskanzlei Bex wird aus Überzeugung als Einzelkanzlei geführt. So haben Sie jederzeit einen Anwalt und Strafverteidiger als Mitstreiter und Weggefährten bei der Durchsetzung Ihrer Rechte und im Falle Ihrer Verteidigung.
+                                                <string key="text">Der Erwerb des Kanzleieigentums Ende 2009 war eine bewusste Entscheidung, nachdem die Anwaltskanzlei Bex seit 1999 zunächst fünf Jahre in Stolberg und anschließend weitere 5 Jahre in Aachen ihren Kanzleisitz hatte. Die Anwaltskanzlei Bex wird aus Überzeugung als Einzelkanzlei geführt. So haben Sie jederzeit einen Anwalt und Strafverteidiger als Mitstreiter und Weggefährten bei der Durchsetzung Ihrer Rechte und im Falle Ihrer Verteidigung.
 
 Die Nähe zum Gericht bietet für die Wahrnehmung Ihrer Interessen viele Vorteile. Wir sind gut für Sie mit dem PKW erreichbar. Es gibt auf Laufabstand nicht nur kostenpflichtige Parkhäuser. Im Justizzentrum können Sie im Erdgeschoss kostenlos parken und die wenigen Meter zu Fuß zu uns zurücklegen. Auch ist derzeit noch Rund um das Justizzentrum und auch in der Viktoriastraße das Parken frei. Die Gerichtspost kann täglich über das beim Landgericht Aachen eingerichtete Gerichtsfach AC 20 der Kanzlei geholt und gebracht werden.
 
-In Umfangsstrafsachen kann der Zeitraum der Unterbrechung der Hauptverhandlung effektiv genutzt werden um weitere Anträge in Ruhe vorzubereiten.</mutableString>
+In Umfangsstrafsachen kann der Zeitraum der Unterbrechung der Hauptverhandlung effektiv genutzt werden um weitere Anträge in Ruhe vorzubereiten.</string>
                                                 <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -687,7 +687,7 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XJv-on-2ne">
                                                 <rect key="frame" x="0.0" y="421.5" width="312" height="367"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <mutableString key="text">• Syndikusanwalt im öffentlichen Dienst bei der Fachhochschule Aachen bis Ende 2000
+                                                <string key="text">• Syndikusanwalt im öffentlichen Dienst bei der Fachhochschule Aachen bis Ende 2000
 
 • Referat Recht und Sachverständigenwesen beim Westdeutschen Handwerkskammertag
 
@@ -701,7 +701,7 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
 
 • Mitglied des Landespräventionsrates Nordrhein-Westfalen seit November 2007
 
-• Ehrenamtilches Mitglied des Beirates der Forensik bei der LVR-Landesklinik Langenfeld</mutableString>
+• Ehrenamtilches Mitglied des Beirates der Forensik bei der LVR-Landesklinik Langenfeld</string>
                                                 <color key="textColor" red="0.41176470588235292" green="0.41176470588235292" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1026,7 +1026,7 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FLP-DI-Asp" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1324"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo320" translatesAutoresizingMaskIntoConstraints="NO" id="eW1-pA-Rd1">
                                                 <rect key="frame" x="8" y="8" width="304" height="42"/>
@@ -1042,7 +1042,7 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="249" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Osn-Ct-Q21" userLabel="Main Text">
-                                                <rect key="frame" x="8" y="278.5" width="304" height="166.5"/>
+                                                <rect key="frame" x="8" y="278" width="304" height="166.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">Ich freue mich darüber, dass Sie sich dazu entschieden haben meine App herunterzuladen.
 
@@ -1051,31 +1051,31 @@ Als Strafverteidiger bin ich in jeder Verfahrenslage rund um die Uhr für Sie er
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjB-pB-LQF">
-                                                <rect key="frame" x="0.0" y="452" width="374" height="42"/>
-                                                <state key="normal" title="Button" image="Notrufbutton-1"/>
-                                                <connections>
-                                                    <action selector="notrufButtonPressed:" destination="G9h-fW-oHe" eventType="touchUpInside" id="oLe-PN-ap2"/>
-                                                </connections>
-                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Notrufbutton-1" translatesAutoresizingMaskIntoConstraints="NO" id="8HP-lY-BxF">
+                                                <rect key="frame" x="8" y="452" width="304" height="45.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="8HP-lY-BxF" secondAttribute="height" multiplier="20:3" id="SI1-W7-Md2"/>
+                                                </constraints>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="eW1-pA-Rd1" secondAttribute="trailing" constant="8" id="BMa-Kn-xq5"/>
                                             <constraint firstItem="4Eo-az-UXs" firstAttribute="top" secondItem="ZJK-V8-bSu" secondAttribute="bottom" constant="9" id="CSH-y9-rAv"/>
                                             <constraint firstItem="4Eo-az-UXs" firstAttribute="leading" secondItem="ZJK-V8-bSu" secondAttribute="leading" id="FVu-J3-F0g"/>
-                                            <constraint firstItem="zjB-pB-LQF" firstAttribute="top" secondItem="Osn-Ct-Q21" secondAttribute="bottom" constant="7" id="Hpv-4H-8LP"/>
                                             <constraint firstItem="ZJK-V8-bSu" firstAttribute="trailing" secondItem="eW1-pA-Rd1" secondAttribute="trailing" id="KYB-8H-tpO"/>
                                             <constraint firstItem="Osn-Ct-Q21" firstAttribute="leading" secondItem="4Eo-az-UXs" secondAttribute="leading" id="KwR-vY-bZw"/>
                                             <constraint firstItem="ZJK-V8-bSu" firstAttribute="top" secondItem="eW1-pA-Rd1" secondAttribute="bottom" constant="10" id="Mch-fM-MUI"/>
-                                            <constraint firstItem="zjB-pB-LQF" firstAttribute="centerX" secondItem="FLP-DI-Asp" secondAttribute="centerX" constant="27" id="NV7-f0-p49"/>
-                                            <constraint firstAttribute="height" constant="1324" id="OGb-CZ-FjY"/>
+                                            <constraint firstAttribute="height" constant="600" id="OGb-CZ-FjY"/>
                                             <constraint firstItem="eW1-pA-Rd1" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" constant="8" id="PS3-A3-dYy"/>
+                                            <constraint firstAttribute="trailing" secondItem="8HP-lY-BxF" secondAttribute="trailing" constant="8" id="QH8-Pz-D9C"/>
                                             <constraint firstItem="ZJK-V8-bSu" firstAttribute="leading" secondItem="eW1-pA-Rd1" secondAttribute="leading" id="Skl-yc-TM9"/>
                                             <constraint firstItem="Osn-Ct-Q21" firstAttribute="trailing" secondItem="4Eo-az-UXs" secondAttribute="trailing" id="UbN-Bj-JBO"/>
                                             <constraint firstItem="4Eo-az-UXs" firstAttribute="trailing" secondItem="ZJK-V8-bSu" secondAttribute="trailing" id="bly-sj-dmi"/>
                                             <constraint firstItem="Osn-Ct-Q21" firstAttribute="top" secondItem="4Eo-az-UXs" secondAttribute="bottom" constant="-8" id="iXB-oE-eMy"/>
                                             <constraint firstItem="eW1-pA-Rd1" firstAttribute="top" secondItem="FLP-DI-Asp" secondAttribute="top" constant="8" id="lc2-bH-lgu"/>
+                                            <constraint firstItem="8HP-lY-BxF" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" constant="8" id="rXZ-rA-Yd8"/>
+                                            <constraint firstItem="8HP-lY-BxF" firstAttribute="top" secondItem="Osn-Ct-Q21" secondAttribute="bottom" constant="8" id="sdG-Bi-jt9"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1103,6 +1103,7 @@ Als Strafverteidiger bin ich in jeder Verfahrenslage rund um die Uhr für Sie er
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="notrufButton" destination="8HP-lY-BxF" id="Sqx-93-W0i"/>
                         <outlet property="sidebarButton" destination="aBg-mG-YTM" id="1LJ-e2-Lc3"/>
                     </connections>
                 </viewController>

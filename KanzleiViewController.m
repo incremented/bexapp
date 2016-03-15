@@ -23,6 +23,7 @@
     
     [self setupPageController];
     
+    
 //    self.automaticallyAdjustsScrollViewInsets = NO;
 //    self.navigationController.navigationBar.translucent = NO;
 }
