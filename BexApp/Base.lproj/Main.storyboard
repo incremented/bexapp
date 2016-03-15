@@ -5,6 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Unknown constraint types" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--Reveal View Controller-->
@@ -518,16 +519,16 @@ Und dann mussten Sie zweimal notoperiert werden und es wurde ein Tupfer in Ihrem
                                                 <rect key="frame" x="8" y="10" width="304" height="39"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kanzleiRaum" translatesAutoresizingMaskIntoConstraints="NO" id="joc-M1-Fut">
-                                                <rect key="frame" x="8" y="69" width="304" height="142.5"/>
+                                                <rect key="frame" x="8" y="69" width="304" height="143"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="joc-M1-Fut" secondAttribute="height" multiplier="32:15" id="sIt-Qd-Ya4"/>
                                                 </constraints>
                                             </imageView>
                                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="PET-D7-3eK">
-                                                <rect key="frame" x="125" y="186.5" width="71" height="37"/>
+                                                <rect key="frame" x="125" y="187" width="71" height="37"/>
                                             </pageControl>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kanzlei Lage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gv5-kQ-f6H">
-                                                <rect key="frame" x="0.0" y="241.5" width="111" height="24"/>
+                                                <rect key="frame" x="0.0" y="242" width="111" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1033,7 +1034,7 @@ Als Strafverteidiger bin ich in jeder Verfahrenslage rund um die Uhr für Sie er
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjB-pB-LQF">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjB-pB-LQF">
                                                 <rect key="frame" x="0.0" y="452" width="374" height="42"/>
                                                 <state key="normal" title="Button" image="Notrufbutton-1"/>
                                                 <connections>
@@ -1051,14 +1052,13 @@ Als Strafverteidiger bin ich in jeder Verfahrenslage rund um die Uhr für Sie er
                                             <constraint firstItem="ZJK-V8-bSu" firstAttribute="top" secondItem="eW1-pA-Rd1" secondAttribute="bottom" constant="10" id="Mch-fM-MUI"/>
                                             <constraint firstAttribute="height" constant="600" id="OGb-CZ-FjY"/>
                                             <constraint firstItem="eW1-pA-Rd1" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" constant="8" id="PS3-A3-dYy"/>
-                                            <constraint firstAttribute="trailing" secondItem="8HP-lY-BxF" secondAttribute="trailing" constant="8" id="QH8-Pz-D9C"/>
                                             <constraint firstItem="ZJK-V8-bSu" firstAttribute="leading" secondItem="eW1-pA-Rd1" secondAttribute="leading" id="Skl-yc-TM9"/>
                                             <constraint firstItem="Osn-Ct-Q21" firstAttribute="trailing" secondItem="4Eo-az-UXs" secondAttribute="trailing" id="UbN-Bj-JBO"/>
                                             <constraint firstItem="4Eo-az-UXs" firstAttribute="trailing" secondItem="ZJK-V8-bSu" secondAttribute="trailing" id="bly-sj-dmi"/>
                                             <constraint firstItem="Osn-Ct-Q21" firstAttribute="top" secondItem="4Eo-az-UXs" secondAttribute="bottom" constant="-8" id="iXB-oE-eMy"/>
                                             <constraint firstItem="eW1-pA-Rd1" firstAttribute="top" secondItem="FLP-DI-Asp" secondAttribute="top" constant="8" id="lc2-bH-lgu"/>
-                                            <constraint firstItem="8HP-lY-BxF" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" constant="8" id="rXZ-rA-Yd8"/>
-                                            <constraint firstItem="8HP-lY-BxF" firstAttribute="top" secondItem="Osn-Ct-Q21" secondAttribute="bottom" constant="8" id="sdG-Bi-jt9"/>
+                                            <constraint firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" constant="8" id="rXZ-rA-Yd8"/>
+                                            <constraint firstAttribute="top" secondItem="Osn-Ct-Q21" secondAttribute="bottom" constant="8" id="sdG-Bi-jt9"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1086,7 +1086,6 @@ Als Strafverteidiger bin ich in jeder Verfahrenslage rund um die Uhr für Sie er
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="notrufButton" destination="8HP-lY-BxF" id="Sqx-93-W0i"/>
                         <outlet property="sidebarButton" destination="aBg-mG-YTM" id="1LJ-e2-Lc3"/>
                     </connections>
                 </viewController>
