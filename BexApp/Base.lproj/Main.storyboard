@@ -1462,7 +1462,7 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FLP-DI-Asp" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="655"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="logo320" translatesAutoresizingMaskIntoConstraints="NO" id="eW1-pA-Rd1">
                                                 <rect key="frame" x="0.0" y="8" width="320" height="42"/>
@@ -1476,25 +1476,25 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
                                                     <constraint firstAttribute="width" secondItem="ZJK-V8-bSu" secondAttribute="height" multiplier="152:75" id="Vik-lZ-rNM"/>
                                                 </constraints>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Herzlich Willkommen in der App der Rechtsanwaltskanzlei BEX von Harald Bex in Aachen." translatesAutoresizingMaskIntoConstraints="NO" id="4Eo-az-UXs" userLabel="Headline">
-                                                <rect key="frame" x="8" y="226" width="304" height="68"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Zunächst herzlich Willkommen und vielen Dank, dass Sie sich dazu entschieden haben die Bex-App herunterzuladen." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4Eo-az-UXs" userLabel="Headline">
+                                                <rect key="frame" x="8" y="234" width="304" height="67.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="textColor" red="0.41176470588235292" green="0.41176470588235292" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.45098039220000002" green="0.81176470590000005" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Osn-Ct-Q21" userLabel="Main Text">
-                                                <rect key="frame" x="8" y="284" width="304" height="167"/>
+                                                <rect key="frame" x="8" y="310.5" width="304" height="300.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <string key="text">Ich freue mich darüber, dass Sie sich dazu entschieden haben meine App herunterzuladen.
+                                                <mutableString key="text">Insbesondere in Eilsituationen, wie z.B. Festnahme, Durchsuchung, aber auch generell, ist es wichtig die Kontaktdaten seines Anwaltes immer schnell zur Hand zu haben. Ich biete Ihnen mit diesem kostenfreien Service die Möglichkeit der direkten Kontaktaufnahme per Telefon oder E-Mail. Die Bex-App enthält insbesondere eine Notruftelefonnummer, die es Ihnen ermöglicht mich in dringenden Fällen, wie Festnahme, Durchsuchung oder Beschlagnahme zu kontaktieren.
 
-Als Strafverteidiger bin ich in jeder Verfahrenslage rund um die Uhr für Sie erreichbar. Für Eilfälle, wie Festnahme, Beschlagnahme, Durchsuchung ist ein Notruftelefon eingerichtet. </string>
+Darüber hinaus finden Sie viele weitere Informationen zu verschiedenen Rechtsgebieten, zu Verjährungsfristen, zur Vergütung und zu meiner Person.</mutableString>
                                                 <color key="textColor" red="0.41176470588235292" green="0.41176470588235292" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Notrufbutton-1" translatesAutoresizingMaskIntoConstraints="NO" id="5Fd-tE-yxC">
-                                                <rect key="frame" x="8" y="459" width="304" height="42"/>
+                                                <rect key="frame" x="8" y="619.5" width="304" height="42"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="5Fd-tE-yxC" secondAttribute="height" multiplier="152:21" id="TKb-EW-SaZ"/>
                                                 </constraints>
@@ -1506,10 +1506,10 @@ Als Strafverteidiger bin ich in jeder Verfahrenslage rund um die Uhr für Sie er
                                             <constraint firstAttribute="trailing" secondItem="5Fd-tE-yxC" secondAttribute="trailing" constant="8" id="63g-hz-Gnu"/>
                                             <constraint firstItem="ZJK-V8-bSu" firstAttribute="top" secondItem="eW1-pA-Rd1" secondAttribute="bottom" constant="10" id="AN1-6r-RyI"/>
                                             <constraint firstItem="ZJK-V8-bSu" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" id="AZB-tu-6FT"/>
-                                            <constraint firstItem="Osn-Ct-Q21" firstAttribute="top" secondItem="4Eo-az-UXs" secondAttribute="bottom" constant="-9" id="BNi-XL-z7U"/>
+                                            <constraint firstItem="Osn-Ct-Q21" firstAttribute="top" secondItem="4Eo-az-UXs" secondAttribute="bottom" constant="9" id="BNi-XL-z7U"/>
                                             <constraint firstItem="Osn-Ct-Q21" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" constant="8" id="Dhd-nb-uyn"/>
-                                            <constraint firstItem="4Eo-az-UXs" firstAttribute="top" secondItem="ZJK-V8-bSu" secondAttribute="bottom" constant="8" id="JdT-Bp-spm"/>
-                                            <constraint firstAttribute="height" constant="600" id="OGb-CZ-FjY"/>
+                                            <constraint firstItem="4Eo-az-UXs" firstAttribute="top" secondItem="ZJK-V8-bSu" secondAttribute="bottom" constant="16" id="JdT-Bp-spm"/>
+                                            <constraint firstAttribute="height" constant="655" id="OGb-CZ-FjY"/>
                                             <constraint firstItem="5Fd-tE-yxC" firstAttribute="top" secondItem="Osn-Ct-Q21" secondAttribute="bottom" constant="8" id="U3C-0f-5WW"/>
                                             <constraint firstItem="5Fd-tE-yxC" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" constant="8" id="Yy4-Eg-kCJ"/>
                                             <constraint firstAttribute="trailing" secondItem="eW1-pA-Rd1" secondAttribute="trailing" id="ft7-uh-gPg"/>
