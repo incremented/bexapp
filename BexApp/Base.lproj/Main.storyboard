@@ -390,7 +390,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mkj-sD-aSM" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="5168"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo320" translatesAutoresizingMaskIntoConstraints="NO" id="qSM-ah-dSw" userLabel="logo_start">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo320" translatesAutoresizingMaskIntoConstraints="NO" id="qSM-ah-dSw" userLabel="logo_start">
                                                 <rect key="frame" x="8" y="10" width="304" height="42"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rechtsgebiete" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DVy-XF-jA8">
@@ -1188,18 +1188,21 @@ In Umfangsstrafsachen kann der Zeitraum der Unterbrechung der Hauptverhandlung e
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GXa-qW-eXI" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="805"/>
                                         <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo320" translatesAutoresizingMaskIntoConstraints="NO" id="VtH-oM-wec" userLabel="logo_start">
+                                                <rect key="frame" x="8" y="10" width="304" height="42"/>
+                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rechtsanwalt Harald Bex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R0E-bl-AyN">
-                                                <rect key="frame" x="0.0" y="8" width="241" height="24"/>
+                                                <rect key="frame" x="0.0" y="62" width="241" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686274509807" green="0.59215686274509804" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="portrait100" translatesAutoresizingMaskIntoConstraints="NO" id="bY8-nd-n7t">
-                                                <rect key="frame" x="8" y="40" width="100" height="100"/>
+                                                <rect key="frame" x="8" y="96" width="100" height="100"/>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zQ6-kK-ouP" userLabel="Main Text 1">
-                                                <rect key="frame" x="0.0" y="148" width="312" height="234"/>
+                                                <rect key="frame" x="8" y="196" width="304" height="234"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">Rechtsanwalt Harald Bex aus Aachen ist als Strafverteidiger tätig und auf die Verteidigung in Straf- und Ordnungswidrigkeitenverfahren spezialisiert.
 
@@ -1211,14 +1214,14 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weitere Qualifikationen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ly-Zn-iVS">
-                                                <rect key="frame" x="0.0" y="390" width="193" height="24"/>
+                                                <rect key="frame" x="0.0" y="440" width="193" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XJv-on-2ne">
-                                                <rect key="frame" x="0.0" y="422" width="312" height="367"/>
+                                                <rect key="frame" x="8" y="464" width="304" height="384"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">• Syndikusanwalt im öffentlichen Dienst bei der Fachhochschule Aachen bis Ende 2000
 
@@ -1242,19 +1245,22 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstItem="4Ly-Zn-iVS" firstAttribute="top" secondItem="zQ6-kK-ouP" secondAttribute="bottom" constant="8" id="1q8-gF-DgW"/>
-                                            <constraint firstAttribute="trailing" secondItem="zQ6-kK-ouP" secondAttribute="trailing" constant="8" id="3mn-xN-Qbi"/>
-                                            <constraint firstItem="bY8-nd-n7t" firstAttribute="top" secondItem="R0E-bl-AyN" secondAttribute="bottom" constant="8" id="7pE-WQ-g4q"/>
-                                            <constraint firstItem="zQ6-kK-ouP" firstAttribute="top" secondItem="bY8-nd-n7t" secondAttribute="bottom" constant="8" id="AQX-Er-adf"/>
-                                            <constraint firstItem="XJv-on-2ne" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" id="FhP-g0-rvA"/>
-                                            <constraint firstItem="R0E-bl-AyN" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" id="HHD-C7-SdC"/>
-                                            <constraint firstItem="XJv-on-2ne" firstAttribute="top" secondItem="4Ly-Zn-iVS" secondAttribute="bottom" constant="8" id="P4L-t1-uEp"/>
-                                            <constraint firstItem="bY8-nd-n7t" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" constant="8" id="VWm-fV-w4N"/>
-                                            <constraint firstItem="R0E-bl-AyN" firstAttribute="top" secondItem="GXa-qW-eXI" secondAttribute="top" constant="8" id="ZP8-cG-j6C"/>
-                                            <constraint firstItem="4Ly-Zn-iVS" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" id="hMk-sa-0yC"/>
+                                            <constraint firstItem="R0E-bl-AyN" firstAttribute="top" secondItem="VtH-oM-wec" secondAttribute="bottom" constant="10" id="1j3-cq-nRh"/>
+                                            <constraint firstItem="bY8-nd-n7t" firstAttribute="top" secondItem="R0E-bl-AyN" secondAttribute="bottom" constant="10" id="5Fh-Xe-oUq"/>
+                                            <constraint firstAttribute="trailing" secondItem="XJv-on-2ne" secondAttribute="trailing" constant="8" id="JBM-T6-dx4"/>
+                                            <constraint firstItem="VtH-oM-wec" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" constant="8" id="JTt-l3-l8Y"/>
+                                            <constraint firstItem="XJv-on-2ne" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" constant="8" id="Nh1-I3-DYc"/>
+                                            <constraint firstItem="VtH-oM-wec" firstAttribute="top" secondItem="GXa-qW-eXI" secondAttribute="top" constant="10" id="ODg-WV-ThO"/>
+                                            <constraint firstAttribute="trailing" secondItem="VtH-oM-wec" secondAttribute="trailing" constant="8" id="OH8-Of-xP2"/>
+                                            <constraint firstItem="XJv-on-2ne" firstAttribute="top" secondItem="4Ly-Zn-iVS" secondAttribute="bottom" id="RSB-TP-S0S"/>
+                                            <constraint firstItem="R0E-bl-AyN" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" id="cIB-dV-9o2"/>
+                                            <constraint firstItem="zQ6-kK-ouP" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" constant="8" id="eeP-Vx-41j"/>
+                                            <constraint firstItem="4Ly-Zn-iVS" firstAttribute="top" secondItem="zQ6-kK-ouP" secondAttribute="bottom" constant="10" id="iUX-tP-Sdv"/>
                                             <constraint firstAttribute="height" constant="805" id="jMa-X7-aAl"/>
-                                            <constraint firstAttribute="trailing" secondItem="XJv-on-2ne" secondAttribute="trailing" constant="8" id="nKv-aR-58X"/>
-                                            <constraint firstItem="zQ6-kK-ouP" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" id="zTM-hQ-fOA"/>
+                                            <constraint firstItem="bY8-nd-n7t" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" constant="8" id="kWd-nR-saR"/>
+                                            <constraint firstAttribute="trailing" secondItem="zQ6-kK-ouP" secondAttribute="trailing" constant="8" id="lyu-WW-4LZ"/>
+                                            <constraint firstItem="4Ly-Zn-iVS" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" id="plB-4D-fDS"/>
+                                            <constraint firstItem="zQ6-kK-ouP" firstAttribute="top" secondItem="bY8-nd-n7t" secondAttribute="bottom" id="tq6-TE-Djq"/>
                                         </constraints>
                                     </view>
                                 </subviews>
