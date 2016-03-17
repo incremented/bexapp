@@ -273,7 +273,20 @@ alpha:1.0]
             pinView.pinTintColor = orange;
             pinView.animatesDrop = YES;
             // Shows info button in AnnotationView
-            pinView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+            
+            
+            UIButton *navigationButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 27, 24)];
+            
+            
+            UIImage *navigationButtonImage = [UIImage imageNamed:@"NavigationIcon"];
+            
+            
+            [navigationButton setImage:navigationButtonImage forState:UIControlStateNormal];
+            
+            
+//            pinView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+            
+            pinView.rightCalloutAccessoryView = navigationButton;
             pinView.canShowCallout = YES;
         } else {
             pinView.annotation = annotation;
@@ -286,7 +299,25 @@ alpha:1.0]
 // Handle the event of MKAnnotationView button click
 - (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control {
     // Starts route to BexLocation
-    [self direction];
+//    [self direction];
+    
+    NSString *mapsURL = [NSString stringWithFormat:@"http://maps.apple.com/?daddr=Viktoriastrasse+28+52066+Aachen"];
+    
+    if([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:mapsURL]])
+    {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:mapsURL]];
+    }else
+    {
+        UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Navigation nicht möglich"
+                                                                       message:@"Auf diesem Gerät wird die Navigation leider nicht unterstützt."
+                                                                preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                              handler:^(UIAlertAction * action) {}];
+        
+        [alert addAction:defaultAction];
+        [self presentViewController:alert animated:YES completion:nil];
+    }
 }
 
 // Overlay routes on mapView
