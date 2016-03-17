@@ -1468,39 +1468,36 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FLP-DI-Asp" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="655"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="680"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="logo320" translatesAutoresizingMaskIntoConstraints="NO" id="eW1-pA-Rd1">
-                                                <rect key="frame" x="0.0" y="8" width="320" height="42"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="eW1-pA-Rd1" secondAttribute="height" multiplier="160:21" id="Ark-6S-23m"/>
-                                                </constraints>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logo320" translatesAutoresizingMaskIntoConstraints="NO" id="eW1-pA-Rd1">
+                                                <rect key="frame" x="8" y="8" width="304" height="42"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="AnwaltskanzleiBEX" translatesAutoresizingMaskIntoConstraints="NO" id="ZJK-V8-bSu">
-                                                <rect key="frame" x="0.0" y="60" width="320" height="158"/>
+                                                <rect key="frame" x="0.0" y="70" width="320" height="158"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="ZJK-V8-bSu" secondAttribute="height" multiplier="152:75" id="Vik-lZ-rNM"/>
                                                 </constraints>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Zunächst herzlich Willkommen und vielen Dank, dass Sie sich dazu entschieden haben die Bex-App herunterzuladen." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4Eo-az-UXs" userLabel="Headline">
-                                                <rect key="frame" x="8" y="234" width="304" height="67.5"/>
+                                                <rect key="frame" x="8" y="244" width="304" height="68"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="textColor" red="0.45098039220000002" green="0.81176470590000005" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Osn-Ct-Q21" userLabel="Main Text">
-                                                <rect key="frame" x="8" y="284" width="304" height="167"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Osn-Ct-Q21" userLabel="Main Text">
+                                                <rect key="frame" x="8" y="321" width="304" height="301"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <mutableString key="text">Insbesondere in Eilsituationen, wie z.B. Festnahme, Durchsuchung, aber auch generell, ist es wichtig die Kontaktdaten seines Anwaltes immer schnell zur Hand zu haben. Ich biete Ihnen mit diesem kostenfreien Service die Möglichkeit der direkten Kontaktaufnahme per Telefon oder E-Mail. Die Bex-App enthält insbesondere eine Notruftelefonnummer, die es Ihnen ermöglicht mich in dringenden Fällen, wie Festnahme, Durchsuchung oder Beschlagnahme zu kontaktieren.
+                                                <string key="text">Insbesondere in Eilsituationen, wie z.B. Festnahme, Durchsuchung, aber auch generell, ist es wichtig die Kontaktdaten seines Anwaltes immer schnell zur Hand zu haben. Ich biete Ihnen mit diesem kostenfreien Service die Möglichkeit der direkten Kontaktaufnahme per Telefon oder E-Mail. Die Bex-App enthält insbesondere eine Notruftelefonnummer, die es Ihnen ermöglicht mich in dringenden Fällen, wie Festnahme, Durchsuchung oder Beschlagnahme zu kontaktieren.
 
-Darüber hinaus finden Sie viele weitere Informationen zu verschiedenen Rechtsgebieten, zu Verjährungsfristen, zur Vergütung und zu meiner Person.</mutableString>
+Darüber hinaus finden Sie viele weitere Informationen zu verschiedenen Rechtsgebieten, zu Verjährungsfristen, zur Vergütung und zu meiner Person.</string>
                                                 <color key="textColor" red="0.41176470588235292" green="0.41176470588235292" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="Notrufbutton-1" translatesAutoresizingMaskIntoConstraints="NO" id="5Fd-tE-yxC">
-                                                <rect key="frame" x="8" y="459" width="304" height="42"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Notrufbutton-1" translatesAutoresizingMaskIntoConstraints="NO" id="5Fd-tE-yxC">
+                                                <rect key="frame" x="8" y="630" width="304" height="42"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="5Fd-tE-yxC" secondAttribute="height" multiplier="152:21" id="TKb-EW-SaZ"/>
                                                 </constraints>
@@ -1510,20 +1507,20 @@ Darüber hinaus finden Sie viele weitere Informationen zu verschiedenen Rechtsge
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="ZJK-V8-bSu" secondAttribute="trailing" id="0Nt-fx-vkS"/>
                                             <constraint firstAttribute="trailing" secondItem="5Fd-tE-yxC" secondAttribute="trailing" constant="8" id="63g-hz-Gnu"/>
-                                            <constraint firstItem="ZJK-V8-bSu" firstAttribute="top" secondItem="eW1-pA-Rd1" secondAttribute="bottom" constant="10" id="AN1-6r-RyI"/>
+                                            <constraint firstItem="ZJK-V8-bSu" firstAttribute="top" secondItem="eW1-pA-Rd1" secondAttribute="bottom" constant="20" id="AN1-6r-RyI"/>
                                             <constraint firstItem="ZJK-V8-bSu" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" id="AZB-tu-6FT"/>
                                             <constraint firstItem="Osn-Ct-Q21" firstAttribute="top" secondItem="4Eo-az-UXs" secondAttribute="bottom" constant="9" id="BNi-XL-z7U"/>
                                             <constraint firstItem="Osn-Ct-Q21" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" constant="8" id="Dhd-nb-uyn"/>
                                             <constraint firstItem="4Eo-az-UXs" firstAttribute="top" secondItem="ZJK-V8-bSu" secondAttribute="bottom" constant="16" id="JdT-Bp-spm"/>
-                                            <constraint firstAttribute="height" constant="655" id="OGb-CZ-FjY"/>
+                                            <constraint firstAttribute="height" constant="680" id="OGb-CZ-FjY"/>
                                             <constraint firstItem="5Fd-tE-yxC" firstAttribute="top" secondItem="Osn-Ct-Q21" secondAttribute="bottom" constant="8" id="U3C-0f-5WW"/>
                                             <constraint firstItem="5Fd-tE-yxC" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" constant="8" id="Yy4-Eg-kCJ"/>
-                                            <constraint firstAttribute="trailing" secondItem="eW1-pA-Rd1" secondAttribute="trailing" id="ft7-uh-gPg"/>
+                                            <constraint firstAttribute="trailing" secondItem="eW1-pA-Rd1" secondAttribute="trailing" constant="8" id="ft7-uh-gPg"/>
                                             <constraint firstItem="4Eo-az-UXs" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" constant="8" id="gsB-f1-4xd"/>
                                             <constraint firstAttribute="trailing" secondItem="4Eo-az-UXs" secondAttribute="trailing" constant="8" id="pxR-CU-12i"/>
                                             <constraint firstAttribute="trailing" secondItem="Osn-Ct-Q21" secondAttribute="trailing" constant="8" id="qaC-sF-vv5"/>
                                             <constraint firstItem="eW1-pA-Rd1" firstAttribute="top" secondItem="FLP-DI-Asp" secondAttribute="top" constant="8" id="rJC-Jh-bEi"/>
-                                            <constraint firstItem="eW1-pA-Rd1" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" id="uzS-wz-YRo"/>
+                                            <constraint firstItem="eW1-pA-Rd1" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" constant="8" id="uzS-wz-YRo"/>
                                         </constraints>
                                     </view>
                                 </subviews>
