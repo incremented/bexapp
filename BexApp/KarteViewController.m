@@ -125,7 +125,7 @@ alpha:1.0]
 - (UIBarButtonItem *) createSegmentedControlBarButtonItem{
     
     // Segment Names
-    NSArray *itemArray = [NSArray arrayWithObjects: @"Standard", @"Hybrid", @"Satelite", nil];
+    NSArray *itemArray = [NSArray arrayWithObjects: @"Standard", @"Hybrid", @"Satellit", nil];
     
     // Create SegmentControl from Names
     UISegmentedControl *segmentControl = [[UISegmentedControl alloc] initWithItems:itemArray];
