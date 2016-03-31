@@ -27,6 +27,8 @@
 		5089E5F01C7D07B5002C30C0 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5089E5EF1C7D07B5002C30C0 /* CustomCell.m */; };
 		50A129F41C7253E90068B6B8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A129F31C7253E90068B6B8 /* SWRevealViewController.m */; };
 		50A129FC1C7257BA0068B6B8 /* KarteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A129FB1C7257BA0068B6B8 /* KarteViewController.m */; };
+		50E4F00A1CADAA1400ED1EAD /* PopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E4F0091CADAA1400ED1EAD /* PopupViewController.m */; };
+		50E4F00C1CADB39D00ED1EAD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E4F00B1CADB39D00ED1EAD /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,9 @@
 		50A129F31C7253E90068B6B8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		50A129FA1C7257BA0068B6B8 /* KarteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KarteViewController.h; sourceTree = "<group>"; };
 		50A129FB1C7257BA0068B6B8 /* KarteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KarteViewController.m; sourceTree = "<group>"; };
+		50E4F0081CADAA1400ED1EAD /* PopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupViewController.h; sourceTree = "<group>"; };
+		50E4F0091CADAA1400ED1EAD /* PopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController.m; sourceTree = "<group>"; };
+		50E4F00B1CADB39D00ED1EAD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50E4F00C1CADB39D00ED1EAD /* QuartzCore.framework in Frameworks */,
 				501117FB1C80FBA800E2B28D /* MessageUI.framework in Frameworks */,
 				501D22581C76622700658849 /* CoreLocation.framework in Frameworks */,
 				501D22561C765F4C00658849 /* MapKit.framework in Frameworks */,
@@ -116,6 +122,7 @@
 		501589261C72388000A8ABA7 = {
 			isa = PBXGroup;
 			children = (
+				50E4F00B1CADB39D00ED1EAD /* QuartzCore.framework */,
 				501117FA1C80FBA800E2B28D /* MessageUI.framework */,
 				501D22571C76622700658849 /* CoreLocation.framework */,
 				501D22551C765F4C00658849 /* MapKit.framework */,
@@ -195,6 +202,8 @@
 				50A129FB1C7257BA0068B6B8 /* KarteViewController.m */,
 				501117F71C80E11E00E2B28D /* RechtsanwaltBexViewController.h */,
 				501117F81C80E11E00E2B28D /* RechtsanwaltBexViewController.m */,
+				50E4F0081CADAA1400ED1EAD /* PopupViewController.h */,
+				50E4F0091CADAA1400ED1EAD /* PopupViewController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -360,6 +369,7 @@
 				5089E5F01C7D07B5002C30C0 /* CustomCell.m in Sources */,
 				501117F91C80E11E00E2B28D /* RechtsanwaltBexViewController.m in Sources */,
 				501589341C72388000A8ABA7 /* main.m in Sources */,
+				50E4F00A1CADAA1400ED1EAD /* PopupViewController.m in Sources */,
 				501D22511C764FA900658849 /* SidebarTableViewController.m in Sources */,
 				507C812B1C792C4900C2B5CC /* TaetigkeitsbereichViewController.m in Sources */,
 				50A129F41C7253E90068B6B8 /* SWRevealViewController.m in Sources */,

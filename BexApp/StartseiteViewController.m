@@ -22,7 +22,6 @@
     
     [self setupNotrufButton];
     
-    
 //    [self setupImageView];
 
 //    [self setupPageController];
@@ -131,6 +130,15 @@
         [alert addAction:defaultAction];
         [self presentViewController:alert animated:YES completion:nil];
     }
+}
+
+- (IBAction)impressumButtonPressed:(id)sender{
+
+    /*PopupViewController *popController = [self.storyboard instantiateViewControllerWithIdentifier:@"PopupViewController"];
+    
+    [popController setTitle:@"Impressum"];
+    [popController showInView:self.view animated:true];
+*/
 }
 
 // Adds the PanGesture and TapGesture Recognizer to self.view
