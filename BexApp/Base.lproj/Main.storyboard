@@ -138,7 +138,7 @@
                                 <rect key="frame" x="0.0" y="92" width="320" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XIE-LH-6OY" id="2e5-63-NdD">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="hv2-Gg-CzA">
@@ -161,7 +161,7 @@
                                 <rect key="frame" x="0.0" y="192" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="P2G-75-d5Y" id="Ghk-Bx-JJE">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Festnetz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Wc-JT-q60">
@@ -183,7 +183,7 @@
                                 <rect key="frame" x="0.0" y="252" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ucU-cT-Cm4" id="NAM-fn-3gE">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mobil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLq-ob-fyF">
@@ -205,7 +205,7 @@
                                 <rect key="frame" x="0.0" y="312" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="H2E-7o-390" id="doE-px-7SZ">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fax" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tGE-Dc-snU">
@@ -227,7 +227,7 @@
                                 <rect key="frame" x="0.0" y="372" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mJx-3T-cwJ" id="mpY-VW-cpp">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FKk-pL-L0U">
@@ -249,7 +249,7 @@
                                 <rect key="frame" x="0.0" y="432" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QKm-1f-2jx" id="w1j-hd-cQJ">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Internet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIq-bi-Viu">
@@ -271,7 +271,7 @@
                                 <rect key="frame" x="0.0" y="492" width="320" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="F1A-B2-y5R" id="FlG-Lx-sdf">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="119.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="119"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Anwaltskanzlei Bex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94o-Qd-8LG">
@@ -394,9 +394,9 @@
                                                 <rect key="frame" x="8" y="10" width="304" height="42"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rechtsgebiete" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DVy-XF-jA8">
-                                                <rect key="frame" x="0.0" y="72" width="141" height="24"/>
+                                                <rect key="frame" x="0.0" y="72" width="127" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -404,25 +404,25 @@
                                                 <rect key="frame" x="0.0" y="100" width="320" height="100"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">Hier finden Sie weitere Informationen zu Teilbereichen meiner Berufstätigkeit als Strafverteidiger, Rechtsanwalt oder auch als vom Gericht bestellter gesetzlicher Berufsbetreuer.</string>
-                                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arbeitsrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZaY-WT-8YX">
-                                                <rect key="frame" x="0.0" y="250" width="103" height="24"/>
+                                                <rect key="frame" x="0.0" y="240" width="103" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arbeitsrecht" translatesAutoresizingMaskIntoConstraints="NO" id="xGt-Ll-B4D" userLabel="ArbeitsrechtImage">
-                                                <rect key="frame" x="8" y="284" width="304" height="101"/>
+                                                <rect key="frame" x="8" y="274" width="304" height="101"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="xGt-Ll-B4D" secondAttribute="height" multiplier="152:75" constant="99" id="4Ns-cD-DSU"/>
                                                 </constraints>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wye-Lk-D0a" userLabel="ArbeitsrechtTextView">
-                                                <rect key="frame" x="8" y="385" width="304" height="100"/>
+                                                <rect key="frame" x="8" y="375" width="304" height="100"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Ihnen wurde gerade gekündigt?">
@@ -444,20 +444,20 @@ Sie wissen nicht, ob die Kündigung rechtmäßig ist? Dann brauchen Sie einen An
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hochschulrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gfz-cO-3af">
-                                                <rect key="frame" x="0.0" y="535" width="135" height="24"/>
+                                                <rect key="frame" x="0.0" y="525" width="135" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hochschulrecht" translatesAutoresizingMaskIntoConstraints="NO" id="hY4-jd-OnR" userLabel="HochschulrechtImage">
-                                                <rect key="frame" x="8" y="569" width="304" height="101"/>
+                                                <rect key="frame" x="8" y="559" width="304" height="101"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="hY4-jd-OnR" secondAttribute="height" multiplier="152:75" constant="99.306666666666644" id="o76-ao-sXR"/>
                                                 </constraints>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="90u-V7-Wx1" userLabel="HochschulrechtTextView">
-                                                <rect key="frame" x="8" y="670" width="304" height="134"/>
+                                                <rect key="frame" x="8" y="660" width="304" height="134"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Sie haben doch alles gewusst?">
@@ -478,20 +478,20 @@ Aber Ihre Hochschulprüfung wurde doch als nicht bestanden gewertet. Dann brauch
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arzthaftungsrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gri-vQ-APA">
-                                                <rect key="frame" x="0.0" y="854" width="153" height="24"/>
+                                                <rect key="frame" x="0.0" y="844" width="153" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arzthaftungsrecht" translatesAutoresizingMaskIntoConstraints="NO" id="zSm-Bp-O8b" userLabel="ArzthaftungsrechtImage">
-                                                <rect key="frame" x="8" y="888" width="304" height="101"/>
+                                                <rect key="frame" x="8" y="878" width="304" height="101"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="zSm-Bp-O8b" secondAttribute="height" multiplier="152:75" constant="99.306666666666644" id="HGi-Hc-C8D"/>
                                                 </constraints>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h8P-bF-P1L" userLabel="ArzthaftungsrechtTextView">
-                                                <rect key="frame" x="8" y="989" width="304" height="134"/>
+                                                <rect key="frame" x="8" y="979" width="304" height="134"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Ihr Arzt sagt, die OP ist gut verlaufen?">
@@ -512,21 +512,21 @@ Und dann mussten Sie zweimal notoperiert werden und es wurde ein Tupfer in Ihrem
                                                 </attributedString>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Betäubungsmittel-Strafrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4n-qD-cCT">
-                                                <rect key="frame" x="0.0" y="1173" width="240" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Betäubungsmittel-Strafrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4n-qD-cCT">
+                                                <rect key="frame" x="0.0" y="1163" width="240" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="betaeubungsmittel-strafrecht" translatesAutoresizingMaskIntoConstraints="NO" id="8QU-RN-8aL" userLabel="BetäubungsmittelstrafrechtImage">
-                                                <rect key="frame" x="8" y="1207" width="304" height="101"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="betaeubungsmittel-strafrecht" translatesAutoresizingMaskIntoConstraints="NO" id="8QU-RN-8aL" userLabel="BetäubungsmittelstrafrechtImage">
+                                                <rect key="frame" x="8" y="1197" width="304" height="101"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="8QU-RN-8aL" secondAttribute="height" multiplier="152:75" constant="99.306666666666644" id="RmR-Pf-V40"/>
                                                 </constraints>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xaF-zc-Ihf" userLabel="BetäubungsmittelstrafrechtTextView">
-                                                <rect key="frame" x="8" y="1308" width="304" height="151"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xaF-zc-Ihf" userLabel="BetäubungsmittelstrafrechtTextView">
+                                                <rect key="frame" x="8" y="1298" width="304" height="151"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Drogen dabei gehabt?">
@@ -547,21 +547,21 @@ Dann ist nach dem Betäubungsmittel-Strafrecht entscheidend, in welcher Menge Dr
                                                 </attributedString>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Erbrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8O-jW-GMu">
-                                                <rect key="frame" x="0.0" y="1509" width="72" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Erbrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8O-jW-GMu">
+                                                <rect key="frame" x="0.0" y="1499" width="72" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="erbrecht" translatesAutoresizingMaskIntoConstraints="NO" id="iUG-dK-Hta" userLabel="ErbrechtImage">
-                                                <rect key="frame" x="8" y="1543" width="304" height="101"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="erbrecht" translatesAutoresizingMaskIntoConstraints="NO" id="iUG-dK-Hta" userLabel="ErbrechtImage">
+                                                <rect key="frame" x="8" y="1533" width="304" height="101"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="iUG-dK-Hta" secondAttribute="height" multiplier="152:75" constant="99.306666666666644" id="7uG-ai-aMc"/>
                                                 </constraints>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9bH-rG-Npa" userLabel="ErbrechtTextView">
-                                                <rect key="frame" x="8" y="1644" width="304" height="117"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9bH-rG-Npa" userLabel="ErbrechtTextView">
+                                                <rect key="frame" x="8" y="1634" width="304" height="117"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Noch kein Testament gemacht?">
@@ -582,21 +582,21 @@ Im Erbrecht berate ich Sie als Anwalt individuell und besprechen mit Ihnen alle 
                                                 </attributedString>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Familienrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZr-7j-9Y9">
-                                                <rect key="frame" x="0.0" y="1811" width="113" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Familienrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZr-7j-9Y9">
+                                                <rect key="frame" x="0.0" y="1801" width="113" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="familienrecht" translatesAutoresizingMaskIntoConstraints="NO" id="j9w-4w-9th" userLabel="FamilienrechtImage">
-                                                <rect key="frame" x="8" y="1845" width="304" height="101"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="familienrecht" translatesAutoresizingMaskIntoConstraints="NO" id="j9w-4w-9th" userLabel="FamilienrechtImage">
+                                                <rect key="frame" x="8" y="1835" width="304" height="101"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="j9w-4w-9th" secondAttribute="height" multiplier="304:101" id="9Jf-rp-X25"/>
                                                 </constraints>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tKg-VK-vEz" userLabel="FamilienrechtTextView">
-                                                <rect key="frame" x="8" y="1946" width="304" height="100"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tKg-VK-vEz" userLabel="FamilienrechtTextView">
+                                                <rect key="frame" x="8" y="1936" width="304" height="100"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Sie wollen die Scheidung?">
@@ -616,21 +616,21 @@ Keiner hätte es zu Beginn der Ehe gedacht, aber dann, wenn einer oder beide die
                                                 </attributedString>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Strafrecht und Strafverfahrensrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIy-86-e3K" userLabel="Strafrecht">
-                                                <rect key="frame" x="0.0" y="2096" width="297" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Strafrecht und Strafverfahrensrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIy-86-e3K" userLabel="Strafrecht">
+                                                <rect key="frame" x="0.0" y="2086" width="297" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="strafrecht" translatesAutoresizingMaskIntoConstraints="NO" id="qDD-mP-mWv" userLabel="StrafrechtImage">
-                                                <rect key="frame" x="8" y="2130" width="304" height="101"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="strafrecht" translatesAutoresizingMaskIntoConstraints="NO" id="qDD-mP-mWv" userLabel="StrafrechtImage">
+                                                <rect key="frame" x="8" y="2120" width="304" height="101"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="qDD-mP-mWv" secondAttribute="height" multiplier="304:101" id="xgT-cF-FrT"/>
                                                 </constraints>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wJp-vr-XhO" userLabel="StrafrechtTextView">
-                                                <rect key="frame" x="8" y="2231" width="304" height="134"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wJp-vr-XhO" userLabel="StrafrechtTextView">
+                                                <rect key="frame" x="8" y="2221" width="304" height="134"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Post von der Polizei bekommen?">
@@ -650,21 +650,21 @@ Dann gilt auch für Sie im Strafrecht: Ich sage nichts ohne meinen Anwalt und Si
                                                 </attributedString>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Gewerblicher Rechtsschutz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zMi-eG-O8h">
-                                                <rect key="frame" x="0.0" y="2415" width="233" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gewerblicher Rechtsschutz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zMi-eG-O8h">
+                                                <rect key="frame" x="0.0" y="2405" width="233" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="gewerblicher-rechtsschutz" translatesAutoresizingMaskIntoConstraints="NO" id="Wgv-Nf-mXb" userLabel="GewerblicherRechtsschutzImage">
-                                                <rect key="frame" x="8" y="2449" width="304" height="101"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gewerblicher-rechtsschutz" translatesAutoresizingMaskIntoConstraints="NO" id="Wgv-Nf-mXb" userLabel="GewerblicherRechtsschutzImage">
+                                                <rect key="frame" x="8" y="2439" width="304" height="101"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Wgv-Nf-mXb" secondAttribute="height" multiplier="304:101" id="L59-8N-uIa"/>
                                                 </constraints>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L9u-Qi-Tbu" userLabel="GewerblicherRechtsschutzTextView">
-                                                <rect key="frame" x="8" y="2550" width="304" height="117"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L9u-Qi-Tbu" userLabel="GewerblicherRechtsschutzTextView">
+                                                <rect key="frame" x="8" y="2540" width="304" height="117"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Ideenklau?">
@@ -685,21 +685,21 @@ Oder haben Sie selber im Internet etwas kopiert oder runtergeladen? Auch Kartenm
                                                 </attributedString>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Handwerksrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOC-gu-a7e">
-                                                <rect key="frame" x="0.0" y="2717" width="140" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Handwerksrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOC-gu-a7e">
+                                                <rect key="frame" x="0.0" y="2707" width="140" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="handwerksrecht" translatesAutoresizingMaskIntoConstraints="NO" id="zDs-Z7-uCv" userLabel="HandwerksrechtImage">
-                                                <rect key="frame" x="8" y="2751" width="304" height="101"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="handwerksrecht" translatesAutoresizingMaskIntoConstraints="NO" id="zDs-Z7-uCv" userLabel="HandwerksrechtImage">
+                                                <rect key="frame" x="8" y="2741" width="304" height="101"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="zDs-Z7-uCv" secondAttribute="height" multiplier="304:101" id="rQT-sI-cSz"/>
                                                 </constraints>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zgz-wP-X2i" userLabel="HandwerksrechtTextView">
-                                                <rect key="frame" x="8" y="2852" width="304" height="134"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zgz-wP-X2i" userLabel="HandwerksrechtTextView">
+                                                <rect key="frame" x="8" y="2842" width="304" height="134"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Zahlt Ihr Kunde nicht?">
@@ -719,21 +719,21 @@ Dann brauchen Sie einen Anwalt der sich im Handwerksrecht auskennt. Vorleistunge
                                                 </attributedString>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Jugendstrafrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yXQ-7b-nJY">
-                                                <rect key="frame" x="0.0" y="3036" width="146" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jugendstrafrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yXQ-7b-nJY">
+                                                <rect key="frame" x="0.0" y="3026" width="146" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="jugendstrafrecht" translatesAutoresizingMaskIntoConstraints="NO" id="JVR-U5-S6z" userLabel="JugendstrafrechtImage">
-                                                <rect key="frame" x="8" y="3070" width="304" height="101"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jugendstrafrecht" translatesAutoresizingMaskIntoConstraints="NO" id="JVR-U5-S6z" userLabel="JugendstrafrechtImage">
+                                                <rect key="frame" x="8" y="3060" width="304" height="101"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="JVR-U5-S6z" secondAttribute="height" multiplier="304:101" id="73Z-v0-dki"/>
                                                 </constraints>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4IU-mh-ZBf">
-                                                <rect key="frame" x="8" y="3171" width="304" height="134"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4IU-mh-ZBf">
+                                                <rect key="frame" x="8" y="3161" width="304" height="134"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Wurde Ihre Tochter abgezockt?">
@@ -753,21 +753,21 @@ Oder hat Sie selber einen Raub oder eine Körperverletzung begangen. Im Jugendst
                                                 </attributedString>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Kapital-Strafrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIO-Oo-OfD">
-                                                <rect key="frame" x="0.0" y="3355" width="148" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kapital-Strafrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIO-Oo-OfD">
+                                                <rect key="frame" x="0.0" y="3345" width="148" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="kapitalverbrechen" translatesAutoresizingMaskIntoConstraints="NO" id="13E-I6-RjR" userLabel="KapitalStrafrechtImage">
-                                                <rect key="frame" x="8" y="3389" width="304" height="101"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kapitalverbrechen" translatesAutoresizingMaskIntoConstraints="NO" id="13E-I6-RjR" userLabel="KapitalStrafrechtImage">
+                                                <rect key="frame" x="8" y="3379" width="304" height="101"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="13E-I6-RjR" secondAttribute="height" multiplier="304:101" id="v0B-wC-UBF"/>
                                                 </constraints>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ccC-8n-CZx" userLabel="KapitalStrafrechtTextView">
-                                                <rect key="frame" x="8" y="3490" width="304" height="100"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ccC-8n-CZx" userLabel="KapitalStrafrechtTextView">
+                                                <rect key="frame" x="8" y="3480" width="304" height="100"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Mord und Totschlag?">
@@ -787,21 +787,21 @@ Dann brauchen Sie einen Strafverteidiger mit Erfahrungen in Kapitalstrafrecht un
                                                 </attributedString>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Mietrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTM-cJ-JX3">
-                                                <rect key="frame" x="0.0" y="3640" width="80" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mietrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTM-cJ-JX3">
+                                                <rect key="frame" x="0.0" y="3630" width="80" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="mietrecht" translatesAutoresizingMaskIntoConstraints="NO" id="5fv-Mu-Qcd" userLabel="MietrechtImage">
-                                                <rect key="frame" x="8" y="3674" width="304" height="101"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mietrecht" translatesAutoresizingMaskIntoConstraints="NO" id="5fv-Mu-Qcd" userLabel="MietrechtImage">
+                                                <rect key="frame" x="8" y="3664" width="304" height="101"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="5fv-Mu-Qcd" secondAttribute="height" multiplier="304:101" id="43D-U5-wRl"/>
                                                 </constraints>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hdP-m6-aPH" userLabel="MietrechtTextView">
-                                                <rect key="frame" x="8" y="3775" width="304" height="134"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hdP-m6-aPH" userLabel="MietrechtTextView">
+                                                <rect key="frame" x="8" y="3765" width="304" height="134"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Kündigung der Mietwohnung, Räumungsklage?">
@@ -821,21 +821,21 @@ Wenn der Mieter nicht mehr zahlt ist schnelles Handeln erforderlich, damit nicht
                                                 </attributedString>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Prüfungsrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAv-7m-WUR">
-                                                <rect key="frame" x="0.0" y="3959" width="121" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prüfungsrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAv-7m-WUR">
+                                                <rect key="frame" x="0.0" y="3949" width="121" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pruefungsrecht" translatesAutoresizingMaskIntoConstraints="NO" id="DhX-AK-puu" userLabel="PruefungsrechtImage">
-                                                <rect key="frame" x="8" y="3993" width="304" height="101"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pruefungsrecht" translatesAutoresizingMaskIntoConstraints="NO" id="DhX-AK-puu" userLabel="PruefungsrechtImage">
+                                                <rect key="frame" x="8" y="3983" width="304" height="101"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="DhX-AK-puu" secondAttribute="height" multiplier="19:8" constant="64.125" id="nWI-Rj-hcU"/>
                                                 </constraints>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tKh-d6-HtD" userLabel="PruefungsrechtTextView">
-                                                <rect key="frame" x="8" y="4094" width="304" height="117"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tKh-d6-HtD" userLabel="PruefungsrechtTextView">
+                                                <rect key="frame" x="8" y="4084" width="304" height="117"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Durch die Prüfung gefallen, Exmatrikulation?">
@@ -855,21 +855,21 @@ Prüfungsentscheidungen können in vielen Fällen erfolgreich im Widerspruchsver
                                                 </attributedString>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Verkehrsrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVS-27-O17">
-                                                <rect key="frame" x="0.0" y="4261" width="119" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verkehrsrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVS-27-O17">
+                                                <rect key="frame" x="0.0" y="4251" width="119" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="verkehrsrecht" translatesAutoresizingMaskIntoConstraints="NO" id="1W8-Z2-VbX" userLabel="VerkehrsrechtImage">
-                                                <rect key="frame" x="8" y="4295" width="304" height="101"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="verkehrsrecht" translatesAutoresizingMaskIntoConstraints="NO" id="1W8-Z2-VbX" userLabel="VerkehrsrechtImage">
+                                                <rect key="frame" x="8" y="4285" width="304" height="101"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="1W8-Z2-VbX" secondAttribute="height" multiplier="304:101" id="XRh-At-hxd"/>
                                                 </constraints>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0eh-ap-zZR" userLabel="VerkehrsrechtTextView">
-                                                <rect key="frame" x="8" y="4396" width="304" height="134"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0eh-ap-zZR" userLabel="VerkehrsrechtTextView">
+                                                <rect key="frame" x="8" y="4386" width="304" height="134"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Hatten Sie einen Verkehrsunfall?">
@@ -975,7 +975,7 @@ Dann brauchen Sie einen Anwalt der sich im Verkehrsrecht auskennt. Die Auseinand
                                             <constraint firstItem="ccC-8n-CZx" firstAttribute="top" secondItem="13E-I6-RjR" secondAttribute="bottom" id="eyO-b5-Ioa"/>
                                             <constraint firstAttribute="trailing" secondItem="8QU-RN-8aL" secondAttribute="trailing" constant="8" id="fTJ-af-icM"/>
                                             <constraint firstAttribute="trailing" secondItem="Wgv-Nf-mXb" secondAttribute="trailing" constant="8" id="fnr-mq-owN"/>
-                                            <constraint firstItem="ZaY-WT-8YX" firstAttribute="top" secondItem="zJd-RW-L66" secondAttribute="bottom" constant="50" id="gPJ-5q-f3x"/>
+                                            <constraint firstItem="ZaY-WT-8YX" firstAttribute="top" secondItem="zJd-RW-L66" secondAttribute="bottom" constant="40" id="gPJ-5q-f3x"/>
                                             <constraint firstItem="uOC-gu-a7e" firstAttribute="leading" secondItem="mkj-sD-aSM" secondAttribute="leading" id="grB-2x-Hap"/>
                                             <constraint firstItem="hY4-jd-OnR" firstAttribute="leading" secondItem="mkj-sD-aSM" secondAttribute="leading" constant="8" id="gzN-xM-3Fx"/>
                                             <constraint firstItem="5fv-Mu-Qcd" firstAttribute="top" secondItem="pTM-cJ-JX3" secondAttribute="bottom" constant="10" id="hA4-mf-uBo"/>
@@ -1063,7 +1063,7 @@ Dann brauchen Sie einen Anwalt der sich im Verkehrsrecht auskennt. Die Auseinand
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="To0-uH-bOl" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1011"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="950"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo320" translatesAutoresizingMaskIntoConstraints="NO" id="80c-q8-L7r">
                                                 <rect key="frame" x="8" y="10" width="304" height="42"/>
@@ -1125,7 +1125,7 @@ In Umfangsstrafsachen kann der Zeitraum der Unterbrechung der Hauptverhandlung e
                                             <constraint firstItem="U7T-57-Jc2" firstAttribute="top" secondItem="sWx-bh-8PW" secondAttribute="bottom" constant="30" id="aKC-me-Pc5"/>
                                             <constraint firstItem="joc-M1-Fut" firstAttribute="top" secondItem="80c-q8-L7r" secondAttribute="bottom" constant="20" id="bzU-23-bf2"/>
                                             <constraint firstItem="gv5-kQ-f6H" firstAttribute="top" secondItem="joc-M1-Fut" secondAttribute="bottom" constant="30" id="dLf-vR-Njx"/>
-                                            <constraint firstAttribute="height" constant="1011" id="igt-F9-hm4"/>
+                                            <constraint firstAttribute="height" constant="950" id="igt-F9-hm4"/>
                                             <constraint firstItem="PET-D7-3eK" firstAttribute="top" secondItem="joc-M1-Fut" secondAttribute="bottom" constant="-25" id="k6k-aK-uHO"/>
                                             <constraint firstItem="Isw-St-VPU" firstAttribute="top" secondItem="U7T-57-Jc2" secondAttribute="bottom" id="k7g-y7-jTN"/>
                                             <constraint firstItem="80c-q8-L7r" firstAttribute="top" secondItem="To0-uH-bOl" secondAttribute="top" constant="10" id="oCT-ew-5u1"/>
@@ -1184,19 +1184,19 @@ In Umfangsstrafsachen kann der Zeitraum der Unterbrechung der Hauptverhandlung e
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GXa-qW-eXI" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="805"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="925"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo320" translatesAutoresizingMaskIntoConstraints="NO" id="VtH-oM-wec" userLabel="logo_start">
                                                 <rect key="frame" x="8" y="10" width="304" height="42"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kanzleiRaum" translatesAutoresizingMaskIntoConstraints="NO" id="bY8-nd-n7t">
-                                                <rect key="frame" x="8" y="72" width="304" height="100"/>
+                                                <rect key="frame" x="8" y="72" width="304" height="143"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="bY8-nd-n7t" secondAttribute="height" multiplier="76:25" id="9RI-Py-ZtJ"/>
+                                                    <constraint firstAttribute="width" secondItem="bY8-nd-n7t" secondAttribute="height" multiplier="76:25" constant="-130.72000000000003" id="9RI-Py-ZtJ"/>
                                                 </constraints>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zQ6-kK-ouP" userLabel="Main Text 1">
-                                                <rect key="frame" x="8" y="206" width="304" height="233.5"/>
+                                                <rect key="frame" x="0.0" y="271" width="320" height="217"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">Rechtsanwalt Harald Bex aus Aachen ist als Strafverteidiger tätig und auf die Verteidigung in Straf- und Ordnungswidrigkeitenverfahren spezialisiert.
 
@@ -1208,14 +1208,14 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weitere Qualifikationen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ly-Zn-iVS">
-                                                <rect key="frame" x="0.0" y="449" width="193" height="24"/>
+                                                <rect key="frame" x="0.0" y="518" width="193" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XJv-on-2ne">
-                                                <rect key="frame" x="8" y="473" width="304" height="384"/>
+                                                <rect key="frame" x="0.0" y="542" width="320" height="367"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">• Syndikusanwalt im öffentlichen Dienst bei der Fachhochschule Aachen bis Ende 2000
 
@@ -1237,7 +1237,7 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rechtsanwalt Harald Bex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R0E-bl-AyN">
-                                                <rect key="frame" x="0.0" y="180" width="209" height="24"/>
+                                                <rect key="frame" x="0.0" y="245" width="209" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686274509807" green="0.59215686274509804" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1246,21 +1246,21 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="XJv-on-2ne" secondAttribute="trailing" constant="8" id="JBM-T6-dx4"/>
+                                            <constraint firstAttribute="trailing" secondItem="XJv-on-2ne" secondAttribute="trailing" id="JBM-T6-dx4"/>
                                             <constraint firstItem="VtH-oM-wec" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" constant="8" id="JTt-l3-l8Y"/>
-                                            <constraint firstItem="XJv-on-2ne" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" constant="8" id="Nh1-I3-DYc"/>
+                                            <constraint firstItem="XJv-on-2ne" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" id="Nh1-I3-DYc"/>
                                             <constraint firstItem="VtH-oM-wec" firstAttribute="top" secondItem="GXa-qW-eXI" secondAttribute="top" constant="10" id="ODg-WV-ThO"/>
                                             <constraint firstAttribute="trailing" secondItem="VtH-oM-wec" secondAttribute="trailing" constant="8" id="OH8-Of-xP2"/>
                                             <constraint firstItem="XJv-on-2ne" firstAttribute="top" secondItem="4Ly-Zn-iVS" secondAttribute="bottom" id="RSB-TP-S0S"/>
                                             <constraint firstItem="R0E-bl-AyN" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" id="cIB-dV-9o2"/>
-                                            <constraint firstItem="R0E-bl-AyN" firstAttribute="top" secondItem="bY8-nd-n7t" secondAttribute="bottom" constant="8" id="ci2-NK-N4J"/>
-                                            <constraint firstItem="zQ6-kK-ouP" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" constant="8" id="eeP-Vx-41j"/>
+                                            <constraint firstItem="R0E-bl-AyN" firstAttribute="top" secondItem="bY8-nd-n7t" secondAttribute="bottom" constant="30" id="ci2-NK-N4J"/>
+                                            <constraint firstItem="zQ6-kK-ouP" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" id="eeP-Vx-41j"/>
                                             <constraint firstItem="bY8-nd-n7t" firstAttribute="top" secondItem="VtH-oM-wec" secondAttribute="bottom" constant="20" id="hBQ-7x-xlG"/>
-                                            <constraint firstItem="4Ly-Zn-iVS" firstAttribute="top" secondItem="zQ6-kK-ouP" secondAttribute="bottom" constant="10" id="iUX-tP-Sdv"/>
+                                            <constraint firstItem="4Ly-Zn-iVS" firstAttribute="top" secondItem="zQ6-kK-ouP" secondAttribute="bottom" constant="30" id="iUX-tP-Sdv"/>
                                             <constraint firstAttribute="trailing" secondItem="bY8-nd-n7t" secondAttribute="trailing" constant="8" id="iwo-YT-SqQ"/>
-                                            <constraint firstAttribute="height" constant="805" id="jMa-X7-aAl"/>
+                                            <constraint firstAttribute="height" constant="925" id="jMa-X7-aAl"/>
                                             <constraint firstItem="bY8-nd-n7t" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" constant="8" id="kWd-nR-saR"/>
-                                            <constraint firstAttribute="trailing" secondItem="zQ6-kK-ouP" secondAttribute="trailing" constant="8" id="lyu-WW-4LZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="zQ6-kK-ouP" secondAttribute="trailing" id="lyu-WW-4LZ"/>
                                             <constraint firstItem="4Ly-Zn-iVS" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" id="plB-4D-fDS"/>
                                             <constraint firstItem="zQ6-kK-ouP" firstAttribute="top" secondItem="R0E-bl-AyN" secondAttribute="bottom" constant="2" id="w26-71-PjM"/>
                                         </constraints>
@@ -1595,7 +1595,7 @@ Die Tätigkeit des Rechtsanwalts unterliegt folgenden berufsrechtlichen Regelung
                                 <rect key="frame" x="0.0" y="92" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6z4-qy-VeJ" id="sSa-R3-0Mz">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -1603,7 +1603,7 @@ Die Tätigkeit des Rechtsanwalts unterliegt folgenden berufsrechtlichen Regelung
                                 <rect key="frame" x="0.0" y="136" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eqr-kL-8cu" id="PzJ-8I-0aC">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Startseite" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKI-c2-ZPp">
@@ -1622,7 +1622,7 @@ Die Tätigkeit des Rechtsanwalts unterliegt folgenden berufsrechtlichen Regelung
                                 <rect key="frame" x="0.0" y="180" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YHE-P1-Fz2" id="msO-eY-EHi">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kanzlei" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CR5-Wv-abq">
@@ -1641,7 +1641,7 @@ Die Tätigkeit des Rechtsanwalts unterliegt folgenden berufsrechtlichen Regelung
                                 <rect key="frame" x="0.0" y="224" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fYG-Xt-Xj3" id="I9S-xe-AOS">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rechtsanwalt Bex" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OEQ-cM-BIV">
@@ -1660,7 +1660,7 @@ Die Tätigkeit des Rechtsanwalts unterliegt folgenden berufsrechtlichen Regelung
                                 <rect key="frame" x="0.0" y="268" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vFz-Qe-EPY" id="5Sl-dE-2rT">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tätigkeitsbereich" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uut-lN-abg">
@@ -1679,7 +1679,7 @@ Die Tätigkeit des Rechtsanwalts unterliegt folgenden berufsrechtlichen Regelung
                                 <rect key="frame" x="0.0" y="312" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cvr-hS-q3F" id="Ote-Nk-5r7">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kontakt" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rsu-wA-Hy7">
@@ -1698,7 +1698,7 @@ Die Tätigkeit des Rechtsanwalts unterliegt folgenden berufsrechtlichen Regelung
                                 <rect key="frame" x="0.0" y="356" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qXD-Bs-OVE" id="hHF-gu-tLT">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Karte" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SdM-JV-PV3">
@@ -1770,7 +1770,7 @@ Darüber hinaus finden Sie viele weitere Informationen zu verschiedenen Rechtsge
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="Notrufbutton-1" translatesAutoresizingMaskIntoConstraints="NO" id="5Fd-tE-yxC">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Notrufbutton-1" translatesAutoresizingMaskIntoConstraints="NO" id="5Fd-tE-yxC">
                                                 <rect key="frame" x="8" y="630" width="304" height="42"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="5Fd-tE-yxC" secondAttribute="height" multiplier="152:21" id="TKb-EW-SaZ"/>
