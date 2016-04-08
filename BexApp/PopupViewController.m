@@ -30,6 +30,8 @@ alpha:1.0]
     [super viewDidLoad];
     
     self.navigationController.navigationBar.tintColor = UIColorFromRGB(0xFD9712);
+    
+    [self.textView scrollRangeToVisible:NSMakeRange(0, 1)];
 }
 
 

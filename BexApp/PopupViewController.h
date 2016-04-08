@@ -15,5 +15,6 @@
 @property (weak, nonatomic) IBOutlet UIView *popUpView;
 
 - (void)showInView:(UIView *)aView animated:(BOOL)animated;
+@property (strong, nonatomic) IBOutlet UITextView *textView;
 
 @end
