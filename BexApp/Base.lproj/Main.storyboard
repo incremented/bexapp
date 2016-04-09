@@ -134,31 +134,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableHeader" rowHeight="100" id="XIE-LH-6OY">
-                                <rect key="frame" x="0.0" y="92" width="320" height="100"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableHeader" rowHeight="125" id="XIE-LH-6OY">
+                                <rect key="frame" x="0.0" y="92" width="320" height="125"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XIE-LH-6OY" id="2e5-63-NdD">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="124.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="hv2-Gg-CzA">
-                                            <rect key="frame" x="108" y="13" width="207" height="74"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="portrait3" translatesAutoresizingMaskIntoConstraints="NO" id="8WH-4b-mdL">
+                                            <rect key="frame" x="8" y="12" width="304" height="99.5"/>
+                                            <color key="backgroundColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                         </imageView>
-                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zbi-Ck-FUP">
-                                            <rect key="frame" x="8" y="3" width="94" height="94"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="portrait100" translatesAutoresizingMaskIntoConstraints="NO" id="8WH-4b-mdL">
-                                                    <rect key="frame" x="2" y="2" width="90" height="90"/>
-                                                    <color key="backgroundColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                </imageView>
-                                            </subviews>
-                                            <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                        </view>
                                     </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableFestnetz" rowHeight="60" id="P2G-75-d5Y">
-                                <rect key="frame" x="0.0" y="192" width="320" height="60"/>
+                                <rect key="frame" x="0.0" y="217" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="P2G-75-d5Y" id="Ghk-Bx-JJE">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
@@ -180,7 +171,7 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableMobil" rowHeight="60" id="ucU-cT-Cm4">
-                                <rect key="frame" x="0.0" y="252" width="320" height="60"/>
+                                <rect key="frame" x="0.0" y="277" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ucU-cT-Cm4" id="NAM-fn-3gE">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
@@ -202,7 +193,7 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableFax" rowHeight="60" id="H2E-7o-390">
-                                <rect key="frame" x="0.0" y="312" width="320" height="60"/>
+                                <rect key="frame" x="0.0" y="337" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="H2E-7o-390" id="doE-px-7SZ">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
@@ -224,7 +215,7 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableEmail" rowHeight="60" id="mJx-3T-cwJ">
-                                <rect key="frame" x="0.0" y="372" width="320" height="60"/>
+                                <rect key="frame" x="0.0" y="397" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mJx-3T-cwJ" id="mpY-VW-cpp">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
@@ -246,7 +237,7 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableInternet" rowHeight="60" id="QKm-1f-2jx">
-                                <rect key="frame" x="0.0" y="432" width="320" height="60"/>
+                                <rect key="frame" x="0.0" y="457" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QKm-1f-2jx" id="w1j-hd-cQJ">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
@@ -268,7 +259,7 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableAnschrift" rowHeight="120" id="F1A-B2-y5R">
-                                <rect key="frame" x="0.0" y="492" width="320" height="120"/>
+                                <rect key="frame" x="0.0" y="517" width="320" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="F1A-B2-y5R" id="FlG-Lx-sdf">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="119.5"/>
@@ -322,7 +313,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wIh-EN-rD0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1910.9333333333334" y="-2650.6666666666661"/>
+            <point key="canvasLocation" x="1910" y="-2651"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7iA-Aw-X6b">
@@ -1189,10 +1180,10 @@ In Umfangsstrafsachen kann der Zeitraum der Unterbrechung der Hauptverhandlung e
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo320" translatesAutoresizingMaskIntoConstraints="NO" id="VtH-oM-wec" userLabel="logo_start">
                                                 <rect key="frame" x="8" y="10" width="304" height="42"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kanzleiRaum" translatesAutoresizingMaskIntoConstraints="NO" id="bY8-nd-n7t">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="portrait2" translatesAutoresizingMaskIntoConstraints="NO" id="bY8-nd-n7t">
                                                 <rect key="frame" x="8" y="72" width="304" height="143"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="bY8-nd-n7t" secondAttribute="height" multiplier="76:25" constant="-130.72000000000003" id="9RI-Py-ZtJ"/>
+                                                    <constraint firstAttribute="width" secondItem="bY8-nd-n7t" secondAttribute="height" multiplier="304:143" id="s7H-u2-YlO"/>
                                                 </constraints>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zQ6-kK-ouP" userLabel="Main Text 1">
@@ -1854,11 +1845,11 @@ Darüber hinaus finden Sie viele weitere Informationen zu verschiedenen Rechtsge
         <image name="jugendstrafrecht" width="960" height="320"/>
         <image name="kanzleiRaum" width="240" height="150"/>
         <image name="kapitalverbrechen" width="960" height="320"/>
-        <image name="logo" width="200" height="50"/>
         <image name="logo320" width="320" height="42"/>
         <image name="menu" width="28" height="20"/>
         <image name="mietrecht" width="960" height="320"/>
-        <image name="portrait100" width="100" height="100"/>
+        <image name="portrait2" width="300" height="100"/>
+        <image name="portrait3" width="320" height="107"/>
         <image name="pruefungsrecht" width="960" height="320"/>
         <image name="strafrecht" width="960" height="320"/>
         <image name="verkehrsrecht" width="960" height="320"/>

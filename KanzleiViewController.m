@@ -43,8 +43,8 @@
 
 - (void)setupImageView {
  
- _images = @[@"kanzleiRaum", @"kanzleiRaum2", @"kanzleiRaum",
- @"kanzleiRaum2", @"kanzleiRaum"];
+ _images = @[@"kanzleiRaum2", @"kanzleiRaum", @"kanzleiRaum5",
+ @"kanzleiRaum3", @"kanzleiRaum4"];
  
  _imageView.userInteractionEnabled = YES;
  _imageViewPageIndex = 0;
