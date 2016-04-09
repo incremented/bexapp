@@ -141,11 +141,17 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="124.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="portrait3" translatesAutoresizingMaskIntoConstraints="NO" id="8WH-4b-mdL">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="portrait3" translatesAutoresizingMaskIntoConstraints="NO" id="8WH-4b-mdL">
                                             <rect key="frame" x="8" y="12" width="304" height="99.5"/>
                                             <color key="backgroundColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                         </imageView>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottomMargin" secondItem="8WH-4b-mdL" secondAttribute="bottom" constant="5" id="0JF-ta-A1a"/>
+                                        <constraint firstItem="8WH-4b-mdL" firstAttribute="top" secondItem="2e5-63-NdD" secondAttribute="topMargin" constant="4" id="PoM-bH-YSh"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="8WH-4b-mdL" secondAttribute="leading" id="mQr-Os-czR"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="8WH-4b-mdL" secondAttribute="trailing" id="uDN-Qu-q4j"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableFestnetz" rowHeight="60" id="P2G-75-d5Y">
