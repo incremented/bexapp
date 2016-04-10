@@ -19,9 +19,9 @@
     [super viewDidLoad];
     [self setupRevealViewController];
     
-    [self setupImageView];
+//    [self setupImageView];
     
-    [self setupPageController];
+//    [self setupPageController];
     
     
 //    self.automaticallyAdjustsScrollViewInsets = NO;
@@ -117,5 +117,45 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+-(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
+    return 1;
+}
+-(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+    return 5;
+}
+-(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    NSString *reuseIdentifier;
+    
+    switch (indexPath.row) {
+        case 0:
+            reuseIdentifier = @"cell1";
+            break;
+        case 1:
+            reuseIdentifier = @"cell2";
+            break;
+        case 2:
+            reuseIdentifier = @"cell3";
+            break;
+        case 3:
+            reuseIdentifier = @"cell4";
+            break;
+        case 4:
+            reuseIdentifier = @"cell5";
+            break;
+        default:
+            break;
+    }
+    
+    return [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
+    
+    NSInteger currentIndex = self.collectionView.contentOffset.x / self.collectionView.frame.size.width;
+    [self.pageControl setCurrentPage:currentIndex];
+}
+
 
 @end

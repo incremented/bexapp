@@ -1128,7 +1128,7 @@ const int FrontViewPositionNone = 0xff;
     else if (gestureRecognizer == _panGestureRecognizer)
     {
         
-        if ([touch.view isKindOfClass:[UIImageView class]])
+        if ([touch.view isKindOfClass:[UICollectionView class]])
         {
             return NO;
         }

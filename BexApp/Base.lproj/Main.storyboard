@@ -1065,24 +1065,107 @@ Dann brauchen Sie einen Anwalt der sich im Verkehrsrecht auskennt. Die Auseinand
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo320" translatesAutoresizingMaskIntoConstraints="NO" id="80c-q8-L7r">
                                                 <rect key="frame" x="8" y="10" width="304" height="42"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kanzleiRaum" translatesAutoresizingMaskIntoConstraints="NO" id="joc-M1-Fut">
-                                                <rect key="frame" x="8" y="72" width="304" height="143"/>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" indicatorStyle="white" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="uqR-3W-Sy5">
+                                                <rect key="frame" x="0.0" y="72" width="320" height="150"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="joc-M1-Fut" secondAttribute="height" multiplier="32:15" id="sIt-Qd-Ya4"/>
+                                                    <constraint firstAttribute="height" constant="150" id="KLg-xt-jxe"/>
                                                 </constraints>
-                                            </imageView>
-                                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="PET-D7-3eK">
-                                                <rect key="frame" x="125" y="190" width="71" height="37"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="07i-sK-IUR">
+                                                    <size key="itemSize" width="320" height="150"/>
+                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                </collectionViewFlowLayout>
+                                                <cells>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell1" id="Nhu-ex-7qh">
+                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                                            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kanzleiRaum2" translatesAutoresizingMaskIntoConstraints="NO" id="tcd-2g-ZcJ">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                                                </imageView>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                        </view>
+                                                    </collectionViewCell>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell2" id="UnS-Xn-na6">
+                                                        <rect key="frame" x="320" y="0.0" width="320" height="150"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                                            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kanzleiRaum" translatesAutoresizingMaskIntoConstraints="NO" id="iDn-Wp-Aei">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                                                </imageView>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                        </view>
+                                                    </collectionViewCell>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell3" id="SO5-bC-FTb">
+                                                        <rect key="frame" x="640" y="0.0" width="320" height="150"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                                            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kanzleiRaum5" translatesAutoresizingMaskIntoConstraints="NO" id="i2z-mj-Oaa">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                                                </imageView>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                        </view>
+                                                    </collectionViewCell>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell4" id="GgT-Nm-AK4">
+                                                        <rect key="frame" x="960" y="0.0" width="320" height="150"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                                            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kanzleiRaum3" translatesAutoresizingMaskIntoConstraints="NO" id="KsR-hy-X09">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                                                </imageView>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                        </view>
+                                                    </collectionViewCell>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell5" id="WgV-Eu-QMD">
+                                                        <rect key="frame" x="1280" y="0.0" width="320" height="150"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                                            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kanzleiRaum4" translatesAutoresizingMaskIntoConstraints="NO" id="VWG-2Q-Tsp">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                                                </imageView>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                        </view>
+                                                    </collectionViewCell>
+                                                </cells>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="a72-uW-zHl" id="nNi-2V-yn3"/>
+                                                    <outlet property="delegate" destination="a72-uW-zHl" id="7n2-hz-YJc"/>
+                                                </connections>
+                                            </collectionView>
+                                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="8Dt-CZ-uEt">
+                                                <rect key="frame" x="124" y="195" width="71" height="37"/>
                                             </pageControl>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kanzlei Lage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gv5-kQ-f6H">
-                                                <rect key="frame" x="0.0" y="245" width="111" height="24"/>
+                                                <rect key="frame" x="0.0" y="250" width="111" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="749" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sWx-bh-8PW" userLabel="Lage Text">
-                                                <rect key="frame" x="0.0" y="269" width="320" height="133"/>
+                                                <rect key="frame" x="0.0" y="274" width="320" height="133"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">Die Anwaltskanzlei Bex befindet sich in Aachen in der Viktoriastraße 28, in unmittelbarer Nähe des Justizzentrums Aachen, wo das Amtsgericht, das Landgericht, das Verwaltungsgericht, das Sozialgericht, das Arbeitsgericht und die Staatsanwaltschaft einen gemeinsamen Standort haben.</string>
                                                 <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -1090,14 +1173,14 @@ Dann brauchen Sie einen Anwalt der sich im Verkehrsrecht auskennt. Die Auseinand
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weitere Informationen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U7T-57-Jc2">
-                                                <rect key="frame" x="0.0" y="432" width="192" height="24"/>
+                                                <rect key="frame" x="0.0" y="437" width="192" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="749" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Isw-St-VPU" userLabel="Main Text">
-                                                <rect key="frame" x="0.0" y="456" width="320" height="484"/>
+                                                <rect key="frame" x="0.0" y="461" width="320" height="484"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">Der Erwerb des Kanzleieigentums Ende 2009 war eine bewusste Entscheidung, nachdem die Anwaltskanzlei Bex seit 1999 zunächst fünf Jahre in Stolberg und anschließend weitere 5 Jahre in Aachen ihren Kanzleisitz hatte. Die Anwaltskanzlei Bex wird aus Überzeugung als Einzelkanzlei geführt. So haben Sie jederzeit einen Anwalt und Strafverteidiger als Mitstreiter und Weggefährten bei der Durchsetzung Ihrer Rechte und im Falle Ihrer Verteidigung.
 
@@ -1111,7 +1194,7 @@ In Umfangsstrafsachen kann der Zeitraum der Unterbrechung der Hauptverhandlung e
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="joc-M1-Fut" secondAttribute="trailing" constant="8" id="4Nh-2o-ZiK"/>
+                                            <constraint firstItem="8Dt-CZ-uEt" firstAttribute="centerX" secondItem="uqR-3W-Sy5" secondAttribute="centerX" id="2gj-Fg-taa"/>
                                             <constraint firstItem="80c-q8-L7r" firstAttribute="leading" secondItem="To0-uH-bOl" secondAttribute="leading" constant="8" id="4SB-rO-nhc"/>
                                             <constraint firstAttribute="trailing" secondItem="80c-q8-L7r" secondAttribute="trailing" constant="8" id="C1Q-jP-8iE"/>
                                             <constraint firstItem="gv5-kQ-f6H" firstAttribute="leading" secondItem="To0-uH-bOl" secondAttribute="leading" id="CbB-re-TR5"/>
@@ -1119,17 +1202,17 @@ In Umfangsstrafsachen kann der Zeitraum der Unterbrechung der Hauptverhandlung e
                                             <constraint firstItem="U7T-57-Jc2" firstAttribute="leading" secondItem="To0-uH-bOl" secondAttribute="leading" id="Pg7-Lu-lFa"/>
                                             <constraint firstAttribute="trailing" secondItem="sWx-bh-8PW" secondAttribute="trailing" id="RWG-7W-qRr"/>
                                             <constraint firstAttribute="trailing" secondItem="Isw-St-VPU" secondAttribute="trailing" id="S7v-N2-9n7"/>
+                                            <constraint firstAttribute="trailing" secondItem="uqR-3W-Sy5" secondAttribute="trailing" id="Udk-UO-6j8"/>
                                             <constraint firstItem="U7T-57-Jc2" firstAttribute="top" secondItem="sWx-bh-8PW" secondAttribute="bottom" constant="30" id="aKC-me-Pc5"/>
-                                            <constraint firstItem="joc-M1-Fut" firstAttribute="top" secondItem="80c-q8-L7r" secondAttribute="bottom" constant="20" id="bzU-23-bf2"/>
-                                            <constraint firstItem="gv5-kQ-f6H" firstAttribute="top" secondItem="joc-M1-Fut" secondAttribute="bottom" constant="30" id="dLf-vR-Njx"/>
+                                            <constraint firstItem="uqR-3W-Sy5" firstAttribute="leading" secondItem="To0-uH-bOl" secondAttribute="leading" id="c93-H3-rro"/>
                                             <constraint firstAttribute="height" constant="950" id="igt-F9-hm4"/>
-                                            <constraint firstItem="PET-D7-3eK" firstAttribute="top" secondItem="joc-M1-Fut" secondAttribute="bottom" constant="-25" id="k6k-aK-uHO"/>
                                             <constraint firstItem="Isw-St-VPU" firstAttribute="top" secondItem="U7T-57-Jc2" secondAttribute="bottom" id="k7g-y7-jTN"/>
                                             <constraint firstItem="80c-q8-L7r" firstAttribute="top" secondItem="To0-uH-bOl" secondAttribute="top" constant="10" id="oCT-ew-5u1"/>
                                             <constraint firstItem="Isw-St-VPU" firstAttribute="leading" secondItem="To0-uH-bOl" secondAttribute="leading" id="p8B-wk-thj"/>
+                                            <constraint firstItem="gv5-kQ-f6H" firstAttribute="top" secondItem="uqR-3W-Sy5" secondAttribute="bottom" constant="28" id="pT5-Yr-QZO"/>
                                             <constraint firstItem="sWx-bh-8PW" firstAttribute="top" secondItem="gv5-kQ-f6H" secondAttribute="bottom" id="uHz-84-rQ2"/>
-                                            <constraint firstItem="joc-M1-Fut" firstAttribute="leading" secondItem="To0-uH-bOl" secondAttribute="leading" constant="8" id="wov-uz-1B6"/>
-                                            <constraint firstItem="PET-D7-3eK" firstAttribute="centerX" secondItem="joc-M1-Fut" secondAttribute="centerX" id="yz6-ck-nKu"/>
+                                            <constraint firstItem="uqR-3W-Sy5" firstAttribute="top" secondItem="80c-q8-L7r" secondAttribute="bottom" constant="20" id="wyI-Js-Hld"/>
+                                            <constraint firstItem="8Dt-CZ-uEt" firstAttribute="top" secondItem="uqR-3W-Sy5" secondAttribute="bottom" constant="-27" id="zpe-jQ-X6F"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1156,8 +1239,8 @@ In Umfangsstrafsachen kann der Zeitraum der Unterbrechung der Hauptverhandlung e
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="imageView" destination="joc-M1-Fut" id="uAy-h0-MhA"/>
-                        <outlet property="pageControl" destination="PET-D7-3eK" id="2b6-dW-4V0"/>
+                        <outlet property="collectionView" destination="uqR-3W-Sy5" id="YBT-c3-Fgh"/>
+                        <outlet property="pageControl" destination="8Dt-CZ-uEt" id="kDt-8X-s1t"/>
                         <outlet property="sidebarButton" destination="ZTk-it-ifz" id="kbh-yR-z5b"/>
                     </connections>
                 </viewController>
@@ -1187,13 +1270,13 @@ In Umfangsstrafsachen kann der Zeitraum der Unterbrechung der Hauptverhandlung e
                                                 <rect key="frame" x="8" y="10" width="304" height="42"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="portrait2" translatesAutoresizingMaskIntoConstraints="NO" id="bY8-nd-n7t">
-                                                <rect key="frame" x="8" y="72" width="304" height="143"/>
+                                                <rect key="frame" x="0.0" y="72" width="320" height="151"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="bY8-nd-n7t" secondAttribute="height" multiplier="304:143" id="s7H-u2-YlO"/>
                                                 </constraints>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zQ6-kK-ouP" userLabel="Main Text 1">
-                                                <rect key="frame" x="0.0" y="271" width="320" height="217"/>
+                                                <rect key="frame" x="0.0" y="279" width="320" height="216.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">Rechtsanwalt Harald Bex aus Aachen ist als Strafverteidiger tätig und auf die Verteidigung in Straf- und Ordnungswidrigkeitenverfahren spezialisiert.
 
@@ -1205,14 +1288,14 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weitere Qualifikationen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ly-Zn-iVS">
-                                                <rect key="frame" x="0.0" y="518" width="193" height="24"/>
+                                                <rect key="frame" x="0.0" y="525.5" width="193" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XJv-on-2ne">
-                                                <rect key="frame" x="0.0" y="542" width="320" height="367"/>
+                                                <rect key="frame" x="0.0" y="549.5" width="320" height="367"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">• Syndikusanwalt im öffentlichen Dienst bei der Fachhochschule Aachen bis Ende 2000
 
@@ -1234,7 +1317,7 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rechtsanwalt Harald Bex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R0E-bl-AyN">
-                                                <rect key="frame" x="0.0" y="245" width="209" height="24"/>
+                                                <rect key="frame" x="0.0" y="253" width="209" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686274509807" green="0.59215686274509804" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1254,9 +1337,9 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
                                             <constraint firstItem="zQ6-kK-ouP" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" id="eeP-Vx-41j"/>
                                             <constraint firstItem="bY8-nd-n7t" firstAttribute="top" secondItem="VtH-oM-wec" secondAttribute="bottom" constant="20" id="hBQ-7x-xlG"/>
                                             <constraint firstItem="4Ly-Zn-iVS" firstAttribute="top" secondItem="zQ6-kK-ouP" secondAttribute="bottom" constant="30" id="iUX-tP-Sdv"/>
-                                            <constraint firstAttribute="trailing" secondItem="bY8-nd-n7t" secondAttribute="trailing" constant="8" id="iwo-YT-SqQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="bY8-nd-n7t" secondAttribute="trailing" id="iwo-YT-SqQ"/>
                                             <constraint firstAttribute="height" constant="925" id="jMa-X7-aAl"/>
-                                            <constraint firstItem="bY8-nd-n7t" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" constant="8" id="kWd-nR-saR"/>
+                                            <constraint firstItem="bY8-nd-n7t" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" id="kWd-nR-saR"/>
                                             <constraint firstAttribute="trailing" secondItem="zQ6-kK-ouP" secondAttribute="trailing" id="lyu-WW-4LZ"/>
                                             <constraint firstItem="4Ly-Zn-iVS" firstAttribute="leading" secondItem="GXa-qW-eXI" secondAttribute="leading" id="plB-4D-fDS"/>
                                             <constraint firstItem="zQ6-kK-ouP" firstAttribute="top" secondItem="R0E-bl-AyN" secondAttribute="bottom" constant="2" id="w26-71-PjM"/>
@@ -1850,6 +1933,10 @@ Darüber hinaus finden Sie viele weitere Informationen zu verschiedenen Rechtsge
         <image name="hochschulrecht" width="960" height="320"/>
         <image name="jugendstrafrecht" width="960" height="320"/>
         <image name="kanzleiRaum" width="240" height="150"/>
+        <image name="kanzleiRaum2" width="240" height="150"/>
+        <image name="kanzleiRaum3" width="240" height="150"/>
+        <image name="kanzleiRaum4" width="240" height="150"/>
+        <image name="kanzleiRaum5" width="240" height="150"/>
         <image name="kapitalverbrechen" width="960" height="320"/>
         <image name="logo320" width="320" height="42"/>
         <image name="menu" width="28" height="20"/>
