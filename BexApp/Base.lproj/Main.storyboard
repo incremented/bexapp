@@ -1085,12 +1085,18 @@ Dann brauchen Sie einen Anwalt der sich im Verkehrsrecht auskennt. Die Auseinand
                                                             <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kanzleiRaum2" translatesAutoresizingMaskIntoConstraints="NO" id="tcd-2g-ZcJ">
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kanzleiRaum2" translatesAutoresizingMaskIntoConstraints="NO" id="tcd-2g-ZcJ">
                                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                                                                 </imageView>
                                                             </subviews>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         </view>
+                                                        <constraints>
+                                                            <constraint firstItem="tcd-2g-ZcJ" firstAttribute="top" secondItem="Nhu-ex-7qh" secondAttribute="topMargin" constant="-8" id="4hO-lq-dhb"/>
+                                                            <constraint firstAttribute="bottomMargin" secondItem="tcd-2g-ZcJ" secondAttribute="bottom" constant="-8" id="Vch-SX-HYP"/>
+                                                            <constraint firstAttribute="trailingMargin" secondItem="tcd-2g-ZcJ" secondAttribute="trailing" constant="-8" id="W8O-bv-d4o"/>
+                                                            <constraint firstItem="tcd-2g-ZcJ" firstAttribute="leading" secondItem="Nhu-ex-7qh" secondAttribute="leadingMargin" constant="-8" id="mHH-ge-R2J"/>
+                                                        </constraints>
                                                     </collectionViewCell>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell2" id="UnS-Xn-na6">
                                                         <rect key="frame" x="320" y="0.0" width="320" height="150"/>
@@ -1099,12 +1105,18 @@ Dann brauchen Sie einen Anwalt der sich im Verkehrsrecht auskennt. Die Auseinand
                                                             <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kanzleiRaum" translatesAutoresizingMaskIntoConstraints="NO" id="iDn-Wp-Aei">
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kanzleiRaum" translatesAutoresizingMaskIntoConstraints="NO" id="iDn-Wp-Aei">
                                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                                                                 </imageView>
                                                             </subviews>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         </view>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottomMargin" secondItem="iDn-Wp-Aei" secondAttribute="bottom" constant="-8" id="akS-ie-IQI"/>
+                                                            <constraint firstItem="iDn-Wp-Aei" firstAttribute="leading" secondItem="UnS-Xn-na6" secondAttribute="leadingMargin" constant="-8" id="nKm-vu-0vo"/>
+                                                            <constraint firstItem="iDn-Wp-Aei" firstAttribute="top" secondItem="UnS-Xn-na6" secondAttribute="topMargin" constant="-8" id="q77-AQ-6jO"/>
+                                                            <constraint firstAttribute="trailingMargin" secondItem="iDn-Wp-Aei" secondAttribute="trailing" constant="-8" id="qsZ-ag-nJK"/>
+                                                        </constraints>
                                                     </collectionViewCell>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell3" id="SO5-bC-FTb">
                                                         <rect key="frame" x="640" y="0.0" width="320" height="150"/>
@@ -1113,12 +1125,18 @@ Dann brauchen Sie einen Anwalt der sich im Verkehrsrecht auskennt. Die Auseinand
                                                             <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kanzleiRaum5" translatesAutoresizingMaskIntoConstraints="NO" id="i2z-mj-Oaa">
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kanzleiRaum5" translatesAutoresizingMaskIntoConstraints="NO" id="i2z-mj-Oaa">
                                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                                                                 </imageView>
                                                             </subviews>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         </view>
+                                                        <constraints>
+                                                            <constraint firstItem="i2z-mj-Oaa" firstAttribute="top" secondItem="SO5-bC-FTb" secondAttribute="topMargin" constant="-8" id="L2I-lL-BJB"/>
+                                                            <constraint firstAttribute="bottomMargin" secondItem="i2z-mj-Oaa" secondAttribute="bottom" constant="-8" id="TsL-oA-VLK"/>
+                                                            <constraint firstAttribute="trailingMargin" secondItem="i2z-mj-Oaa" secondAttribute="trailing" constant="-8" id="Tw8-T7-fhE"/>
+                                                            <constraint firstItem="i2z-mj-Oaa" firstAttribute="leading" secondItem="SO5-bC-FTb" secondAttribute="leadingMargin" constant="-8" id="gE9-Xx-jvf"/>
+                                                        </constraints>
                                                     </collectionViewCell>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell4" id="GgT-Nm-AK4">
                                                         <rect key="frame" x="960" y="0.0" width="320" height="150"/>
@@ -1127,12 +1145,18 @@ Dann brauchen Sie einen Anwalt der sich im Verkehrsrecht auskennt. Die Auseinand
                                                             <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kanzleiRaum3" translatesAutoresizingMaskIntoConstraints="NO" id="KsR-hy-X09">
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kanzleiRaum3" translatesAutoresizingMaskIntoConstraints="NO" id="KsR-hy-X09">
                                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                                                                 </imageView>
                                                             </subviews>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         </view>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottomMargin" secondItem="KsR-hy-X09" secondAttribute="bottom" constant="-8" id="Yc9-xW-UjL"/>
+                                                            <constraint firstItem="KsR-hy-X09" firstAttribute="leading" secondItem="GgT-Nm-AK4" secondAttribute="leadingMargin" constant="-8" id="n17-FW-NHy"/>
+                                                            <constraint firstAttribute="trailingMargin" secondItem="KsR-hy-X09" secondAttribute="trailing" constant="-8" id="pTp-AF-2mB"/>
+                                                            <constraint firstItem="KsR-hy-X09" firstAttribute="top" secondItem="GgT-Nm-AK4" secondAttribute="topMargin" constant="-8" id="r3O-rs-vgF"/>
+                                                        </constraints>
                                                     </collectionViewCell>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell5" id="WgV-Eu-QMD">
                                                         <rect key="frame" x="1280" y="0.0" width="320" height="150"/>
@@ -1141,12 +1165,18 @@ Dann brauchen Sie einen Anwalt der sich im Verkehrsrecht auskennt. Die Auseinand
                                                             <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kanzleiRaum4" translatesAutoresizingMaskIntoConstraints="NO" id="VWG-2Q-Tsp">
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kanzleiRaum4" translatesAutoresizingMaskIntoConstraints="NO" id="VWG-2Q-Tsp">
                                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                                                                 </imageView>
                                                             </subviews>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         </view>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottomMargin" secondItem="VWG-2Q-Tsp" secondAttribute="bottom" constant="-8" id="YqN-gn-WTE"/>
+                                                            <constraint firstItem="VWG-2Q-Tsp" firstAttribute="top" secondItem="WgV-Eu-QMD" secondAttribute="topMargin" constant="-8" id="tbx-bx-HhB"/>
+                                                            <constraint firstAttribute="trailingMargin" secondItem="VWG-2Q-Tsp" secondAttribute="trailing" constant="-8" id="utV-Il-CgE"/>
+                                                            <constraint firstItem="VWG-2Q-Tsp" firstAttribute="leading" secondItem="WgV-Eu-QMD" secondAttribute="leadingMargin" constant="-8" id="z8y-VP-w1h"/>
+                                                        </constraints>
                                                     </collectionViewCell>
                                                 </cells>
                                                 <connections>

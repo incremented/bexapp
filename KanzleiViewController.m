@@ -9,6 +9,8 @@
 #import "KanzleiViewController.h"
 #import "SWRevealViewController.h"
 
+#define kCellsPerRow 5
+
 @interface KanzleiViewController ()
 
 @end
@@ -18,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupRevealViewController];
-    
+
 //    [self setupImageView];
     
 //    [self setupPageController];
@@ -26,6 +28,17 @@
     
 //    self.automaticallyAdjustsScrollViewInsets = NO;
 //    self.navigationController.navigationBar.translucent = NO;
+}
+
+-(void)viewWillLayoutSubviews{
+    UICollectionViewFlowLayout *flowLayout = (UICollectionViewFlowLayout*)self.collectionView.collectionViewLayout;
+    CGFloat availableWidthForCells = CGRectGetWidth(self.view.frame) * 5;
+    CGFloat cellWidth = availableWidthForCells / 5;
+   
+    flowLayout.itemSize = CGSizeMake(cellWidth, flowLayout.itemSize.height);
+}
+
+- (void)viewDidLayoutSubviews{
 }
 
 // Adds the PanGesture and TapGesture Recognizer to self.view
