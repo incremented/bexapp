@@ -697,6 +697,8 @@ const int FrontViewPositionNone = 0xff;
 
 - (void)loadView
 {
+    
+    [NSThread sleepForTimeInterval:1.0];
     // Do not call super, to prevent the apis from unfruitful looking for inexistent xibs!
     //[super loadView];
     
