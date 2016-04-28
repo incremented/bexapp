@@ -24,7 +24,7 @@
 //    [self setupImageView];
     
 //    [self setupPageController];
-    
+// Epic
     
 //    self.automaticallyAdjustsScrollViewInsets = NO;
 //    self.navigationController.navigationBar.translucent = NO;
