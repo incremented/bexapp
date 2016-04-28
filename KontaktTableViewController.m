@@ -91,7 +91,7 @@ static UIColor *blue;
 
 - (void) callMobile{
     
-    NSString *number = [NSString stringWithFormat:@"01772981966"];
+    NSString *number = [NSString stringWithFormat:@"+491772981966"];
     [self makeCall:number];
 }
 

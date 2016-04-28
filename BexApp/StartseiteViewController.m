@@ -107,7 +107,7 @@
 */
 
 - (IBAction)notrufButtonPressed:(id)sender{
-    NSString *number = [NSString stringWithFormat:@"01772981966"];
+    NSString *number = [NSString stringWithFormat:@"+491772981966"];
     NSURL* callUrl=[NSURL URLWithString:[NSString   stringWithFormat:@"telprompt:%@",number]];
     
     //check  Call Function available only in Device
