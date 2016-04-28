@@ -1069,7 +1069,7 @@ Dann brauchen Sie einen Anwalt der sich im Verkehrsrecht auskennt. Die Auseinand
                                                 <rect key="frame" x="0.0" y="72" width="320" height="150"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="150" id="KLg-xt-jxe"/>
+                                                    <constraint firstAttribute="height" constant="150" id="N2V-Gl-ZFK"/>
                                                 </constraints>
                                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="07i-sK-IUR">
                                                     <size key="itemSize" width="320" height="150"/>
@@ -1085,7 +1085,7 @@ Dann brauchen Sie einen Anwalt der sich im Verkehrsrecht auskennt. Die Auseinand
                                                             <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kanzleiRaum2" translatesAutoresizingMaskIntoConstraints="NO" id="tcd-2g-ZcJ">
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kanzleiRaum2" translatesAutoresizingMaskIntoConstraints="NO" id="tcd-2g-ZcJ">
                                                                     <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                                                                 </imageView>
                                                             </subviews>
@@ -1270,6 +1270,7 @@ In Umfangsstrafsachen kann der Zeitraum der Unterbrechung der Hauptverhandlung e
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="uqR-3W-Sy5" id="YBT-c3-Fgh"/>
+                        <outlet property="collectionViewHeight" destination="N2V-Gl-ZFK" id="qt5-5e-lkO"/>
                         <outlet property="pageControl" destination="8Dt-CZ-uEt" id="kDt-8X-s1t"/>
                         <outlet property="sidebarButton" destination="ZTk-it-ifz" id="kbh-yR-z5b"/>
                     </connections>
@@ -1962,11 +1963,11 @@ Darüber hinaus finden Sie viele weitere Informationen zu verschiedenen Rechtsge
         <image name="handwerksrecht" width="960" height="320"/>
         <image name="hochschulrecht" width="960" height="320"/>
         <image name="jugendstrafrecht" width="960" height="320"/>
-        <image name="kanzleiRaum" width="240" height="150"/>
-        <image name="kanzleiRaum2" width="240" height="150"/>
-        <image name="kanzleiRaum3" width="240" height="150"/>
-        <image name="kanzleiRaum4" width="240" height="150"/>
-        <image name="kanzleiRaum5" width="240" height="150"/>
+        <image name="kanzleiRaum" width="320" height="150"/>
+        <image name="kanzleiRaum2" width="3264" height="1530"/>
+        <image name="kanzleiRaum3" width="320" height="150"/>
+        <image name="kanzleiRaum4" width="320" height="150"/>
+        <image name="kanzleiRaum5" width="320" height="150"/>
         <image name="kapitalverbrechen" width="960" height="320"/>
         <image name="logo320" width="320" height="42"/>
         <image name="menu" width="28" height="20"/>

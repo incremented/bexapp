@@ -31,11 +31,27 @@
 }
 
 -(void)viewWillLayoutSubviews{
-    UICollectionViewFlowLayout *flowLayout = (UICollectionViewFlowLayout*)self.collectionView.collectionViewLayout;
+//    UICollectionViewFlowLayout *flowLayout = (UICollectionViewFlowLayout*)self.collectionView.collectionViewLayout;
     CGFloat availableWidthForCells = CGRectGetWidth(self.view.frame) * 5;
     CGFloat cellWidth = availableWidthForCells / 5;
-   
-    flowLayout.itemSize = CGSizeMake(cellWidth, flowLayout.itemSize.height);
+    CGFloat cellHeight = cellWidth * 0.46875;
+    
+    self.collectionViewHeight.constant = cellHeight;
+//    [self.view layoutIfNeeded];
+//    flowLayout.itemSize = CGSizeMake(cellWidth, flowLayout.itemSize.height);
+//    flowLayout.itemSize = CGSizeMake(cellWidth, cellHeight);
+}
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    
+    
+    CGFloat availableWidthForCells = CGRectGetWidth(self.view.frame) * 5;
+    CGFloat cellWidth = availableWidthForCells / 5;
+    CGFloat cellHeight = cellWidth * 0.46875;
+
+    self.collectionViewHeight.constant = cellHeight + 16;
+    return CGSizeMake(cellWidth, cellHeight - 1);
 }
 
 - (void)viewDidLayoutSubviews{

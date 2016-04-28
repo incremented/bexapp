@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KanzleiViewController : UIViewController <UIGestureRecognizerDelegate, UICollectionViewDataSource, UICollectionViewDelegate>
+@interface KanzleiViewController : UIViewController <UIGestureRecognizerDelegate, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *collectionViewHeight;
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 @property (nonatomic, weak) IBOutlet UICollectionView *collectionView;
