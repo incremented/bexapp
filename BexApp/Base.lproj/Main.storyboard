@@ -454,7 +454,7 @@ Sie wissen nicht, ob die Kündigung rechtmäßig ist? Dann brauchen Sie einen An
                                                 </constraints>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="90u-V7-Wx1" userLabel="HochschulrechtTextView">
-                                                <rect key="frame" x="8" y="660" width="304" height="134"/>
+                                                <rect key="frame" x="8" y="660" width="304" height="133.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Sie haben doch alles gewusst?">
@@ -475,20 +475,20 @@ Aber Ihre Hochschulprüfung wurde doch als nicht bestanden gewertet. Dann brauch
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arzthaftungsrecht" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gri-vQ-APA">
-                                                <rect key="frame" x="0.0" y="844" width="153" height="24"/>
+                                                <rect key="frame" x="0.0" y="843.5" width="153" height="24"/>
                                                 <color key="backgroundColor" red="0.99215686270000003" green="0.59215686270000001" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arzthaftungsrecht" translatesAutoresizingMaskIntoConstraints="NO" id="zSm-Bp-O8b" userLabel="ArzthaftungsrechtImage">
-                                                <rect key="frame" x="8" y="878" width="304" height="101"/>
+                                                <rect key="frame" x="8" y="877.5" width="304" height="101"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="zSm-Bp-O8b" secondAttribute="height" multiplier="152:75" constant="99.306666666666644" id="HGi-Hc-C8D"/>
                                                 </constraints>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h8P-bF-P1L" userLabel="ArzthaftungsrechtTextView">
-                                                <rect key="frame" x="8" y="979" width="304" height="134"/>
+                                                <rect key="frame" x="8" y="978.5" width="304" height="133.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Ihr Arzt sagt, die OP ist gut verlaufen?">
@@ -1864,14 +1864,14 @@ Die Tätigkeit des Rechtsanwalts unterliegt folgenden berufsrechtlichen Regelung
                                                 </constraints>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Herzlich Willkommen und vielen Dank, dass Sie sich dazu entschieden haben die Bex-App herunterzuladen." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4Eo-az-UXs" userLabel="Headline">
-                                                <rect key="frame" x="8" y="244" width="304" height="68"/>
+                                                <rect key="frame" x="8" y="244" width="304" height="67.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="textColor" red="0.45098039220000002" green="0.81176470590000005" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Osn-Ct-Q21" userLabel="Main Text">
-                                                <rect key="frame" x="8" y="321" width="304" height="301"/>
+                                                <rect key="frame" x="8" y="320.5" width="304" height="300.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">Insbesondere in Eilsituationen, wie z.B. Festnahme, Durchsuchung, aber auch generell, ist es wichtig die Kontaktdaten seines Anwaltes immer schnell zur Hand zu haben. Ich biete Ihnen mit diesem kostenfreien Service die Möglichkeit der direkten Kontaktaufnahme per Telefon oder E-Mail. Die Bex-App enthält insbesondere eine Notruftelefonnummer, die es Ihnen ermöglicht mich in dringenden Fällen, wie Festnahme, Durchsuchung oder Beschlagnahme zu kontaktieren.
 

@@ -202,7 +202,7 @@ alpha:1.0]
             }
 */
         }else {
-            NSLog(@"Error %@", error.description);
+            //NSLog(@"Error %@", error.description);
         }
     }];
     
@@ -242,12 +242,12 @@ alpha:1.0]
     
     // User has never been asked to decide on location authorization
     if (status == kCLAuthorizationStatusNotDetermined) {
-        NSLog(@"Requesting when in use auth");
+        //NSLog(@"Requesting when in use auth");
         [self.locationManager requestWhenInUseAuthorization];
     }
     // User has denied location use (either for this app or for all apps
     else if (status == kCLAuthorizationStatusDenied) {
-        NSLog(@"Location services denied");
+        //NSLog(@"Location services denied");
         // Alert the user and send them to the settings to turn on location
     }
   
