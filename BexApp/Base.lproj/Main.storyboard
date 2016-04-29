@@ -1894,7 +1894,7 @@ Die Tätigkeit des Rechtsanwalts unterliegt folgenden berufsrechtlichen Regelung
                                                     <constraint firstAttribute="width" secondItem="ZJK-V8-bSu" secondAttribute="height" multiplier="32:15" id="OAF-l7-Mlf"/>
                                                 </constraints>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Herzlich Willkommen und vielen Dank, dass Sie sich dazu entschieden haben die Bex-App herunterzuladen." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4Eo-az-UXs" userLabel="Headline">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Herzlich Willkommen und vielen Dank, dass Sie sich dazu entschieden haben, die Bex-App herunterzuladen." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4Eo-az-UXs" userLabel="Headline">
                                                 <rect key="frame" x="8" y="236" width="304" height="67.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="textColor" red="0.45098039220000002" green="0.81176470590000005" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -1911,7 +1911,7 @@ Darüber hinaus finden Sie viele weitere Informationen zu verschiedenen Rechtsge
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Notrufbutton-2" translatesAutoresizingMaskIntoConstraints="NO" id="5Fd-tE-yxC">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="NotrufbuttonRot" translatesAutoresizingMaskIntoConstraints="NO" id="5Fd-tE-yxC">
                                                 <rect key="frame" x="8" y="333.5" width="304" height="42"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="5Fd-tE-yxC" secondAttribute="height" multiplier="152:21" id="TKb-EW-SaZ"/>
@@ -1983,7 +1983,7 @@ Darüber hinaus finden Sie viele weitere Informationen zu verschiedenen Rechtsge
     <resources>
         <image name="AnwaltskanzleiBEX" width="320" height="150"/>
         <image name="ImpressumIcon" width="28" height="28"/>
-        <image name="Notrufbutton-2" width="320" height="42"/>
+        <image name="NotrufbuttonRot" width="320" height="42"/>
         <image name="arbeitsrecht" width="960" height="320"/>
         <image name="arzthaftungsrecht" width="960" height="320"/>
         <image name="betaeubungsmittel-strafrecht" width="960" height="320"/>
