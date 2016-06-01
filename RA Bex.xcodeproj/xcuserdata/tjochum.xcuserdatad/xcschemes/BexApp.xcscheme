@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5015892E1C72388000A8ABA7"
-               BuildableName = "BexApp.app"
-               BlueprintName = "BexApp"
-               ReferencedContainer = "container:BexApp.xcodeproj">
+               BuildableName = "RA Bex.app"
+               BlueprintName = "RA Bex"
+               ReferencedContainer = "container:RA Bex.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "501589471C72388000A8ABA7"
-               BuildableName = "BexAppTests.xctest"
-               BlueprintName = "BexAppTests"
-               ReferencedContainer = "container:BexApp.xcodeproj">
+               BuildableName = "RA Bex.xctest"
+               BlueprintName = "RA BexTests"
+               ReferencedContainer = "container:RA Bex.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "501589521C72388000A8ABA7"
-               BuildableName = "BexAppUITests.xctest"
-               BlueprintName = "BexAppUITests"
-               ReferencedContainer = "container:BexApp.xcodeproj">
+               BuildableName = "RA Bex.xctest"
+               BlueprintName = "RA BexUITests"
+               ReferencedContainer = "container:RA Bex.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5015892E1C72388000A8ABA7"
-            BuildableName = "BexApp.app"
-            BlueprintName = "BexApp"
-            ReferencedContainer = "container:BexApp.xcodeproj">
+            BuildableName = "RA Bex.app"
+            BlueprintName = "RA Bex"
+            ReferencedContainer = "container:RA Bex.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5015892E1C72388000A8ABA7"
-            BuildableName = "BexApp.app"
-            BlueprintName = "BexApp"
-            ReferencedContainer = "container:BexApp.xcodeproj">
+            BuildableName = "RA Bex.app"
+            BlueprintName = "RA Bex"
+            ReferencedContainer = "container:RA Bex.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5015892E1C72388000A8ABA7"
-            BuildableName = "BexApp.app"
-            BlueprintName = "BexApp"
-            ReferencedContainer = "container:BexApp.xcodeproj">
+            BuildableName = "RA Bex.app"
+            BlueprintName = "RA Bex"
+            ReferencedContainer = "container:RA Bex.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

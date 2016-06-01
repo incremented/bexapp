@@ -52,7 +52,7 @@
 		501117F71C80E11E00E2B28D /* RechtsanwaltBexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RechtsanwaltBexViewController.h; sourceTree = "<group>"; };
 		501117F81C80E11E00E2B28D /* RechtsanwaltBexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RechtsanwaltBexViewController.m; sourceTree = "<group>"; };
 		501117FA1C80FBA800E2B28D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		5015892F1C72388000A8ABA7 /* BexApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BexApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5015892F1C72388000A8ABA7 /* RA Bex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RA Bex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		501589331C72388000A8ABA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		501589351C72388000A8ABA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		501589361C72388000A8ABA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,10 +62,10 @@
 		5015893E1C72388000A8ABA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		501589411C72388000A8ABA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		501589431C72388000A8ABA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		501589481C72388000A8ABA7 /* BexAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BexAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		501589481C72388000A8ABA7 /* RA Bex.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RA Bex.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5015894C1C72388000A8ABA7 /* BexAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BexAppTests.m; sourceTree = "<group>"; };
 		5015894E1C72388000A8ABA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		501589531C72388000A8ABA7 /* BexAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BexAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		501589531C72388000A8ABA7 /* RA Bex.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RA Bex.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		501589571C72388000A8ABA7 /* BexAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BexAppUITests.m; sourceTree = "<group>"; };
 		501589591C72388000A8ABA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		501D224F1C764FA900658849 /* SidebarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SidebarTableViewController.h; path = ../SidebarTableViewController.h; sourceTree = "<group>"; };
@@ -136,9 +136,9 @@
 		501589301C72388000A8ABA7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5015892F1C72388000A8ABA7 /* BexApp.app */,
-				501589481C72388000A8ABA7 /* BexAppTests.xctest */,
-				501589531C72388000A8ABA7 /* BexAppUITests.xctest */,
+				5015892F1C72388000A8ABA7 /* RA Bex.app */,
+				501589481C72388000A8ABA7 /* RA Bex.xctest */,
+				501589531C72388000A8ABA7 /* RA Bex.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -231,9 +231,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5015892E1C72388000A8ABA7 /* BexApp */ = {
+		5015892E1C72388000A8ABA7 /* RA Bex */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5015895C1C72388000A8ABA7 /* Build configuration list for PBXNativeTarget "BexApp" */;
+			buildConfigurationList = 5015895C1C72388000A8ABA7 /* Build configuration list for PBXNativeTarget "RA Bex" */;
 			buildPhases = (
 				5015892B1C72388000A8ABA7 /* Sources */,
 				5015892C1C72388000A8ABA7 /* Frameworks */,
@@ -243,14 +243,14 @@
 			);
 			dependencies = (
 			);
-			name = BexApp;
+			name = "RA Bex";
 			productName = BexApp;
-			productReference = 5015892F1C72388000A8ABA7 /* BexApp.app */;
+			productReference = 5015892F1C72388000A8ABA7 /* RA Bex.app */;
 			productType = "com.apple.product-type.application";
 		};
-		501589471C72388000A8ABA7 /* BexAppTests */ = {
+		501589471C72388000A8ABA7 /* RA BexTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5015895F1C72388000A8ABA7 /* Build configuration list for PBXNativeTarget "BexAppTests" */;
+			buildConfigurationList = 5015895F1C72388000A8ABA7 /* Build configuration list for PBXNativeTarget "RA BexTests" */;
 			buildPhases = (
 				501589441C72388000A8ABA7 /* Sources */,
 				501589451C72388000A8ABA7 /* Frameworks */,
@@ -261,14 +261,14 @@
 			dependencies = (
 				5015894A1C72388000A8ABA7 /* PBXTargetDependency */,
 			);
-			name = BexAppTests;
+			name = "RA BexTests";
 			productName = BexAppTests;
-			productReference = 501589481C72388000A8ABA7 /* BexAppTests.xctest */;
+			productReference = 501589481C72388000A8ABA7 /* RA Bex.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		501589521C72388000A8ABA7 /* BexAppUITests */ = {
+		501589521C72388000A8ABA7 /* RA BexUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 501589621C72388000A8ABA7 /* Build configuration list for PBXNativeTarget "BexAppUITests" */;
+			buildConfigurationList = 501589621C72388000A8ABA7 /* Build configuration list for PBXNativeTarget "RA BexUITests" */;
 			buildPhases = (
 				5015894F1C72388000A8ABA7 /* Sources */,
 				501589501C72388000A8ABA7 /* Frameworks */,
@@ -279,9 +279,9 @@
 			dependencies = (
 				501589551C72388000A8ABA7 /* PBXTargetDependency */,
 			);
-			name = BexAppUITests;
+			name = "RA BexUITests";
 			productName = BexAppUITests;
-			productReference = 501589531C72388000A8ABA7 /* BexAppUITests.xctest */;
+			productReference = 501589531C72388000A8ABA7 /* RA Bex.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -309,7 +309,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5015892A1C72388000A8ABA7 /* Build configuration list for PBXProject "BexApp" */;
+			buildConfigurationList = 5015892A1C72388000A8ABA7 /* Build configuration list for PBXProject "RA Bex" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -322,9 +322,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5015892E1C72388000A8ABA7 /* BexApp */,
-				501589471C72388000A8ABA7 /* BexAppTests */,
-				501589521C72388000A8ABA7 /* BexAppUITests */,
+				5015892E1C72388000A8ABA7 /* RA Bex */,
+				501589471C72388000A8ABA7 /* RA BexTests */,
+				501589521C72388000A8ABA7 /* RA BexUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -398,12 +398,12 @@
 /* Begin PBXTargetDependency section */
 		5015894A1C72388000A8ABA7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5015892E1C72388000A8ABA7 /* BexApp */;
+			target = 5015892E1C72388000A8ABA7 /* RA Bex */;
 			targetProxy = 501589491C72388000A8ABA7 /* PBXContainerItemProxy */;
 		};
 		501589551C72388000A8ABA7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5015892E1C72388000A8ABA7 /* BexApp */;
+			target = 5015892E1C72388000A8ABA7 /* RA Bex */;
 			targetProxy = 501589541C72388000A8ABA7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -517,7 +517,7 @@
 				INFOPLIST_FILE = BexApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.dt.BexApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "RA Bex";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -532,7 +532,7 @@
 				INFOPLIST_FILE = BexApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.dt.BexApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "RA Bex";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -545,8 +545,8 @@
 				INFOPLIST_FILE = BexAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dt.BexAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BexApp.app/BexApp";
+				PRODUCT_NAME = "RA Bex";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RA Bex.app/RA Bex";
 			};
 			name = Debug;
 		};
@@ -557,8 +557,8 @@
 				INFOPLIST_FILE = BexAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dt.BexAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BexApp.app/BexApp";
+				PRODUCT_NAME = "RA Bex";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RA Bex.app/RA Bex";
 			};
 			name = Release;
 		};
@@ -568,7 +568,7 @@
 				INFOPLIST_FILE = BexAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dt.BexAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "RA Bex";
 				TEST_TARGET_NAME = BexApp;
 				USES_XCTRUNNER = YES;
 			};
@@ -580,7 +580,7 @@
 				INFOPLIST_FILE = BexAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dt.BexAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "RA Bex";
 				TEST_TARGET_NAME = BexApp;
 				USES_XCTRUNNER = YES;
 			};
@@ -589,7 +589,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5015892A1C72388000A8ABA7 /* Build configuration list for PBXProject "BexApp" */ = {
+		5015892A1C72388000A8ABA7 /* Build configuration list for PBXProject "RA Bex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5015895A1C72388000A8ABA7 /* Debug */,
@@ -598,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5015895C1C72388000A8ABA7 /* Build configuration list for PBXNativeTarget "BexApp" */ = {
+		5015895C1C72388000A8ABA7 /* Build configuration list for PBXNativeTarget "RA Bex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5015895D1C72388000A8ABA7 /* Debug */,
@@ -607,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5015895F1C72388000A8ABA7 /* Build configuration list for PBXNativeTarget "BexAppTests" */ = {
+		5015895F1C72388000A8ABA7 /* Build configuration list for PBXNativeTarget "RA BexTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				501589601C72388000A8ABA7 /* Debug */,
@@ -616,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		501589621C72388000A8ABA7 /* Build configuration list for PBXNativeTarget "BexAppUITests" */ = {
+		501589621C72388000A8ABA7 /* Build configuration list for PBXNativeTarget "RA BexUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				501589631C72388000A8ABA7 /* Debug */,
