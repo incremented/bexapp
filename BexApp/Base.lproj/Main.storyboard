@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -59,7 +59,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vq9-vl-wPP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1434.6666666666667" y="-3596.3866666666668"/>
+            <point key="canvasLocation" x="1316" y="-3509"/>
         </scene>
         <!--Karte View Controller-->
         <scene sceneID="OYg-pA-sLp">
@@ -96,6 +96,12 @@
                     <navigationItem key="navigationItem" title="Karte" id="Upw-NE-bWg">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="kv1-tu-Naw">
                             <color key="tintColor" red="0.99215686274509807" green="0.59215686274509804" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="ImpressumIcon" id="6Rh-M1-QCE">
+                            <color key="tintColor" red="0.45098039220000002" green="0.81176470590000005" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="XFB-af-Kyc" kind="push" id="ogZ-iy-4tv"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
@@ -144,6 +150,9 @@
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="portrait3" translatesAutoresizingMaskIntoConstraints="NO" id="8WH-4b-mdL">
                                             <rect key="frame" x="8" y="13" width="304" height="98"/>
                                             <color key="backgroundColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="8WH-4b-mdL" secondAttribute="height" multiplier="152:49" id="E36-lD-rch"/>
+                                            </constraints>
                                         </imageView>
                                     </subviews>
                                     <constraints>
@@ -311,6 +320,12 @@
                     <navigationItem key="navigationItem" title="Kontakt" id="da9-8M-IO6">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="LYJ-Wp-YXW">
                             <color key="tintColor" red="0.99215686274509807" green="0.59215686274509804" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="ImpressumIcon" id="g3r-Vb-Gtj">
+                            <color key="tintColor" red="0.45098039220000002" green="0.81176470590000005" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="XFB-af-Kyc" kind="push" id="v40-vb-BLS"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -1065,6 +1080,12 @@ Dann brauchen Sie einen Anwalt der sich im Verkehrsrecht auskennt. Die Auseinand
                         <barButtonItem key="leftBarButtonItem" image="menu" id="SgH-hU-YZQ">
                             <color key="tintColor" red="0.99215686274509807" green="0.59215686274509804" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="ImpressumIcon" id="zBc-lw-QBX">
+                            <color key="tintColor" red="0.45098039220000002" green="0.81176470590000005" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="XFB-af-Kyc" kind="push" id="qPD-oS-O0T"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="sidebarButton" destination="SgH-hU-YZQ" id="VBX-3e-m28"/>
@@ -1297,6 +1318,12 @@ In Umfangsstrafsachen kann der Zeitraum der Unterbrechung der Hauptverhandlung e
                         <barButtonItem key="leftBarButtonItem" image="menu" id="ZTk-it-ifz">
                             <color key="tintColor" red="0.99215686274509807" green="0.59215686274509804" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="ImpressumIcon" id="9Fp-6D-Nmg">
+                            <color key="tintColor" red="0.45098039220000002" green="0.81176470590000005" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="XFB-af-Kyc" kind="push" id="zbe-N1-IQC"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="uqR-3W-Sy5" id="YBT-c3-Fgh"/>
@@ -1428,6 +1455,12 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
                         <barButtonItem key="leftBarButtonItem" image="menu" id="Cgw-OX-1pR">
                             <color key="tintColor" red="0.99215686274509807" green="0.59215686274509804" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="ImpressumIcon" id="XNE-px-Uls">
+                            <color key="tintColor" red="0.45098039220000002" green="0.81176470590000005" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="XFB-af-Kyc" kind="push" id="6Jh-cV-rla"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="sidebarButton" destination="Cgw-OX-1pR" id="xBG-X3-wbP"/>
@@ -1435,7 +1468,7 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nle-VA-CYC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2396" y="-481"/>
+            <point key="canvasLocation" x="1910" y="-413"/>
         </scene>
         <!--Popup View Controller-->
         <scene sceneID="B2D-Vw-eY8">
@@ -1450,10 +1483,10 @@ Zusätzlich ist Rechtsanwalt Bex als gesetzlicher Betreuer tätig und wird in di
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W1a-Cv-DhG">
-                                <rect key="frame" x="-4" y="44" width="328" height="524"/>
+                                <rect key="frame" x="-4" y="44" width="328" height="480"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bBs-D6-Qcs">
-                                        <rect key="frame" x="8" y="20" width="312" height="504"/>
+                                        <rect key="frame" x="8" y="20" width="312" height="460"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Impressum">
@@ -1698,6 +1731,7 @@ Die Tätigkeit des Rechtsanwalts unterliegt folgenden berufsrechtlichen Regelung
                             <constraint firstItem="W1a-Cv-DhG" firstAttribute="top" secondItem="0C8-pK-I9p" secondAttribute="bottom" constant="-20" id="zO1-8W-3ha"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="rBv-bh-0ED"/>
                     <connections>
                         <outlet property="popUpView" destination="W1a-Cv-DhG" id="70F-g4-gpp"/>
                         <outlet property="textView" destination="bBs-D6-Qcs" id="jWQ-nq-s9d"/>
@@ -1705,7 +1739,7 @@ Die Tätigkeit des Rechtsanwalts unterliegt folgenden berufsrechtlichen Regelung
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B3e-iz-61b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2310" y="325"/>
+            <point key="canvasLocation" x="2420" y="-3597"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="EIi-89-H9q">
@@ -1902,7 +1936,7 @@ Die Tätigkeit des Rechtsanwalts unterliegt folgenden berufsrechtlichen Regelung
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Osn-Ct-Q21" userLabel="Main Text">
-                                                <rect key="frame" x="8" y="389.5" width="304" height="300.5"/>
+                                                <rect key="frame" x="8" y="315.5" width="304" height="300.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <string key="text">Insbesondere in Eilsituationen, wie z.B. Festnahme, Durchsuchung, aber auch generell, ist es wichtig die Kontaktdaten seines Anwaltes immer schnell zur Hand zu haben. Ich biete Ihnen mit diesem kostenfreien Service die Möglichkeit der direkten Kontaktaufnahme per Telefon oder E-Mail. Die Bex-App enthält insbesondere eine Notruftelefonnummer, die es Ihnen ermöglicht mich in dringenden Fällen, wie Festnahme, Durchsuchung oder Beschlagnahme zu kontaktieren.
 
@@ -1911,8 +1945,8 @@ Darüber hinaus finden Sie viele weitere Informationen zu verschiedenen Rechtsge
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Notrufbutton2.1" translatesAutoresizingMaskIntoConstraints="NO" id="5Fd-tE-yxC">
-                                                <rect key="frame" x="8" y="327.5" width="304" height="42"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Notrufbutton-2" translatesAutoresizingMaskIntoConstraints="NO" id="5Fd-tE-yxC">
+                                                <rect key="frame" x="8" y="624" width="304" height="42"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="5Fd-tE-yxC" secondAttribute="height" multiplier="152:21" id="TKb-EW-SaZ"/>
                                                 </constraints>
@@ -1929,8 +1963,8 @@ Darüber hinaus finden Sie viele weitere Informationen zu verschiedenen Rechtsge
                                             <constraint firstItem="4Eo-az-UXs" firstAttribute="top" secondItem="ZJK-V8-bSu" secondAttribute="bottom" constant="20" id="JdT-Bp-spm"/>
                                             <constraint firstAttribute="trailing" secondItem="Osn-Ct-Q21" secondAttribute="trailing" constant="8" id="JhR-Tu-Fim"/>
                                             <constraint firstAttribute="height" constant="712" id="OGb-CZ-FjY"/>
-                                            <constraint firstItem="5Fd-tE-yxC" firstAttribute="top" secondItem="4Eo-az-UXs" secondAttribute="bottom" constant="20" id="ZQh-2e-wbg"/>
-                                            <constraint firstItem="Osn-Ct-Q21" firstAttribute="top" secondItem="5Fd-tE-yxC" secondAttribute="bottom" constant="20" id="Zcj-ya-uiY"/>
+                                            <constraint firstItem="5Fd-tE-yxC" firstAttribute="top" secondItem="Osn-Ct-Q21" secondAttribute="bottom" constant="8" id="Rcj-Ws-6Ci"/>
+                                            <constraint firstItem="Osn-Ct-Q21" firstAttribute="top" secondItem="4Eo-az-UXs" secondAttribute="bottom" constant="8" id="ZJy-BR-elh"/>
                                             <constraint firstAttribute="trailing" secondItem="eW1-pA-Rd1" secondAttribute="trailing" constant="8" id="ft7-uh-gPg"/>
                                             <constraint firstItem="4Eo-az-UXs" firstAttribute="leading" secondItem="FLP-DI-Asp" secondAttribute="leading" constant="8" id="gsB-f1-4xd"/>
                                             <constraint firstAttribute="trailing" secondItem="4Eo-az-UXs" secondAttribute="trailing" constant="8" id="pxR-CU-12i"/>
@@ -1983,7 +2017,7 @@ Darüber hinaus finden Sie viele weitere Informationen zu verschiedenen Rechtsge
     <resources>
         <image name="AnwaltskanzleiBEX" width="320" height="150"/>
         <image name="ImpressumIcon" width="28" height="28"/>
-        <image name="Notrufbutton2.1" width="320" height="42"/>
+        <image name="Notrufbutton-2" width="320" height="42"/>
         <image name="arbeitsrecht" width="960" height="320"/>
         <image name="arzthaftungsrecht" width="960" height="320"/>
         <image name="betaeubungsmittel-strafrecht" width="960" height="320"/>
@@ -2011,5 +2045,6 @@ Darüber hinaus finden Sie viele weitere Informationen zu verschiedenen Rechtsge
     <inferredMetricsTieBreakers>
         <segue reference="8zA-Pq-bkG"/>
         <segue reference="cLC-oc-JAI"/>
+        <segue reference="v40-vb-BLS"/>
     </inferredMetricsTieBreakers>
 </document>
